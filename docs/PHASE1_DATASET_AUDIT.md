@@ -236,10 +236,13 @@ Saved to `data/processed/splits.json`: 26 train / 6 val / 6 test.
 
 ## 13. Open items before Phase 2 begins
 
-1. **Confirm with the researcher (or a tabla-literate reference) whether the
-   score files' section labels are trustworthy enough to seed the Phase 4
-   treebank directly**, or whether they should only inform, not replace,
-   manual parsing.
+1. ~~Confirm with the researcher whether the score files' section labels are
+   trustworthy enough to seed the Phase 4 treebank directly.~~ **Decided
+   (researcher, post-audit review): trust the section labels as-is** — they
+   will be used directly as Phase 4 seed-treebank boundaries rather than
+   independently re-verified per composition. Recorded here so this decision
+   is traceable back to its rationale if a later phase finds a labeling
+   artifact.
 2. **Jāti is missing for 16/38 compositions** — decide whether any planned
    analysis actually needs it; if not, no action required.
 3. The dataset's README states "41 syllables" but only 40 are actually
