@@ -1,0 +1,11 @@
+# Audio is copyrighted, non-commercial-use-only, no-redistribution material
+# (see data/raw/mts/LICENSE). Never commit it.
+data/raw/mts/wav/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store

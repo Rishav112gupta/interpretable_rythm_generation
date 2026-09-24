@@ -1,0 +1,48 @@
+{
+  "train": [
+    "ajr_10_ajr",
+    "ajr_10_dli",
+    "ajr_11",
+    "ajr_12",
+    "ajr_9",
+    "ben_19",
+    "ben_20",
+    "ben_21",
+    "ben_22",
+    "ben_23",
+    "ben_24",
+    "ben_25",
+    "ben_27",
+    "dli_1",
+    "dli_2",
+    "dli_3",
+    "dli_4",
+    "frk_30",
+    "luc_16",
+    "luc_17",
+    "pjb_75",
+    "pjb_79",
+    "pjb_81",
+    "pjb_83",
+    "pjb_85",
+    "pjb_86"
+  ],
+  "val": [
+    "dli_5",
+    "frk_31",
+    "pjb_77",
+    "pjb_80",
+    "pjb_82",
+    "pjb_84"
+  ],
+  "test": [
+    "ben_26",
+    "dli_6",
+    "frk_28",
+    "luc_14",
+    "luc_18",
+    "pjb_76"
+  ],
+  "seed": 42,
+  "unit": "composition (with ajr_10_ajr/ajr_10_dli kept together as one unit)"
+}

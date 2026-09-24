@@ -1,0 +1,44 @@
+                    Symbol                                 Mapped Syllables (bols)
+
+                      DA                                          D, DA, DAA
+
+                       KI                                     KA, KAT, KE, KI, KII
+
+                      GE                                     GA, GHE, GE, GHI, GI
+
+                      TA                                           TA, TI, RA
+
+                      NA                                        N, NA, TAA, TU
+
+                      DIN                                 DI, DIN, DING, KAR, GHEN
+
+                     KDA                                     KDA, KRA, KRI, KRU
+
+                      TIT                                          CHAP, TIT
+
+                     DHA                                              DHA
+
+                     DHE                                              DHE
+
+                     DHET                                            DHET
+
+                      DHI                                             DHI
+
+                     DHIN                                             DHIN
+
+                      RE                                               RE
+
+                      TE                                               TE
+
+                      TII                                              TII
+
+                      TIN                                              TIN
+
+                     TRA                                              TRA
+
+
+
+The table above shows the reduced set of syllables (left column) based on their timbre. each
+row in the right column represents the syllables which are similar to the one on the left column.
+The grouping of the syllables was done by students learning Tabla and Mridangam.
+
