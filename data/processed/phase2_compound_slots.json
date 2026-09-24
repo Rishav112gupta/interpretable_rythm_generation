@@ -1,0 +1,266 @@
+{
+  "slot_arity_counts": {
+    "1": 2884,
+    "2": 2229,
+    "3": 94,
+    "4": 154,
+    "5": 1
+  },
+  "slot_arity_by_gharana": {
+    "DILLI": {
+      "1": 660,
+      "2": 117
+    },
+    "AJRADA": {
+      "1": 528,
+      "2": 11,
+      "3": 14,
+      "4": 42
+    },
+    "LUCKNOW": {
+      "1": 215,
+      "2": 288,
+      "3": 25,
+      "4": 41
+    },
+    "BENARAS": {
+      "1": 425,
+      "2": 705,
+      "3": 15,
+      "4": 26,
+      "5": 1
+    },
+    "FARUKKHABAD": {
+      "1": 196,
+      "2": 538,
+      "3": 26,
+      "4": 16
+    },
+    "PUNJAB": {
+      "1": 860,
+      "2": 570,
+      "3": 14,
+      "4": 29
+    }
+  },
+  "top_multi_bol_combinations": [
+    {
+      "combo": [
+        "KI",
+        "TA"
+      ],
+      "count": 440
+    },
+    {
+      "combo": [
+        "TA",
+        "KA"
+      ],
+      "count": 370
+    },
+    {
+      "combo": [
+        "TI",
+        "RA"
+      ],
+      "count": 227
+    },
+    {
+      "combo": [
+        "DHE",
+        "RE"
+      ],
+      "count": 194
+    },
+    {
+      "combo": [
+        "NA",
+        "GA"
+      ],
+      "count": 103
+    },
+    {
+      "combo": [
+        "TI",
+        "TA"
+      ],
+      "count": 76
+    },
+    {
+      "combo": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "count": 67
+    },
+    {
+      "combo": [
+        "TAA",
+        "GE"
+      ],
+      "count": 62
+    },
+    {
+      "combo": [
+        "GHI",
+        "DA"
+      ],
+      "count": 61
+    },
+    {
+      "combo": [
+        "DHA",
+        "GE"
+      ],
+      "count": 47
+    },
+    {
+      "combo": [
+        "DHIN",
+        "NA"
+      ],
+      "count": 44
+    },
+    {
+      "combo": [
+        "KA",
+        "TA"
+      ],
+      "count": 37
+    },
+    {
+      "combo": [
+        "GHI",
+        "NA"
+      ],
+      "count": 34
+    },
+    {
+      "combo": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE"
+      ],
+      "count": 34
+    },
+    {
+      "combo": [
+        "GI",
+        "NA"
+      ],
+      "count": 29
+    },
+    {
+      "combo": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "count": 28
+    },
+    {
+      "combo": [
+        "KA",
+        "DHI"
+      ],
+      "count": 28
+    },
+    {
+      "combo": [
+        "TA",
+        "GA"
+      ],
+      "count": 26
+    },
+    {
+      "combo": [
+        "GHI",
+        "DI"
+      ],
+      "count": 24
+    },
+    {
+      "combo": [
+        "TA",
+        "KI",
+        "TA"
+      ],
+      "count": 23
+    },
+    {
+      "combo": [
+        "KI",
+        "NA"
+      ],
+      "count": 21
+    },
+    {
+      "combo": [
+        "DHA",
+        "TRA"
+      ],
+      "count": 19
+    },
+    {
+      "combo": [
+        "GHE",
+        "GE"
+      ],
+      "count": 18
+    },
+    {
+      "combo": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "count": 18
+    },
+    {
+      "combo": [
+        "TE",
+        "RE"
+      ],
+      "count": 17
+    },
+    {
+      "combo": [
+        "DHA",
+        "DHA"
+      ],
+      "count": 16
+    },
+    {
+      "combo": [
+        "GA",
+        "DI"
+      ],
+      "count": 15
+    },
+    {
+      "combo": [
+        "GA",
+        "NA"
+      ],
+      "count": 15
+    },
+    {
+      "combo": [
+        "DHI",
+        "NA"
+      ],
+      "count": 14
+    },
+    {
+      "combo": [
+        "TAA",
+        "KE"
+      ],
+      "count": 14
+    }
+  ]
+}

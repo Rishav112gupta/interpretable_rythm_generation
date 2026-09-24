@@ -1,0 +1,538 @@
+{
+  "DA": {
+    "observed_variants": [
+      "D",
+      "DA"
+    ],
+    "per_gharana": {
+      "BENARAS": {
+        "counts": {
+          "D": 1,
+          "DA": 48
+        },
+        "total": 49,
+        "dominant_variant": "DA"
+      },
+      "DILLI": {
+        "counts": {
+          "D": 0,
+          "DA": 28
+        },
+        "total": 28,
+        "dominant_variant": "DA"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "D": 0,
+          "DA": 8
+        },
+        "total": 8,
+        "dominant_variant": "DA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "D": 0,
+          "DA": 42
+        },
+        "total": 42,
+        "dominant_variant": "DA"
+      },
+      "PUNJAB": {
+        "counts": {
+          "D": 0,
+          "DA": 5
+        },
+        "total": 5,
+        "dominant_variant": "DA"
+      }
+    },
+    "dominant_variant_varies_by_gharana": false
+  },
+  "KI": {
+    "observed_variants": [
+      "KA",
+      "KAT",
+      "KE",
+      "KI",
+      "KII"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "KA": 14,
+          "KAT": 0,
+          "KE": 25,
+          "KI": 34,
+          "KII": 0
+        },
+        "total": 73,
+        "dominant_variant": "KI"
+      },
+      "BENARAS": {
+        "counts": {
+          "KA": 123,
+          "KAT": 16,
+          "KE": 26,
+          "KI": 182,
+          "KII": 0
+        },
+        "total": 347,
+        "dominant_variant": "KI"
+      },
+      "DILLI": {
+        "counts": {
+          "KA": 0,
+          "KAT": 0,
+          "KE": 25,
+          "KI": 70,
+          "KII": 10
+        },
+        "total": 105,
+        "dominant_variant": "KI"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "KA": 169,
+          "KAT": 0,
+          "KE": 0,
+          "KI": 155,
+          "KII": 0
+        },
+        "total": 324,
+        "dominant_variant": "KA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "KA": 91,
+          "KAT": 12,
+          "KE": 11,
+          "KI": 60,
+          "KII": 0
+        },
+        "total": 174,
+        "dominant_variant": "KA"
+      },
+      "PUNJAB": {
+        "counts": {
+          "KA": 229,
+          "KAT": 15,
+          "KE": 10,
+          "KI": 205,
+          "KII": 0
+        },
+        "total": 459,
+        "dominant_variant": "KA"
+      }
+    },
+    "dominant_variant_varies_by_gharana": true
+  },
+  "GE": {
+    "observed_variants": [
+      "GA",
+      "GHE",
+      "GE",
+      "GHI",
+      "GI"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "GA": 52,
+          "GHE": 3,
+          "GE": 64,
+          "GHI": 23,
+          "GI": 3
+        },
+        "total": 145,
+        "dominant_variant": "GE"
+      },
+      "BENARAS": {
+        "counts": {
+          "GA": 71,
+          "GHE": 15,
+          "GE": 62,
+          "GHI": 64,
+          "GI": 32
+        },
+        "total": 244,
+        "dominant_variant": "GA"
+      },
+      "DILLI": {
+        "counts": {
+          "GA": 33,
+          "GHE": 7,
+          "GE": 100,
+          "GHI": 25,
+          "GI": 4
+        },
+        "total": 169,
+        "dominant_variant": "GE"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "GA": 69,
+          "GHE": 0,
+          "GE": 4,
+          "GHI": 36,
+          "GI": 0
+        },
+        "total": 109,
+        "dominant_variant": "GA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "GA": 14,
+          "GHE": 3,
+          "GE": 78,
+          "GHI": 16,
+          "GI": 0
+        },
+        "total": 111,
+        "dominant_variant": "GE"
+      },
+      "PUNJAB": {
+        "counts": {
+          "GA": 37,
+          "GHE": 20,
+          "GE": 89,
+          "GHI": 37,
+          "GI": 0
+        },
+        "total": 183,
+        "dominant_variant": "GE"
+      }
+    },
+    "dominant_variant_varies_by_gharana": true
+  },
+  "TA": {
+    "observed_variants": [
+      "TA",
+      "TI",
+      "RA"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "TA": 64,
+          "TI": 39,
+          "RA": 19
+        },
+        "total": 122,
+        "dominant_variant": "TA"
+      },
+      "BENARAS": {
+        "counts": {
+          "TA": 331,
+          "TI": 108,
+          "RA": 88
+        },
+        "total": 527,
+        "dominant_variant": "TA"
+      },
+      "DILLI": {
+        "counts": {
+          "TA": 117,
+          "TI": 95,
+          "RA": 42
+        },
+        "total": 254,
+        "dominant_variant": "TA"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "TA": 339,
+          "TI": 35,
+          "RA": 26
+        },
+        "total": 400,
+        "dominant_variant": "TA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "TA": 173,
+          "TI": 68,
+          "RA": 29
+        },
+        "total": 270,
+        "dominant_variant": "TA"
+      },
+      "PUNJAB": {
+        "counts": {
+          "TA": 473,
+          "TI": 194,
+          "RA": 135
+        },
+        "total": 802,
+        "dominant_variant": "TA"
+      }
+    },
+    "dominant_variant_varies_by_gharana": false
+  },
+  "NA": {
+    "observed_variants": [
+      "N",
+      "NA",
+      "TAA",
+      "TU"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "N": 0,
+          "NA": 174,
+          "TAA": 58,
+          "TU": 0
+        },
+        "total": 232,
+        "dominant_variant": "NA"
+      },
+      "BENARAS": {
+        "counts": {
+          "N": 1,
+          "NA": 263,
+          "TAA": 66,
+          "TU": 0
+        },
+        "total": 330,
+        "dominant_variant": "NA"
+      },
+      "DILLI": {
+        "counts": {
+          "N": 0,
+          "NA": 112,
+          "TAA": 32,
+          "TU": 0
+        },
+        "total": 144,
+        "dominant_variant": "NA"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "N": 0,
+          "NA": 123,
+          "TAA": 60,
+          "TU": 0
+        },
+        "total": 183,
+        "dominant_variant": "NA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "N": 2,
+          "NA": 40,
+          "TAA": 97,
+          "TU": 0
+        },
+        "total": 139,
+        "dominant_variant": "TAA"
+      },
+      "PUNJAB": {
+        "counts": {
+          "N": 0,
+          "NA": 196,
+          "TAA": 78,
+          "TU": 6
+        },
+        "total": 280,
+        "dominant_variant": "NA"
+      }
+    },
+    "dominant_variant_varies_by_gharana": true
+  },
+  "DIN": {
+    "observed_variants": [
+      "DI",
+      "DIN",
+      "DING",
+      "KAR",
+      "GHEN"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "DI": 1,
+          "DIN": 18,
+          "DING": 0,
+          "KAR": 0,
+          "GHEN": 0
+        },
+        "total": 19,
+        "dominant_variant": "DIN"
+      },
+      "BENARAS": {
+        "counts": {
+          "DI": 26,
+          "DIN": 1,
+          "DING": 1,
+          "KAR": 0,
+          "GHEN": 0
+        },
+        "total": 28,
+        "dominant_variant": "DI"
+      },
+      "DILLI": {
+        "counts": {
+          "DI": 0,
+          "DIN": 1,
+          "DING": 0,
+          "KAR": 0,
+          "GHEN": 0
+        },
+        "total": 1,
+        "dominant_variant": "DIN"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "DI": 23,
+          "DIN": 6,
+          "DING": 0,
+          "KAR": 0,
+          "GHEN": 0
+        },
+        "total": 29,
+        "dominant_variant": "DI"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "DI": 11,
+          "DIN": 0,
+          "DING": 0,
+          "KAR": 0,
+          "GHEN": 0
+        },
+        "total": 11,
+        "dominant_variant": "DI"
+      },
+      "PUNJAB": {
+        "counts": {
+          "DI": 3,
+          "DIN": 10,
+          "DING": 0,
+          "KAR": 8,
+          "GHEN": 8
+        },
+        "total": 29,
+        "dominant_variant": "DIN"
+      }
+    },
+    "dominant_variant_varies_by_gharana": true
+  },
+  "KDA": {
+    "observed_variants": [
+      "KDA",
+      "KRA",
+      "KRI",
+      "KRU"
+    ],
+    "per_gharana": {
+      "BENARAS": {
+        "counts": {
+          "KDA": 11,
+          "KRA": 1,
+          "KRI": 1,
+          "KRU": 2
+        },
+        "total": 15,
+        "dominant_variant": "KDA"
+      },
+      "DILLI": {
+        "counts": {
+          "KDA": 24,
+          "KRA": 0,
+          "KRI": 0,
+          "KRU": 0
+        },
+        "total": 24,
+        "dominant_variant": "KDA"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "KDA": 15,
+          "KRA": 0,
+          "KRI": 0,
+          "KRU": 0
+        },
+        "total": 15,
+        "dominant_variant": "KDA"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "KDA": 12,
+          "KRA": 0,
+          "KRI": 0,
+          "KRU": 0
+        },
+        "total": 12,
+        "dominant_variant": "KDA"
+      },
+      "PUNJAB": {
+        "counts": {
+          "KDA": 29,
+          "KRA": 0,
+          "KRI": 0,
+          "KRU": 0
+        },
+        "total": 29,
+        "dominant_variant": "KDA"
+      }
+    },
+    "dominant_variant_varies_by_gharana": false
+  },
+  "TIT": {
+    "observed_variants": [
+      "CHAP",
+      "TIT"
+    ],
+    "per_gharana": {
+      "AJRADA": {
+        "counts": {
+          "CHAP": 0,
+          "TIT": 5
+        },
+        "total": 5,
+        "dominant_variant": "TIT"
+      },
+      "BENARAS": {
+        "counts": {
+          "CHAP": 2,
+          "TIT": 0
+        },
+        "total": 2,
+        "dominant_variant": "CHAP"
+      },
+      "DILLI": {
+        "counts": {
+          "CHAP": 0,
+          "TIT": 22
+        },
+        "total": 22,
+        "dominant_variant": "TIT"
+      },
+      "FARUKKHABAD": {
+        "counts": {
+          "CHAP": 0,
+          "TIT": 3
+        },
+        "total": 3,
+        "dominant_variant": "TIT"
+      },
+      "LUCKNOW": {
+        "counts": {
+          "CHAP": 0,
+          "TIT": 3
+        },
+        "total": 3,
+        "dominant_variant": "TIT"
+      },
+      "PUNJAB": {
+        "counts": {
+          "CHAP": 0,
+          "TIT": 8
+        },
+        "total": 8,
+        "dominant_variant": "TIT"
+      }
+    },
+    "dominant_variant_varies_by_gharana": true
+  }
+}
