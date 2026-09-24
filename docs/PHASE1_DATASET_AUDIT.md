@@ -238,11 +238,14 @@ Saved to `data/processed/splits.json`: 26 train / 6 val / 6 test.
 
 1. ~~Confirm with the researcher whether the score files' section labels are
    trustworthy enough to seed the Phase 4 treebank directly.~~ **Decided
-   (researcher, post-audit review): trust the section labels as-is** — they
-   will be used directly as Phase 4 seed-treebank boundaries rather than
-   independently re-verified per composition. Recorded here so this decision
-   is traceable back to its rationale if a later phase finds a labeling
-   artifact.
+   (researcher): the section labels (Quayda, Dohra, Adha Dohra, etc.) are to
+   be treated as WEAK SUPERVISION / candidate structural boundaries, NOT as
+   verified grammatical ground truth.** They may inform Phase 4 seed-treebank
+   construction, but every tree built from them must preserve the caveat
+   that the labels were assigned by the original transcriber for cataloguing,
+   not for grammar annotation, and still require human (tabla-literate)
+   verification before being trusted as gold treebank data. This agrees with
+   §7 above, which states the same caveat.
 2. **Jāti is missing for 16/38 compositions** — decide whether any planned
    analysis actually needs it; if not, no action required.
 3. The dataset's README states "41 syllables" but only 40 are actually
