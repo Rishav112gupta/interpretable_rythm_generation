@@ -1,0 +1,85 @@
+# Local development / single-server deployment.
+#   cp .env.example .env      (then edit .env)
+#   docker compose up --build
+# Dashboard: http://localhost:8080   API docs: http://localhost:8000/docs
+
+x-backend: &backend
+  build: ./backend
+  env_file: .env
+  environment:
+    DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-insta}:${POSTGRES_PASSWORD:-insta}@db:5432/${POSTGRES_DB:-insta}
+    REDIS_URL: redis://redis:6379/0
+    MEDIA_ROOT: /app/media
+  volumes:
+    - media:/app/media
+  depends_on:
+    db:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+  restart: unless-stopped
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-insta}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-insta}
+      POSTGRES_DB: ${POSTGRES_DB:-insta}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-insta} -d ${POSTGRES_DB:-insta}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  # FastAPI backend (runs database migrations on start)
+  api:
+    <<: *backend
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health', timeout=4)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  # Background jobs: publishing, content generation, token refresh, Sheets sync
+  worker:
+    <<: *backend
+    command: celery -A app.scheduler.celery_app worker --loglevel=INFO --concurrency=2
+    depends_on:
+      api:
+        condition: service_healthy
+
+  # Periodic task trigger. Run exactly ONE beat instance.
+  beat:
+    <<: *backend
+    command: celery -A app.scheduler.celery_app beat --loglevel=INFO --schedule=/tmp/celerybeat-schedule
+    depends_on:
+      api:
+        condition: service_healthy
+
+  # React dashboard served by nginx, proxying /api and /media to the backend
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  media:

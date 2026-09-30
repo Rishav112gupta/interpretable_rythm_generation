@@ -1,0 +1,32 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
+secrets/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*.db
+backend/media/
+media/
+celerybeat-schedule*
+
+# --- Node ---
+node_modules/
+frontend/dist/
+
+# --- OS / editors ---
+.DS_Store
+.idea/
+.vscode/
+*.log

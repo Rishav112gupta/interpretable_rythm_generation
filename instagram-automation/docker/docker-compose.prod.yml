@@ -1,0 +1,20 @@
+# Production overrides for a single cloud server.
+# Usage (from the project root):
+#   docker compose -f docker-compose.yml -f docker/docker-compose.prod.yml up -d --build
+# Put an HTTPS reverse proxy (Caddy, nginx + certbot, or your cloud load balancer)
+# in front of the "frontend" service on port 8080. See docs/DEPLOYMENT.md.
+
+services:
+  api:
+    environment:
+      APP_ENV: production
+    ports: !reset []          # the API is reached only through the frontend's /api proxy
+  worker:
+    environment:
+      APP_ENV: production
+  beat:
+    environment:
+      APP_ENV: production
+  frontend:
+    ports: !override
+      - "127.0.0.1:8080:80"   # only the local HTTPS reverse proxy can reach it
