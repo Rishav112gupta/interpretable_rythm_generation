@@ -34,7 +34,24 @@ def record_event(
         data=data or {},
     )
     db.add(ev)
+    _emit_webhook(db, post, event_type, to_status, message)
     return ev
+
+
+def _emit_webhook(db: Session, post: Post, event_type: str, to_status: str | None, message: str) -> None:
+    """Queue a webhook (e.g. for n8n) in the same transaction as the audit event."""
+    from app.services.automation import webhooks
+
+    event = webhooks.event_for(event_type, to_status)
+    if event is None:
+        return
+    # A retry goes back to SCHEDULED, but it is reported as post.publish_retry only.
+    if event == "post.scheduled" and event_type not in ("status_change", "rescheduled"):
+        return
+    try:
+        webhooks.enqueue(db, event, webhooks.post_payload(post, redact(message)))
+    except Exception:  # webhooks must never break the main workflow
+        logger.exception("Could not queue webhook %s for post %s", event, post.id)
 
 
 def log_integration(db: Session, source: str, message: str, *, level: str = "error", details: dict[str, Any] | None = None, post_id: int | None = None) -> None:

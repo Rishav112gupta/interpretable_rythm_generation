@@ -24,6 +24,8 @@
                    └──────────────────────────┘                 │
                                                   Meta Graph API · Google Sheets API
                                                   LLM API · Image API · S3
+
+   optional n8n ──X-API-Key──▶ api      api/worker ──signed webhooks (outbox)──▶ n8n
 ```
 
 ## Why this stack
@@ -58,12 +60,14 @@ instagram-automation/
 │   │   │   ├── competitors/        observation import + AI insights
 │   │   │   ├── content/            generation pipeline, approval workflow, ideas, audit log
 │   │   │   ├── scheduling/         recurrence math, planner
-│   │   │   └── channels/           publishing-channel interface (Phase 2 extension point)
+│   │   │   ├── channels/           publishing-channel interface (Phase 2 extension point)
+│   │   │   └── automation/         API keys + outgoing webhooks (n8n)
 │   │   ├── main.py         FastAPI app
 │   │   └── seed.py         default templates/categories/admin
 │   ├── alembic/            database migrations
 │   └── tests/              pytest suite (all external services mocked)
 ├── frontend/src/           components/, pages/ (+ settings/), services/api.ts, hooks/, types/, utils/
+├── n8n/workflows/          example n8n workflows (optional)
 ├── docker/                 production compose override
 ├── docs/                   this documentation
 ├── docker-compose.yml
@@ -119,6 +123,12 @@ All times are stored in UTC and displayed in the configurable company timezone (
 - Logs pass through a redaction filter (`access_token=…`, `Bearer …`, API-key patterns). HTTP client loggers that print URLs are silenced.
 - The production start refuses default `SECRET_KEY`, a missing `TOKEN_ENCRYPTION_KEY` or a localhost `PUBLIC_BASE_URL`.
 - Media files are public on purpose (Instagram must download them), with unguessable UUID names.
+
+## Automation integration (n8n)
+
+- **Inbound:** API keys (`X-API-Key`) map to service users with the viewer, editor or approver role, so the normal permission checks and audit trail apply. Keys are stored as SHA-256 hashes. Admin keys are impossible.
+- **Outbound:** `post_events` that matter (needs review, approved, published, failed, …) are mapped to webhook events and written to `webhook_deliveries` in the same transaction (transactional outbox). The worker delivers them every 15 s with HMAC-SHA256 signatures and retries with back-off. Webhook failures can never break the main workflow.
+- n8n runs as an optional Compose profile. Details: [N8N.md](N8N.md).
 
 ## Phase 2 (WhatsApp) readiness, not implemented
 

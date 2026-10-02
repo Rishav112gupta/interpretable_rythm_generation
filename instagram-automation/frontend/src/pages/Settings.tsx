@@ -1,6 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { PageHeader, Tabs } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
+import AutomationTab from "./settings/Automation";
 import BrandTab from "./settings/Brand";
 import CategoriesTab from "./settings/Categories";
 import GeneralTab from "./settings/General";
@@ -10,7 +11,7 @@ import SheetsTab from "./settings/Sheets";
 import TemplatesTab from "./settings/Templates";
 import UsersTab from "./settings/Users";
 
-type Tab = "general" | "instagram" | "brand" | "categories" | "templates" | "sheets" | "users" | "logs";
+type Tab = "general" | "instagram" | "brand" | "categories" | "templates" | "sheets" | "automation" | "users" | "logs";
 
 export default function SettingsPage() {
   const { can } = useAuth();
@@ -25,7 +26,7 @@ export default function SettingsPage() {
     { key: "categories", label: "Categories" },
     { key: "templates", label: "Templates" },
     { key: "sheets", label: "Google Sheets" },
-    ...(can("admin") ? [{ key: "users" as Tab, label: "Users" }] : []),
+    ...(can("admin") ? [{ key: "automation" as Tab, label: "Automation (n8n)" }, { key: "users" as Tab, label: "Users" }] : []),
     { key: "logs", label: "Logs" },
   ];
   return (
@@ -38,6 +39,7 @@ export default function SettingsPage() {
       {tab === "categories" && <CategoriesTab />}
       {tab === "templates" && <TemplatesTab />}
       {tab === "sheets" && <SheetsTab />}
+      {tab === "automation" && <AutomationTab />}
       {tab === "users" && <UsersTab />}
       {tab === "logs" && <LogsTab />}
     </div>

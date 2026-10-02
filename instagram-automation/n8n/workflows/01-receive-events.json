@@ -1,0 +1,76 @@
+{
+  "name": "Instagram Automation - receive events",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "instagram-events",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "a1b1c1d1-0000-4000-8000-000000000001",
+      "name": "Event from Instagram Automation",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "5d0c7f9e-1b9a-4f5e-9a51-000000000001"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Verifies the X-IA-Signature header (HMAC-SHA256) so only real events from\n// Instagram Automation are accepted, then builds a human-readable message.\n// Requires env IA_WEBHOOK_SECRET (the signing secret shown when you created the webhook).\nconst crypto = require('crypto');\nconst secret = $env.IA_WEBHOOK_SECRET;\nconst out = [];\nfor (const item of $input.all()) {\n  const headers = item.json.headers || {};\n  const body = item.json.body || {};\n  if (!secret) throw new Error('IA_WEBHOOK_SECRET is not set for n8n - see docs/N8N.md');\n  const ts = headers['x-ia-timestamp'];\n  const signature = headers['x-ia-signature'] || '';\n  const expected = 'sha256=' + crypto.createHmac('sha256', secret).update(ts + '.' + JSON.stringify(body)).digest('hex');\n  const valid = signature.length === expected.length && crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected));\n  if (!valid) throw new Error('Invalid webhook signature - event rejected');\n  if (Math.abs(Date.now() / 1000 - Number(ts)) > 300) throw new Error('Webhook timestamp too old - event rejected');\n\n  const post = (body.data && body.data.post) || {};\n  const title = post.headline || post.topic || ('Post #' + post.id);\n  const texts = {\n    'post.needs_review': `📝 Needs review: \"${title}\" ${post.review_flags ? '(⚠ ' + post.review_flags + ' item(s) to verify)' : ''}`,\n    'post.approved': `✅ Approved: \"${title}\"`,\n    'post.rejected': `❌ Rejected: \"${title}\"`,\n    'post.scheduled': `🗓 Scheduled: \"${title}\" for ${post.scheduled_at}`,\n    'post.published': post.published_via_mock ? `🧪 SIMULATED publish (mock mode): \"${title}\"` : `🎉 Published on Instagram: \"${title}\" ${post.instagram_permalink || ''}`,\n    'post.publish_retry': `⏳ Publishing retry for \"${title}\": ${post.last_error}`,\n    'post.failed': `🚨 Publishing FAILED for \"${title}\": ${post.last_error}`,\n    'post.generation_failed': `⚠ AI generation failed for \"${title}\"`,\n    'schedule.missed_slot': `⚠ Missed slot (not approved in time): \"${title}\"`,\n    'instagram.token_expired': `🔑 Instagram connection expired - reconnect: ${body.data && body.data.settings_url}`,\n    'webhook.test': '🔔 Test event received from Instagram Automation',\n  };\n  out.push({ json: {\n    event: body.event,\n    delivery_id: body.id,\n    message: (texts[body.event] || body.event) + (post.dashboard_url ? `\\n${post.dashboard_url}` : ''),\n    post,\n  }});\n}\nreturn out;"
+      },
+      "id": "a1b1c1d1-0000-4000-8000-000000000002",
+      "name": "Verify signature & format message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "a1b1c1d1-0000-4000-8000-000000000003",
+      "name": "Send notification (replace with Slack / Email / Telegram)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        520,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Event from Instagram Automation": {
+      "main": [
+        [
+          {
+            "node": "Verify signature & format message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify signature & format message": {
+      "main": [
+        [
+          {
+            "node": "Send notification (replace with Slack / Email / Telegram)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "id": "iaWorkflow00001",
+  "active": false
+}

@@ -36,8 +36,9 @@ Company info → content plan → category/topic → AI text → AI image → te
 15. [Scheduling posts](#15-scheduling-posts)
 16. [Deployment](#16-deployment)
 17. [Troubleshooting](#17-troubleshooting)
+18. [n8n automation (optional)](#18-n8n-automation-optional)
 
-More documents: [Architecture](docs/ARCHITECTURE.md) · [API reference](docs/API.md) · [Instagram setup](docs/INSTAGRAM_SETUP.md) · [Meta API research: what is and isn't possible](docs/META_API_RESEARCH.md) · [Deployment](docs/DEPLOYMENT.md)
+More documents: [Architecture](docs/ARCHITECTURE.md) · [API reference](docs/API.md) · [n8n integration](docs/N8N.md) · [Instagram setup](docs/INSTAGRAM_SETUP.md) · [Meta API research: what is and isn't possible](docs/META_API_RESEARCH.md) · [Deployment](docs/DEPLOYMENT.md)
 
 ---
 
@@ -57,6 +58,7 @@ More documents: [Architecture](docs/ARCHITECTURE.md) · [API reference](docs/API
 | **Google Sheets** | Optional two-way control layer: new topic rows become drafts; every post's status, caption, schedule and Instagram URL is written back. PostgreSQL stays the source of truth. |
 | **Dashboard & calendar** | Counts by status, next scheduled post, upcoming/planned posts, recent errors, Instagram connection status; month calendar coloured by status. |
 | **Security** | Login with roles (admin/approver/editor/viewer), encrypted tokens, secret redaction in logs, rate limits, input validation, secrets only in `.env`. |
+| **n8n / automation (optional)** | API keys for n8n (or Zapier, scripts) and signed outgoing webhooks for events like *needs review*, *published* and *failed*. Optional n8n service in Docker Compose plus three ready-to-import workflows: event notifications, a "request a post" form, and a daily digest. Approval and publishing stay in the app. See [docs/N8N.md](docs/N8N.md). |
 | **Phase 2 ready** | The channel abstraction and LLM layer are prepared for WhatsApp (not implemented). See [ARCHITECTURE.md](docs/ARCHITECTURE.md#phase-2-whatsapp-readiness-not-implemented). |
 
 ## 2. Architecture
@@ -93,11 +95,12 @@ instagram-automation/
 │   │   └── services/          ai/, image_generation/, templates/, storage/, instagram/,
 │   │                          google_sheets/, competitors/, content/, scheduling/, channels/
 │   ├── alembic/               database migrations
-│   ├── tests/                 104 automated tests
+│   ├── tests/                 119 automated tests
 │   ├── Dockerfile  requirements.txt  requirements-dev.txt
 ├── frontend/
 │   ├── src/                   components/ pages/ services/ hooks/ types/ utils/
 │   ├── Dockerfile  nginx.conf
+├── n8n/workflows/             example n8n workflows (optional)
 ├── docker/docker-compose.prod.yml
 ├── docs/                      architecture, API, Instagram setup, deployment, research
 ├── docker-compose.yml
@@ -209,7 +212,7 @@ Settings are read from `backend/.env` or `instagram-automation/.env`.
 ```bash
 cd backend
 pip install -r requirements-dev.txt
-pytest                         # 104 tests, SQLite, ~25 s
+pytest                         # 119 tests, SQLite, ~30 s
 TEST_DATABASE_URL=postgresql+psycopg://insta:insta@localhost:5432/insta_test pytest   # same suite on PostgreSQL
 ruff check app tests           # lint
 
@@ -217,7 +220,7 @@ cd ../frontend
 npm run build                  # type-check + production build
 ```
 
-Tests never call real services and never publish to Instagram. They cover post creation, AI response parsing and validation, the fact guard, the every-4-day calculation (including DST), the recurring planner, the approval workflow, API authorisation and validation, the Instagram Graph client (fake HTTP transport: endpoints, error classification, token never leaked), publishing retries (1/5/15 min then FAILED), duplicate-publish prevention (atomic claim, lost response, crashed worker, DB failure after publish), Google Sheets sync and failures, image generation failures, competitor analysis, token encryption and log redaction.
+Tests never call real services and never publish to Instagram. They cover post creation, AI response parsing and validation, the fact guard, the every-4-day calculation (including DST), the recurring planner, the approval workflow, API authorisation and validation, the Instagram Graph client (fake HTTP transport: endpoints, error classification, token never leaked), publishing retries (1/5/15 min then FAILED), duplicate-publish prevention (atomic claim, lost response, crashed worker, DB failure after publish), Google Sheets sync and failures, image generation failures, competitor analysis, token encryption, log redaction, API keys (hashing, roles, revocation) and webhooks (signatures, event filtering, retries/back-off, no events for rolled-back changes).
 
 ## 10. Setting up Google Sheets
 
@@ -311,3 +314,16 @@ docker compose -f docker-compose.yml -f docker/docker-compose.prod.yml up -d --b
 | Start-up error "Refusing to start in production…" | Set `SECRET_KEY` (32+ chars), `TOKEN_ENCRYPTION_KEY`, and a public `PUBLIC_BASE_URL`. |
 
 Logs: `docker compose logs -f api worker beat`. Access tokens and API keys are automatically redacted.
+
+## 18. n8n automation (optional)
+
+```bash
+# in .env: N8N_ENCRYPTION_KEY=<random>, later IA_WEBHOOK_SECRET=<from the dashboard>
+docker compose --profile n8n up -d        # n8n editor: http://localhost:5678
+```
+
+1. Dashboard → **Settings → Automation (n8n)** → create an **API key** (role *editor*) and put it in an n8n *Header Auth* credential (`X-API-Key`).
+2. Create a **webhook** to `http://n8n:5678/webhook/instagram-events`, then copy its signing secret to `IA_WEBHOOK_SECRET` in `.env`.
+3. Import the workflows from `n8n/workflows/` and activate them.
+
+Step-by-step guide, event list, payload format and signature verification: [docs/N8N.md](docs/N8N.md).

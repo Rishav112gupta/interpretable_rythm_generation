@@ -21,7 +21,7 @@ router = APIRouter(tags=["auth"])
 def login(body: LoginIn, request: Request, db: Session = Depends(get_db)):
     rate_limiter.hit(f"login:{client_ip(request)}", settings.login_rate_limit_per_minute)
     user = db.scalars(select(User).where(func.lower(User.email) == body.email.lower())).first()
-    if user is None or not verify_password(body.password, user.hashed_password):
+    if user is None or user.is_service or not verify_password(body.password, user.hashed_password):
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Incorrect email or password.")
     if not user.is_active:
         raise HTTPException(status.HTTP_403_FORBIDDEN, "This account is disabled.")
@@ -45,7 +45,7 @@ def change_password(body: PasswordChange, user: User = Depends(get_current_user)
 
 @router.get("/users", response_model=list[UserOut])
 def list_users(_: User = Depends(admin), db: Session = Depends(get_db)):
-    return db.scalars(select(User).order_by(User.id)).all()
+    return db.scalars(select(User).where(User.is_service.is_(False)).order_by(User.id)).all()
 
 
 @router.post("/users", response_model=UserOut, status_code=201)

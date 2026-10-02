@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Callable
 
 import jwt
-from fastapi import Depends, HTTPException, Request, status
+from fastapi import Depends, Header, HTTPException, Request, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlalchemy.orm import Session
 
@@ -17,7 +17,19 @@ bearer = HTTPBearer(auto_error=False)
 ROLE_RANK = {Role.VIEWER: 0, Role.EDITOR: 1, Role.APPROVER: 2, Role.ADMIN: 3}
 
 
-def get_current_user(creds: HTTPAuthorizationCredentials | None = Depends(bearer), db: Session = Depends(get_db)) -> User:
+def get_current_user(
+    creds: HTTPAuthorizationCredentials | None = Depends(bearer),
+    x_api_key: str | None = Header(default=None, alias="X-API-Key", include_in_schema=False),
+    db: Session = Depends(get_db),
+) -> User:
+    if x_api_key:
+        # Automation tools (n8n etc.) authenticate with an API key; see services/automation/api_keys.py
+        from app.services.automation.api_keys import authenticate
+
+        user = authenticate(db, x_api_key)
+        if user is None:
+            raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Invalid or revoked API key.")
+        return user
     if creds is None:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Not authenticated", headers={"WWW-Authenticate": "Bearer"})
     try:

@@ -106,3 +106,22 @@ def sync_google_sheets() -> dict:
             return sheets.sync(db, tz=app_settings.get_timezone(db))
         except SheetsError as err:
             return {"error": err.message}
+
+
+@celery_app.task(name="app.scheduler.tasks.deliver_webhooks")
+def deliver_webhooks() -> dict:
+    from app.services.automation import webhooks
+
+    with single_run("deliver_webhooks", timeout=300) as ok:
+        if not ok:
+            return {"skipped": True}
+        with SessionLocal() as db:
+            return webhooks.deliver_pending(db)
+
+
+@celery_app.task(name="app.scheduler.tasks.cleanup_webhooks")
+def cleanup_webhooks() -> int:
+    from app.services.automation import webhooks
+
+    with SessionLocal() as db:
+        return webhooks.cleanup_old(db)

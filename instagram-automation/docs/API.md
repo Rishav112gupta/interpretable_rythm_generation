@@ -13,6 +13,9 @@ The backend is a FastAPI application. Interactive documentation (try requests in
 
 Tokens expire after `ACCESS_TOKEN_EXPIRE_MINUTES` (default 12 hours). Login is rate-limited per IP.
 
+**Automation tools (n8n, scripts):** instead of logging in, send an API key created under Settings → Automation:
+`X-API-Key: ia_...`. The key acts with its own role (viewer, editor or approver). See [N8N.md](N8N.md), which also documents the outgoing webhooks.
+
 ### Roles
 
 | Role | Can do |
@@ -69,6 +72,22 @@ All datetimes are ISO 8601 **with a timezone offset** (naive datetimes are rejec
 | POST | `/api/auth/change-password` | Change Password |
 | POST | `/api/auth/login` | Login |
 | POST | `/api/users` | Create User |
+
+### automation
+
+| Method | Path | Summary |
+|---|---|---|
+| DELETE | `/api/api-keys/{key_id}` | Revoke Key |
+| DELETE | `/api/webhooks/{wid}` | Delete Webhook |
+| GET | `/api/api-keys` | List Keys |
+| GET | `/api/webhooks` | List Webhooks |
+| GET | `/api/webhooks/deliveries` | List Deliveries |
+| GET | `/api/webhooks/events` | List Events |
+| POST | `/api/api-keys` | Create Key |
+| POST | `/api/webhooks` | Create Webhook |
+| POST | `/api/webhooks/{wid}/rotate-secret` | Rotate Secret |
+| POST | `/api/webhooks/{wid}/test` | Test Webhook |
+| PUT | `/api/webhooks/{wid}` | Update Webhook |
 
 ### brand
 

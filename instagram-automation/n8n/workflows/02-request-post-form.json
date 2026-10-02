@@ -1,0 +1,158 @@
+{
+  "name": "Instagram Automation - request a post (form)",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Request an Instagram post",
+        "formDescription": "Creates a draft in Instagram Automation. The AI writes it and a human reviews and approves it before anything is published.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Topic",
+              "requiredField": true,
+              "placeholder": "e.g. Last-minute exam preparation"
+            },
+            {
+              "fieldLabel": "Category",
+              "fieldType": "dropdown",
+              "requiredField": true,
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "NORMAL"
+                  },
+                  {
+                    "option": "BATCH"
+                  },
+                  {
+                    "option": "CLASS_SPECIFIC"
+                  },
+                  {
+                    "option": "EXAM"
+                  },
+                  {
+                    "option": "IMPORTANT"
+                  },
+                  {
+                    "option": "PROMOTIONAL"
+                  },
+                  {
+                    "option": "RANDOM"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Target audience",
+              "placeholder": "e.g. Class 12 students"
+            },
+            {
+              "fieldLabel": "Important information",
+              "fieldType": "textarea",
+              "placeholder": "Facts the post must include (dates, prices...)"
+            },
+            {
+              "fieldLabel": "Call to action",
+              "placeholder": "e.g. Join our preparation program"
+            }
+          ]
+        },
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "b2b2c2d2-0000-4000-8000-000000000001",
+      "name": "Post request form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "7e1d2c3b-4a5f-4e6d-8c7b-000000000002"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $env.IA_API_URL }}/categories",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {}
+      },
+      "id": "b2b2c2d2-0000-4000-8000-000000000002",
+      "name": "Get categories",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        0
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "iaApiKeyCredential01",
+          "name": "Instagram Automation API key"
+        }
+      },
+      "alwaysOutputData": false,
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.IA_API_URL }}/posts",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ topic: $('Post request form').item.json['Topic'], category_id: ($('Get categories').all().map(i => i.json).find(c => c.key === $('Post request form').item.json['Category']) || {}).id || null, target_audience: $('Post request form').item.json['Target audience'] || '', important_info: $('Post request form').item.json['Important information'] || '', cta: $('Post request form').item.json['Call to action'] || '', generate: true }) }}",
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "id": "b2b2c2d2-0000-4000-8000-000000000003",
+      "name": "Create & generate draft",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        0
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "iaApiKeyCredential01",
+          "name": "Instagram Automation API key"
+        }
+      },
+      "executeOnce": true
+    }
+  ],
+  "connections": {
+    "Post request form": {
+      "main": [
+        [
+          {
+            "node": "Get categories",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get categories": {
+      "main": [
+        [
+          {
+            "node": "Create & generate draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "id": "iaWorkflow00002",
+  "active": false
+}

@@ -12,7 +12,7 @@ from fastapi.staticfiles import StaticFiles
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
-from app.api.routes import auth, config_routes, integrations, planning, posts
+from app.api.routes import auth, automation, config_routes, integrations, planning, posts
 from app.core.config import settings
 from app.core.errors import AppError, ExternalServiceError
 from app.core.logging import configure_logging, redact
@@ -100,7 +100,7 @@ async def unhandled(request: Request, exc: Exception):
     return JSONResponse(status_code=500, content={"error": "internal_error", "detail": "Unexpected server error. Check the backend logs."})
 
 
-for r in (auth.router, posts.router, config_routes.router, planning.router, integrations.router):
+for r in (auth.router, posts.router, config_routes.router, planning.router, integrations.router, automation.router):
     app.include_router(r, prefix="/api")
 
 

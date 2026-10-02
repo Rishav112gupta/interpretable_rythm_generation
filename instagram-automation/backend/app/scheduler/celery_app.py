@@ -30,6 +30,8 @@ celery_app.conf.update(
         "warn-missed-slots": {"task": "app.scheduler.tasks.warn_missed_slots", "schedule": 900.0},
         "refresh-instagram-token": {"task": "app.scheduler.tasks.refresh_instagram_token", "schedule": 6 * 3600.0},
         "refresh-post-metrics": {"task": "app.scheduler.tasks.refresh_post_metrics", "schedule": 6 * 3600.0},
+        "deliver-webhooks": {"task": "app.scheduler.tasks.deliver_webhooks", "schedule": 15.0},
+        "cleanup-webhook-log": {"task": "app.scheduler.tasks.cleanup_webhooks", "schedule": 24 * 3600.0},
         "sync-google-sheets": {"task": "app.scheduler.tasks.sync_google_sheets", "schedule": 1800.0},
     },
 )

@@ -114,6 +114,12 @@ def get_credentials(db: Session) -> tuple[str, str, InstagramAccount]:
     return token, acc.ig_user_id, acc
 
 
+def _notify_token_expired(db: Session, message: str) -> None:
+    from app.services.automation import webhooks
+
+    webhooks.enqueue(db, "instagram.token_expired", {"message": message, "settings_url": f"{settings.frontend_url.rstrip('/')}/settings?tab=instagram"})
+
+
 def record_success(acc: InstagramAccount) -> None:
     acc.last_success_at = datetime.now(UTC)
 
@@ -122,6 +128,8 @@ def record_error(db: Session, acc: InstagramAccount, err: InstagramAPIError, pos
     acc.last_error = err.message
     acc.last_error_at = datetime.now(UTC)
     if err.token_problem and not isinstance(err, InstagramNotConnected):
+        if acc.status != AccountStatus.TOKEN_EXPIRED:
+            _notify_token_expired(db, err.message)
         acc.status = AccountStatus.TOKEN_EXPIRED
     log_integration(db, "instagram", err.message, details=err.details, post_id=post_id)
 
@@ -228,6 +236,7 @@ def refresh_token_if_needed(db: Session, *, force: bool = False) -> bool:
         return False
     now = datetime.now(UTC)
     if acc.token_expires_at and acc.token_expires_at <= now:
+        _notify_token_expired(db, "Instagram token expired - reconnect the account.")
         acc.status = AccountStatus.TOKEN_EXPIRED
         log_integration(db, "instagram", "Instagram token expired - reconnect the account.")
         return False

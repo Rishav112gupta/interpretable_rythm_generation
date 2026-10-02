@@ -33,6 +33,8 @@ class User(TimestampMixin, Base):
     hashed_password: Mapped[str] = mapped_column(String(255))
     role: Mapped[str] = mapped_column(String(20), default=Role.EDITOR)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    # Service accounts (e.g. n8n) authenticate only with an API key, never with a password.
+    is_service: Mapped[bool] = mapped_column(Boolean, default=False)
     last_login_at: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
 
 
@@ -365,7 +367,66 @@ class IntegrationLog(Base):
     created_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow, index=True)
 
 
+class ApiKey(TimestampMixin, Base):
+    """Machine access for automation tools such as n8n.
+
+    Each key belongs to its own service user, so it has an ordinary role
+    (viewer/editor/approver) and every action it takes appears in the audit log.
+    Only a SHA-256 hash is stored; the key itself is shown once at creation.
+    """
+
+    __tablename__ = "api_keys"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(100))
+    prefix: Mapped[str] = mapped_column(String(16))  # first characters, to recognise a key in the UI
+    key_hash: Mapped[str] = mapped_column(String(64), unique=True, index=True)
+    service_user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
+    created_by_id: Mapped[int | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"), nullable=True)
+    last_used_at: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
+    revoked_at: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
+
+    service_user: Mapped[User] = relationship(foreign_keys=[service_user_id], lazy="joined")
+
+
+class WebhookEndpoint(TimestampMixin, Base):
+    """An outgoing webhook target (e.g. an n8n Webhook node URL)."""
+
+    __tablename__ = "webhook_endpoints"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(100))
+    url: Mapped[str] = mapped_column(String(1024))
+    secret_encrypted: Mapped[str] = mapped_column(Text)  # used to sign payloads (HMAC-SHA256)
+    events: Mapped[list[str]] = mapped_column(JSON, default=list)  # ["*"] = all events
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    last_delivery_at: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
+    last_status_code: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    last_error: Mapped[str] = mapped_column(Text, default="")
+
+
+class WebhookDelivery(Base):
+    """Transactional outbox: written in the same DB transaction as the event, sent by the worker."""
+
+    __tablename__ = "webhook_deliveries"
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    endpoint_id: Mapped[int] = mapped_column(ForeignKey("webhook_endpoints.id", ondelete="CASCADE"), index=True)
+    event: Mapped[str] = mapped_column(String(50), index=True)
+    payload: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
+    status: Mapped[str] = mapped_column(String(20), default="pending", index=True)  # pending | success | failed
+    attempts: Mapped[int] = mapped_column(Integer, default=0)
+    next_attempt_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow, index=True)
+    last_status_code: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    last_error: Mapped[str] = mapped_column(Text, default="")
+    created_at: Mapped[datetime] = mapped_column(UTCDateTime(), default=utcnow)
+    delivered_at: Mapped[datetime | None] = mapped_column(UTCDateTime(), nullable=True)
+
+
 __all__ = [
+    "ApiKey",
+    "WebhookDelivery",
+    "WebhookEndpoint",
     "AppSetting",
     "BrandProfile",
     "Competitor",
