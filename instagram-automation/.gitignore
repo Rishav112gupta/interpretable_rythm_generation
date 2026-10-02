@@ -30,3 +30,4 @@ frontend/dist/
 .idea/
 .vscode/
 *.log
+*.tsbuildinfo
