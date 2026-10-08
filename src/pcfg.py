@@ -58,6 +58,13 @@ VIBHAG = ["Vibhag0", "Vibhag1", "Vibhag2", "Vibhag3"]
 SAM_MATRA = "SamMatra"
 MATRA = "Matra"
 BOLSLOT = "BolSlot"
+# Phase 7: an empty matra (no onset at all) is represented as Matra -> Rest,
+# Rest -> "-" (the dataset score's own rest token). Opt-in only
+# (include_rests=True), so Phase 5/6's reported grammar stays reproducible.
+# "-" cannot distinguish silence from a sustained stroke: onset data has no
+# way to tell them apart.
+REST = "Rest"
+REST_TOKEN = "-"
 
 
 @dataclass
@@ -137,6 +144,8 @@ class DerivNode:
     label: str
     children: list["DerivNode"] = field(default_factory=list)
     bol: str | None = None
+    start: object = None  # Phase 7 synthesized attribute (matra units), set by attributes.annotate
+    dur: object = None
 
     def rules(self) -> list[tuple]:
         """Flatten this derivation into (lhs, rhs) pairs, matching the
@@ -178,15 +187,18 @@ def _matra_bols(matra: RepMatra) -> list[str]:
     return [s.bol for s in matra.slots]
 
 
-def build_avartan_deriv(avartan: Avartan) -> DerivNode:
+def build_avartan_deriv(avartan: Avartan, include_rests: bool = False) -> DerivNode:
     vibhag_nodes = []
     for v in avartan.vibhags:
         matra_nodes = []
         for m_idx, matra in enumerate(v.matras):
             bols = _matra_bols(matra)
-            if not bols:
-                continue
             label = SAM_MATRA if (v.index == 0 and m_idx == 0) else MATRA
+            if not bols:
+                if include_rests:
+                    matra_nodes.append(DerivNode(label=label, children=[
+                        DerivNode(label=REST, bol=REST_TOKEN)]))
+                continue
             matra_nodes.append(_bolslot_list_node(label, bols))
         if not matra_nodes:
             continue
@@ -207,8 +219,8 @@ def build_avartan_deriv(avartan: Avartan) -> DerivNode:
     return node
 
 
-def build_composition_deriv(rep: RepresentedComposition) -> DerivNode:
-    avartan_nodes = [build_avartan_deriv(a) for a in rep.avartans]
+def build_composition_deriv(rep: RepresentedComposition, include_rests: bool = False) -> DerivNode:
+    avartan_nodes = [build_avartan_deriv(a, include_rests=include_rests) for a in rep.avartans]
     node = avartan_nodes[-1]
     node = DerivNode(label=START, children=[node])
     for a in reversed(avartan_nodes[:-1]):
@@ -221,6 +233,7 @@ def train_supervised(
     mode: BolNormalizationMode,
     normalizer: BolNormalizer,
     dirichlet_alpha: float = 0.0,
+    include_rests: bool = False,
 ) -> tuple[PCFG, list[DerivNode]]:
     grammar = PCFG()
     trees = []
@@ -230,7 +243,7 @@ def train_supervised(
             for a in rep.avartans:
                 for s in a.all_slots():
                     s.bol = normalizer.normalize(s.bol)
-        tree = build_composition_deriv(rep)
+        tree = build_composition_deriv(rep, include_rests=include_rests)
         trees.append(tree)
         for lhs, rhs in tree.rules():
             grammar.add_count(lhs, rhs)

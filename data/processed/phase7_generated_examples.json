@@ -1,0 +1,6053 @@
+[
+  {
+    "dur_p": "2",
+    "dur_g": "3/4",
+    "tihai_start_matra_in_cycle": "17/2",
+    "timeline": [
+      [
+        "TA",
+        "0",
+        "1/2"
+      ],
+      [
+        "DHI",
+        "1/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "1",
+        "1"
+      ],
+      [
+        "KI",
+        "2",
+        "1"
+      ],
+      [
+        "TA",
+        "3",
+        "1"
+      ],
+      [
+        "KI",
+        "4",
+        "1"
+      ],
+      [
+        "NA",
+        "5",
+        "1"
+      ],
+      [
+        "GE",
+        "6",
+        "1"
+      ],
+      [
+        "-",
+        "7",
+        "1"
+      ],
+      [
+        "KI",
+        "8",
+        "1/4"
+      ],
+      [
+        "NA",
+        "33/4",
+        "1/4"
+      ],
+      [
+        "RE",
+        "17/2",
+        "1/4"
+      ],
+      [
+        "KI",
+        "35/4",
+        "1/4"
+      ],
+      [
+        "DHIN",
+        "9",
+        "1/3"
+      ],
+      [
+        "NA",
+        "28/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "29/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "10",
+        "1"
+      ],
+      [
+        "TA",
+        "11",
+        "1"
+      ],
+      [
+        "TA",
+        "12",
+        "1"
+      ],
+      [
+        "DHE",
+        "13",
+        "1"
+      ],
+      [
+        "GE",
+        "14",
+        "1/3"
+      ],
+      [
+        "GE",
+        "43/3",
+        "1/3"
+      ],
+      [
+        "RE",
+        "44/3",
+        "1/3"
+      ],
+      [
+        "KI",
+        "15",
+        "1/4"
+      ],
+      [
+        "NA",
+        "61/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "31/2",
+        "1/4"
+      ],
+      [
+        "TA",
+        "63/4",
+        "1/4"
+      ],
+      [
+        "DA",
+        "16",
+        "1"
+      ],
+      [
+        "TA",
+        "17",
+        "1/2"
+      ],
+      [
+        "-",
+        "35/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "18",
+        "1"
+      ],
+      [
+        "KI",
+        "19",
+        "1"
+      ],
+      [
+        "DHET",
+        "20",
+        "1"
+      ],
+      [
+        "DHA",
+        "21",
+        "1"
+      ],
+      [
+        "NA",
+        "22",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "45/2",
+        "1/2"
+      ],
+      [
+        "DHET",
+        "23",
+        "1"
+      ],
+      [
+        "DHA",
+        "24",
+        "1/5"
+      ],
+      [
+        "DHI",
+        "121/5",
+        "1/5"
+      ],
+      [
+        "TA",
+        "122/5",
+        "1/5"
+      ],
+      [
+        "GE",
+        "123/5",
+        "1/5"
+      ],
+      [
+        "TA",
+        "124/5",
+        "1/5"
+      ],
+      [
+        "TA",
+        "25",
+        "1/2"
+      ],
+      [
+        "GE",
+        "51/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "26",
+        "1/3"
+      ],
+      [
+        "KI",
+        "79/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "80/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "27",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "82/3",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "83/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "28",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "57/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "29",
+        "1"
+      ],
+      [
+        "NA",
+        "30",
+        "1"
+      ],
+      [
+        "GE",
+        "31",
+        "1/2"
+      ],
+      [
+        "KI",
+        "63/2",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "32",
+        "1/3"
+      ],
+      [
+        "KI",
+        "97/3",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "98/3",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "33",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "67/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "34",
+        "1"
+      ],
+      [
+        "KI",
+        "35",
+        "1"
+      ],
+      [
+        "NA",
+        "36",
+        "1/3"
+      ],
+      [
+        "KI",
+        "109/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "110/3",
+        "1/3"
+      ],
+      [
+        "GE",
+        "37",
+        "1"
+      ],
+      [
+        "TA",
+        "38",
+        "1/2"
+      ],
+      [
+        "DHIN",
+        "77/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "39",
+        "1"
+      ],
+      [
+        "-",
+        "40",
+        "1/2"
+      ],
+      [
+        "KI",
+        "81/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "41",
+        "1/2"
+      ],
+      [
+        "NA",
+        "83/2",
+        "1/4"
+      ],
+      [
+        "TA",
+        "167/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "42",
+        "1/4"
+      ],
+      [
+        "-",
+        "169/4",
+        "1/4"
+      ],
+      [
+        "-",
+        "85/2",
+        "3/4"
+      ],
+      [
+        "KI",
+        "173/4",
+        "1/2"
+      ],
+      [
+        "-",
+        "175/4",
+        "1/2"
+      ],
+      [
+        "NA",
+        "177/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "89/2",
+        "1/4"
+      ],
+      [
+        "TA",
+        "179/4",
+        "1/4"
+      ],
+      [
+        "-",
+        "45",
+        "1/4"
+      ],
+      [
+        "-",
+        "181/4",
+        "3/4"
+      ],
+      [
+        "KI",
+        "46",
+        "1/2"
+      ],
+      [
+        "-",
+        "93/2",
+        "1/2"
+      ],
+      [
+        "NA",
+        "47",
+        "1/4"
+      ],
+      [
+        "TA",
+        "189/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "95/2",
+        "1/4"
+      ],
+      [
+        "-",
+        "191/4",
+        "1/4"
+      ],
+      [
+        "DHA",
+        "48",
+        "1"
+      ]
+    ],
+    "tree": {
+      "label": "Composition",
+      "start": "0",
+      "dur": "49",
+      "children": [
+        {
+          "label": "Avartan",
+          "start": "0",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "0",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "0",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "0",
+                      "dur": "1/2",
+                      "token": "TA"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "1/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1/2",
+                          "dur": "1/2",
+                          "token": "DHI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "1",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "1",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1",
+                          "dur": "1",
+                          "token": "TA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "2",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "2",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "2",
+                              "dur": "1",
+                              "token": "KI"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "3",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "3",
+                              "dur": "1",
+                              "token": "TA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "4",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "4",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "4",
+                          "dur": "1",
+                          "token": "KI"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "5",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "5",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "5",
+                              "dur": "1",
+                              "token": "NA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "6",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "6",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "6",
+                                  "dur": "1",
+                                  "token": "GE"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "7",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "7",
+                                  "dur": "1",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "8",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "8",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "8",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "8",
+                              "dur": "1/4",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "33/4",
+                              "dur": "3/4",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "33/4",
+                                  "dur": "1/4",
+                                  "token": "NA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "17/2",
+                                  "dur": "1/2",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "17/2",
+                                      "dur": "1/4",
+                                      "token": "RE"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "35/4",
+                                      "dur": "1/4",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "35/4",
+                                          "dur": "1/4",
+                                          "token": "KI"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "9",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "9",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "9",
+                                  "dur": "1/3",
+                                  "token": "DHIN"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "28/3",
+                                  "dur": "2/3",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "28/3",
+                                      "dur": "1/3",
+                                      "token": "NA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "29/3",
+                                      "dur": "1/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "29/3",
+                                          "dur": "1/3",
+                                          "token": "TA"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "10",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "10",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "10",
+                                      "dur": "1",
+                                      "token": "TA"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "11",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "11",
+                                      "dur": "1",
+                                      "token": "TA"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "12",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "12",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "12",
+                              "dur": "1",
+                              "token": "TA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "13",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "13",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "13",
+                                  "dur": "1",
+                                  "token": "DHE"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "14",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "14",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "14",
+                                      "dur": "1/3",
+                                      "token": "GE"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "43/3",
+                                      "dur": "2/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "43/3",
+                                          "dur": "1/3",
+                                          "token": "GE"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "44/3",
+                                          "dur": "1/3",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "44/3",
+                                              "dur": "1/3",
+                                              "token": "RE"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "15",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "15",
+                                      "dur": "1/4",
+                                      "token": "KI"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "61/4",
+                                      "dur": "3/4",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "61/4",
+                                          "dur": "1/4",
+                                          "token": "NA"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "31/2",
+                                          "dur": "1/2",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "31/2",
+                                              "dur": "1/4",
+                                              "token": "TA"
+                                            },
+                                            {
+                                              "label": "Matra",
+                                              "start": "63/4",
+                                              "dur": "1/4",
+                                              "children": [
+                                                {
+                                                  "label": "BolSlot",
+                                                  "start": "63/4",
+                                                  "dur": "1/4",
+                                                  "token": "TA"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Avartan",
+          "start": "16",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "16",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "16",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "16",
+                      "dur": "1",
+                      "token": "DA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "17",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "17",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "17",
+                          "dur": "1/2",
+                          "token": "TA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "35/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "35/2",
+                              "dur": "1/2",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "18",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "18",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "18",
+                              "dur": "1",
+                              "token": "KI"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "19",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "19",
+                              "dur": "1",
+                              "token": "KI"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "20",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "20",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "20",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "20",
+                          "dur": "1",
+                          "token": "DHET"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "21",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "21",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "21",
+                              "dur": "1",
+                              "token": "DHA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "22",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "22",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "22",
+                                  "dur": "1/2",
+                                  "token": "NA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "45/2",
+                                  "dur": "1/2",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "45/2",
+                                      "dur": "1/2",
+                                      "token": "DHA"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "23",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "23",
+                                  "dur": "1",
+                                  "token": "DHET"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "24",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "24",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "24",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "24",
+                              "dur": "1/5",
+                              "token": "DHA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "121/5",
+                              "dur": "4/5",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "121/5",
+                                  "dur": "1/5",
+                                  "token": "DHI"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "122/5",
+                                  "dur": "3/5",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "122/5",
+                                      "dur": "1/5",
+                                      "token": "TA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "123/5",
+                                      "dur": "2/5",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "123/5",
+                                          "dur": "1/5",
+                                          "token": "GE"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "124/5",
+                                          "dur": "1/5",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "124/5",
+                                              "dur": "1/5",
+                                              "token": "TA"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "25",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "25",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "25",
+                                  "dur": "1/2",
+                                  "token": "TA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "51/2",
+                                  "dur": "1/2",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "51/2",
+                                      "dur": "1/2",
+                                      "token": "GE"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "26",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "26",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "26",
+                                      "dur": "1/3",
+                                      "token": "TA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "79/3",
+                                      "dur": "2/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "79/3",
+                                          "dur": "1/3",
+                                          "token": "KI"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "80/3",
+                                          "dur": "1/3",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "80/3",
+                                              "dur": "1/3",
+                                              "token": "NA"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "27",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "27",
+                                      "dur": "1/3",
+                                      "token": "NA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "82/3",
+                                      "dur": "2/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "82/3",
+                                          "dur": "1/3",
+                                          "token": "DHA"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "83/3",
+                                          "dur": "1/3",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "83/3",
+                                              "dur": "1/3",
+                                              "token": "DHA"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "28",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "28",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "28",
+                              "dur": "1/2",
+                              "token": "NA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "57/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "57/2",
+                                  "dur": "1/2",
+                                  "token": "DHA"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "29",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "29",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "29",
+                                  "dur": "1",
+                                  "token": "-"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "30",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "30",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "30",
+                                      "dur": "1",
+                                      "token": "NA"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "31",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "31",
+                                      "dur": "1/2",
+                                      "token": "GE"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "63/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "63/2",
+                                          "dur": "1/2",
+                                          "token": "KI"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "TihaiAvartan",
+          "start": "32",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Prefix",
+              "start": "32",
+              "dur": "17/2",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "32",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "32",
+                      "dur": "1/3",
+                      "token": "DHA"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "97/3",
+                      "dur": "2/3",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "97/3",
+                          "dur": "1/3",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "SamMatra",
+                          "start": "98/3",
+                          "dur": "1/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "98/3",
+                              "dur": "1/3",
+                              "token": "DHA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "33",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "33",
+                      "dur": "1/2",
+                      "token": "DHA"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "67/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "67/2",
+                          "dur": "1/2",
+                          "token": "DHA"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "34",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "34",
+                      "dur": "1",
+                      "token": "KI"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "35",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "35",
+                      "dur": "1",
+                      "token": "KI"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "36",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "36",
+                      "dur": "1/3",
+                      "token": "NA"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "109/3",
+                      "dur": "2/3",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "109/3",
+                          "dur": "1/3",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "110/3",
+                          "dur": "1/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "110/3",
+                              "dur": "1/3",
+                              "token": "TA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "37",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "37",
+                      "dur": "1",
+                      "token": "GE"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "38",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "38",
+                      "dur": "1/2",
+                      "token": "TA"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "77/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "77/2",
+                          "dur": "1/2",
+                          "token": "DHIN"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "39",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "39",
+                      "dur": "1",
+                      "token": "KI"
+                    }
+                  ]
+                },
+                {
+                  "label": "Rest",
+                  "start": "40",
+                  "dur": "1/2",
+                  "token": "-"
+                }
+              ]
+            },
+            {
+              "label": "Tihai",
+              "start": "81/2",
+              "dur": "15/2",
+              "children": [
+                {
+                  "label": "Phrase",
+                  "start": "81/2",
+                  "dur": "2",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "81/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "81/2",
+                          "dur": "1/2",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "41",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "41",
+                              "dur": "1/2",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "83/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "83/2",
+                          "dur": "1/4",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "167/4",
+                          "dur": "3/4",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "167/4",
+                              "dur": "1/4",
+                              "token": "TA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "42",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "42",
+                                  "dur": "1/4",
+                                  "token": "TA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "169/4",
+                                  "dur": "1/4",
+                                  "children": [
+                                    {
+                                      "label": "Rest",
+                                      "start": "169/4",
+                                      "dur": "1/4",
+                                      "token": "-"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "85/2",
+                  "dur": "3/4",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "85/2",
+                      "dur": "3/4",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "173/4",
+                  "dur": "2",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "173/4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "173/4",
+                          "dur": "1/2",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "175/4",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "175/4",
+                              "dur": "1/2",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "177/4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "177/4",
+                          "dur": "1/4",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "89/2",
+                          "dur": "3/4",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "89/2",
+                              "dur": "1/4",
+                              "token": "TA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "179/4",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "179/4",
+                                  "dur": "1/4",
+                                  "token": "TA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "45",
+                                  "dur": "1/4",
+                                  "children": [
+                                    {
+                                      "label": "Rest",
+                                      "start": "45",
+                                      "dur": "1/4",
+                                      "token": "-"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "181/4",
+                  "dur": "3/4",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "181/4",
+                      "dur": "3/4",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "46",
+                  "dur": "2",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "46",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "46",
+                          "dur": "1/2",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "93/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "93/2",
+                              "dur": "1/2",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "47",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "47",
+                          "dur": "1/4",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "189/4",
+                          "dur": "3/4",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "189/4",
+                              "dur": "1/4",
+                              "token": "TA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "95/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "95/2",
+                                  "dur": "1/4",
+                                  "token": "TA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "191/4",
+                                  "dur": "1/4",
+                                  "children": [
+                                    {
+                                      "label": "Rest",
+                                      "start": "191/4",
+                                      "dur": "1/4",
+                                      "token": "-"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sam",
+          "start": "48",
+          "dur": "1",
+          "children": [
+            {
+              "label": "SamMatra",
+              "start": "48",
+              "dur": "1",
+              "children": [
+                {
+                  "label": "BolSlot",
+                  "start": "48",
+                  "dur": "1",
+                  "token": "DHA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule_sequence": [
+      "Composition -> Avartan Avartan TihaiAvartan Sam",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'TA'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'DHI'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'GE'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'RE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHIN'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'DA'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHET'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHET'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'GE'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "TihaiAvartan -> Prefix Tihai",
+      "Prefix -> SamMatra Matra Matra Matra Matra Matra Matra Matra Rest",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'DHA'",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'KI'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Rest -> '-'",
+      "Tihai -> Phrase Gap Phrase Gap Phrase",
+      "Phrase -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Sam -> SamMatra",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'DHA'"
+    ],
+    "rendered_tihai_cycle": [
+      "TihaiAvartan [32, 48)",
+      "  Prefix [32, 81/2)",
+      "    SamMatra [32, 33): DHA KI DHA",
+      "    Matra [33, 34): DHA DHA",
+      "    Matra [34, 35): KI",
+      "    Matra [35, 36): KI",
+      "    Matra [36, 37): NA KI TA",
+      "    Matra [37, 38): GE",
+      "    Matra [38, 39): TA DHIN",
+      "    Matra [39, 40): KI",
+      "    Rest '-' [40, 81/2)",
+      "  Tihai [81/2, 48)",
+      "    Phrase [81/2, 85/2)",
+      "      Matra [81/2, 83/2): KI -",
+      "      Matra [83/2, 85/2): NA TA TA -",
+      "    Gap [85/2, 173/4)",
+      "      Rest '-' [85/2, 173/4)",
+      "    Phrase [173/4, 181/4)",
+      "      Matra [173/4, 177/4): KI -",
+      "      Matra [177/4, 181/4): NA TA TA -",
+      "    Gap [181/4, 46)",
+      "      Rest '-' [181/4, 46)",
+      "    Phrase [46, 48)",
+      "      Matra [46, 47): KI -",
+      "      Matra [47, 48): NA TA TA -",
+      "Sam [48, 49)",
+      "  SamMatra [48, 49): DHA"
+    ]
+  },
+  {
+    "dur_p": "3",
+    "dur_g": "1/2",
+    "tihai_start_matra_in_cycle": "6",
+    "timeline": [
+      [
+        "TA",
+        "0",
+        "1/2"
+      ],
+      [
+        "GE",
+        "1/2",
+        "1/2"
+      ],
+      [
+        "DA",
+        "1",
+        "1"
+      ],
+      [
+        "DHIN",
+        "2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "5/2",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "3",
+        "1/2"
+      ],
+      [
+        "NA",
+        "7/2",
+        "1/2"
+      ],
+      [
+        "DHIN",
+        "4",
+        "1"
+      ],
+      [
+        "DHA",
+        "5",
+        "1"
+      ],
+      [
+        "-",
+        "6",
+        "1"
+      ],
+      [
+        "NA",
+        "7",
+        "1"
+      ],
+      [
+        "KI",
+        "8",
+        "1/2"
+      ],
+      [
+        "TA",
+        "17/2",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "9",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "19/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "10",
+        "1"
+      ],
+      [
+        "KI",
+        "11",
+        "1"
+      ],
+      [
+        "DHA",
+        "12",
+        "1"
+      ],
+      [
+        "DHE",
+        "13",
+        "1"
+      ],
+      [
+        "DHA",
+        "14",
+        "1/2"
+      ],
+      [
+        "KDA",
+        "29/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "15",
+        "1/2"
+      ],
+      [
+        "DHI",
+        "31/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "16",
+        "1/3"
+      ],
+      [
+        "DHE",
+        "49/3",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "50/3",
+        "1/3"
+      ],
+      [
+        "GE",
+        "17",
+        "1/3"
+      ],
+      [
+        "KI",
+        "52/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "53/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "18",
+        "1"
+      ],
+      [
+        "KI",
+        "19",
+        "1"
+      ],
+      [
+        "KI",
+        "20",
+        "1/3"
+      ],
+      [
+        "KI",
+        "61/3",
+        "1/3"
+      ],
+      [
+        "-",
+        "62/3",
+        "1/3"
+      ],
+      [
+        "TIT",
+        "21",
+        "1"
+      ],
+      [
+        "TA",
+        "22",
+        "1"
+      ],
+      [
+        "TA",
+        "23",
+        "1"
+      ],
+      [
+        "TA",
+        "24",
+        "1"
+      ],
+      [
+        "KI",
+        "25",
+        "1"
+      ],
+      [
+        "TA",
+        "26",
+        "1"
+      ],
+      [
+        "RE",
+        "27",
+        "1"
+      ],
+      [
+        "NA",
+        "28",
+        "1"
+      ],
+      [
+        "DHE",
+        "29",
+        "1"
+      ],
+      [
+        "DHA",
+        "30",
+        "1"
+      ],
+      [
+        "KI",
+        "31",
+        "1"
+      ],
+      [
+        "NA",
+        "32",
+        "1/2"
+      ],
+      [
+        "TA",
+        "65/2",
+        "1/2"
+      ],
+      [
+        "GE",
+        "33",
+        "1/2"
+      ],
+      [
+        "-",
+        "67/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "34",
+        "1"
+      ],
+      [
+        "DHA",
+        "35",
+        "1/3"
+      ],
+      [
+        "TA",
+        "106/3",
+        "1/3"
+      ],
+      [
+        "-",
+        "107/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "36",
+        "1/2"
+      ],
+      [
+        "NA",
+        "73/2",
+        "1/2"
+      ],
+      [
+        "DA",
+        "37",
+        "1"
+      ],
+      [
+        "TA",
+        "38",
+        "1"
+      ],
+      [
+        "-",
+        "39",
+        "1"
+      ],
+      [
+        "DIN",
+        "40",
+        "1/2"
+      ],
+      [
+        "TA",
+        "81/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "41",
+        "1/2"
+      ],
+      [
+        "TA",
+        "83/2",
+        "1"
+      ],
+      [
+        "-",
+        "85/2",
+        "1"
+      ],
+      [
+        "DIN",
+        "87/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "44",
+        "1/2"
+      ],
+      [
+        "-",
+        "89/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "45",
+        "1"
+      ],
+      [
+        "-",
+        "46",
+        "1"
+      ],
+      [
+        "DIN",
+        "47",
+        "1/2"
+      ],
+      [
+        "TA",
+        "95/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "48",
+        "1"
+      ]
+    ],
+    "tree": {
+      "label": "Composition",
+      "start": "0",
+      "dur": "49",
+      "children": [
+        {
+          "label": "Avartan",
+          "start": "0",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "0",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "0",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "0",
+                      "dur": "1/2",
+                      "token": "TA"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "1/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1/2",
+                          "dur": "1/2",
+                          "token": "GE"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "1",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "1",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1",
+                          "dur": "1",
+                          "token": "DA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "2",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "2",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "2",
+                              "dur": "1/2",
+                              "token": "DHIN"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "5/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "5/2",
+                                  "dur": "1/2",
+                                  "token": "KI"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "3",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "3",
+                              "dur": "1/2",
+                              "token": "DHA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "7/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "7/2",
+                                  "dur": "1/2",
+                                  "token": "NA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "4",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "4",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "4",
+                          "dur": "1",
+                          "token": "DHIN"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "5",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "5",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "5",
+                              "dur": "1",
+                              "token": "DHA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "6",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "6",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "6",
+                                  "dur": "1",
+                                  "token": "-"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "7",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "7",
+                                  "dur": "1",
+                                  "token": "NA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "8",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "8",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "8",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "8",
+                              "dur": "1/2",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "17/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "17/2",
+                                  "dur": "1/2",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "9",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "9",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "9",
+                                  "dur": "1/2",
+                                  "token": "DHA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "19/2",
+                                  "dur": "1/2",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "19/2",
+                                      "dur": "1/2",
+                                      "token": "DHA"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "10",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "10",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "Rest",
+                                      "start": "10",
+                                      "dur": "1",
+                                      "token": "-"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "11",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "11",
+                                      "dur": "1",
+                                      "token": "KI"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "12",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "12",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "12",
+                              "dur": "1",
+                              "token": "DHA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "13",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "13",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "13",
+                                  "dur": "1",
+                                  "token": "DHE"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "14",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "14",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "14",
+                                      "dur": "1/2",
+                                      "token": "DHA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "29/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "29/2",
+                                          "dur": "1/2",
+                                          "token": "KDA"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "15",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "15",
+                                      "dur": "1/2",
+                                      "token": "TA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "31/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "31/2",
+                                          "dur": "1/2",
+                                          "token": "DHI"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Avartan",
+          "start": "16",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "16",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "16",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "16",
+                      "dur": "1/3",
+                      "token": "KI"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "49/3",
+                      "dur": "2/3",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "49/3",
+                          "dur": "1/3",
+                          "token": "DHE"
+                        },
+                        {
+                          "label": "SamMatra",
+                          "start": "50/3",
+                          "dur": "1/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "50/3",
+                              "dur": "1/3",
+                              "token": "DHA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "17",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "17",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "17",
+                          "dur": "1/3",
+                          "token": "GE"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "52/3",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "52/3",
+                              "dur": "1/3",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "53/3",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "53/3",
+                                  "dur": "1/3",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "18",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "18",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "18",
+                              "dur": "1",
+                              "token": "TA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "19",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "19",
+                              "dur": "1",
+                              "token": "KI"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "20",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "20",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "20",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "20",
+                          "dur": "1/3",
+                          "token": "KI"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "61/3",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "61/3",
+                              "dur": "1/3",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "62/3",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "62/3",
+                                  "dur": "1/3",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "21",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "21",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "21",
+                              "dur": "1",
+                              "token": "TIT"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "22",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "22",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "22",
+                                  "dur": "1",
+                                  "token": "TA"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "23",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "23",
+                                  "dur": "1",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "24",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "24",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "24",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "24",
+                              "dur": "1",
+                              "token": "TA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "25",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "25",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "25",
+                                  "dur": "1",
+                                  "token": "KI"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "26",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "26",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "26",
+                                      "dur": "1",
+                                      "token": "TA"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "27",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "27",
+                                      "dur": "1",
+                                      "token": "RE"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "28",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "28",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "28",
+                              "dur": "1",
+                              "token": "NA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "29",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "29",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "29",
+                                  "dur": "1",
+                                  "token": "DHE"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "30",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "30",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "30",
+                                      "dur": "1",
+                                      "token": "DHA"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "31",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "31",
+                                      "dur": "1",
+                                      "token": "KI"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "TihaiAvartan",
+          "start": "32",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Prefix",
+              "start": "32",
+              "dur": "6",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "32",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "32",
+                      "dur": "1/2",
+                      "token": "NA"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "65/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "65/2",
+                          "dur": "1/2",
+                          "token": "TA"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "33",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "33",
+                      "dur": "1/2",
+                      "token": "GE"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "67/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "Rest",
+                          "start": "67/2",
+                          "dur": "1/2",
+                          "token": "-"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "34",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "34",
+                      "dur": "1",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "35",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "35",
+                      "dur": "1/3",
+                      "token": "DHA"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "106/3",
+                      "dur": "2/3",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "106/3",
+                          "dur": "1/3",
+                          "token": "TA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "107/3",
+                          "dur": "1/3",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "107/3",
+                              "dur": "1/3",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "36",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "36",
+                      "dur": "1/2",
+                      "token": "NA"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "73/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "73/2",
+                          "dur": "1/2",
+                          "token": "NA"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "37",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "37",
+                      "dur": "1",
+                      "token": "DA"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Tihai",
+              "start": "38",
+              "dur": "10",
+              "children": [
+                {
+                  "label": "Phrase",
+                  "start": "38",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "38",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "38",
+                          "dur": "1",
+                          "token": "TA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "39",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "Rest",
+                          "start": "39",
+                          "dur": "1",
+                          "token": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "40",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "40",
+                          "dur": "1/2",
+                          "token": "DIN"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "81/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "81/2",
+                              "dur": "1/2",
+                              "token": "TA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "41",
+                  "dur": "1/2",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "41",
+                      "dur": "1/2",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "83/2",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "83/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "83/2",
+                          "dur": "1",
+                          "token": "TA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "85/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "Rest",
+                          "start": "85/2",
+                          "dur": "1",
+                          "token": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "87/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "87/2",
+                          "dur": "1/2",
+                          "token": "DIN"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "44",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "44",
+                              "dur": "1/2",
+                              "token": "TA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "89/2",
+                  "dur": "1/2",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "89/2",
+                      "dur": "1/2",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "45",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "45",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "45",
+                          "dur": "1",
+                          "token": "TA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "46",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "Rest",
+                          "start": "46",
+                          "dur": "1",
+                          "token": "-"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "47",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "47",
+                          "dur": "1/2",
+                          "token": "DIN"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "95/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "95/2",
+                              "dur": "1/2",
+                              "token": "TA"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sam",
+          "start": "48",
+          "dur": "1",
+          "children": [
+            {
+              "label": "SamMatra",
+              "start": "48",
+              "dur": "1",
+              "children": [
+                {
+                  "label": "BolSlot",
+                  "start": "48",
+                  "dur": "1",
+                  "token": "TA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule_sequence": [
+      "Composition -> Avartan Avartan TihaiAvartan Sam",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'TA'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'GE'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DA'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHIN'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KDA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHI'",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'KI'",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'DHE'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TIT'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "TihaiAvartan -> Prefix Tihai",
+      "Prefix -> SamMatra Matra Matra Matra Matra Matra",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'NA'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DA'",
+      "Tihai -> Phrase Gap Phrase Gap Phrase",
+      "Phrase -> Matra Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Sam -> SamMatra",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'TA'"
+    ],
+    "rendered_tihai_cycle": [
+      "TihaiAvartan [32, 48)",
+      "  Prefix [32, 38)",
+      "    SamMatra [32, 33): NA TA",
+      "    Matra [33, 34): GE -",
+      "    Matra [34, 35): -",
+      "    Matra [35, 36): DHA TA -",
+      "    Matra [36, 37): NA NA",
+      "    Matra [37, 38): DA",
+      "  Tihai [38, 48)",
+      "    Phrase [38, 41)",
+      "      Matra [38, 39): TA",
+      "      Matra [39, 40): -",
+      "      Matra [40, 41): DIN TA",
+      "    Gap [41, 83/2)",
+      "      Rest '-' [41, 83/2)",
+      "    Phrase [83/2, 89/2)",
+      "      Matra [83/2, 85/2): TA",
+      "      Matra [85/2, 87/2): -",
+      "      Matra [87/2, 89/2): DIN TA",
+      "    Gap [89/2, 45)",
+      "      Rest '-' [89/2, 45)",
+      "    Phrase [45, 48)",
+      "      Matra [45, 46): TA",
+      "      Matra [46, 47): -",
+      "      Matra [47, 48): DIN TA",
+      "Sam [48, 49)",
+      "  SamMatra [48, 49): TA"
+    ]
+  },
+  {
+    "dur_p": "1",
+    "dur_g": "1/4",
+    "tihai_start_matra_in_cycle": "25/2",
+    "timeline": [
+      [
+        "NA",
+        "0",
+        "1/4"
+      ],
+      [
+        "DHA",
+        "1/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "1/2",
+        "1/4"
+      ],
+      [
+        "RE",
+        "3/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "1",
+        "1/2"
+      ],
+      [
+        "-",
+        "3/2",
+        "1/2"
+      ],
+      [
+        "RE",
+        "2",
+        "1"
+      ],
+      [
+        "RE",
+        "3",
+        "1"
+      ],
+      [
+        "NA",
+        "4",
+        "1"
+      ],
+      [
+        "KI",
+        "5",
+        "1/2"
+      ],
+      [
+        "KI",
+        "11/2",
+        "1/2"
+      ],
+      [
+        "DHA",
+        "6",
+        "1/2"
+      ],
+      [
+        "-",
+        "13/2",
+        "1/2"
+      ],
+      [
+        "NA",
+        "7",
+        "1/3"
+      ],
+      [
+        "TA",
+        "22/3",
+        "1/3"
+      ],
+      [
+        "KDA",
+        "23/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "8",
+        "1/2"
+      ],
+      [
+        "TA",
+        "17/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "9",
+        "1"
+      ],
+      [
+        "DHE",
+        "10",
+        "1"
+      ],
+      [
+        "DIN",
+        "11",
+        "1/4"
+      ],
+      [
+        "TA",
+        "45/4",
+        "1/4"
+      ],
+      [
+        "DHA",
+        "23/2",
+        "1/4"
+      ],
+      [
+        "TA",
+        "47/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "12",
+        "1/2"
+      ],
+      [
+        "TA",
+        "25/2",
+        "1/2"
+      ],
+      [
+        "-",
+        "13",
+        "1"
+      ],
+      [
+        "KI",
+        "14",
+        "1"
+      ],
+      [
+        "TA",
+        "15",
+        "1/4"
+      ],
+      [
+        "NA",
+        "61/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "31/2",
+        "1/4"
+      ],
+      [
+        "DHA",
+        "63/4",
+        "1/4"
+      ],
+      [
+        "GE",
+        "16",
+        "1"
+      ],
+      [
+        "TA",
+        "17",
+        "1/3"
+      ],
+      [
+        "KI",
+        "52/3",
+        "1/3"
+      ],
+      [
+        "KDA",
+        "53/3",
+        "1/3"
+      ],
+      [
+        "NA",
+        "18",
+        "1/2"
+      ],
+      [
+        "TA",
+        "37/2",
+        "1/2"
+      ],
+      [
+        "RE",
+        "19",
+        "1"
+      ],
+      [
+        "TII",
+        "20",
+        "1"
+      ],
+      [
+        "DHI",
+        "21",
+        "1/2"
+      ],
+      [
+        "-",
+        "43/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "22",
+        "1/4"
+      ],
+      [
+        "KI",
+        "89/4",
+        "1/4"
+      ],
+      [
+        "KI",
+        "45/2",
+        "1/4"
+      ],
+      [
+        "-",
+        "91/4",
+        "1/4"
+      ],
+      [
+        "TA",
+        "23",
+        "1"
+      ],
+      [
+        "KI",
+        "24",
+        "1/3"
+      ],
+      [
+        "TA",
+        "73/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "74/3",
+        "1/3"
+      ],
+      [
+        "KI",
+        "25",
+        "1"
+      ],
+      [
+        "NA",
+        "26",
+        "1"
+      ],
+      [
+        "DHA",
+        "27",
+        "1/2"
+      ],
+      [
+        "KI",
+        "55/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "28",
+        "1"
+      ],
+      [
+        "NA",
+        "29",
+        "1/3"
+      ],
+      [
+        "NA",
+        "88/3",
+        "1/3"
+      ],
+      [
+        "DHA",
+        "89/3",
+        "1/3"
+      ],
+      [
+        "DHIN",
+        "30",
+        "1/2"
+      ],
+      [
+        "-",
+        "61/2",
+        "1/2"
+      ],
+      [
+        "KI",
+        "31",
+        "1/3"
+      ],
+      [
+        "TA",
+        "94/3",
+        "1/3"
+      ],
+      [
+        "TA",
+        "95/3",
+        "1/3"
+      ],
+      [
+        "KI",
+        "32",
+        "1"
+      ],
+      [
+        "GE",
+        "33",
+        "1/2"
+      ],
+      [
+        "DHIN",
+        "67/2",
+        "1/2"
+      ],
+      [
+        "TA",
+        "34",
+        "1"
+      ],
+      [
+        "TA",
+        "35",
+        "1"
+      ],
+      [
+        "DA",
+        "36",
+        "1"
+      ],
+      [
+        "DHE",
+        "37",
+        "1"
+      ],
+      [
+        "NA",
+        "38",
+        "1"
+      ],
+      [
+        "NA",
+        "39",
+        "1"
+      ],
+      [
+        "DHE",
+        "40",
+        "1"
+      ],
+      [
+        "DHA",
+        "41",
+        "1"
+      ],
+      [
+        "-",
+        "42",
+        "1"
+      ],
+      [
+        "TA",
+        "43",
+        "1"
+      ],
+      [
+        "-",
+        "44",
+        "1/2"
+      ],
+      [
+        "NA",
+        "89/2",
+        "1/3"
+      ],
+      [
+        "TRA",
+        "269/6",
+        "1/3"
+      ],
+      [
+        "-",
+        "271/6",
+        "1/3"
+      ],
+      [
+        "-",
+        "91/2",
+        "1/4"
+      ],
+      [
+        "NA",
+        "183/4",
+        "1/3"
+      ],
+      [
+        "TRA",
+        "553/12",
+        "1/3"
+      ],
+      [
+        "-",
+        "557/12",
+        "1/3"
+      ],
+      [
+        "-",
+        "187/4",
+        "1/4"
+      ],
+      [
+        "NA",
+        "47",
+        "1/3"
+      ],
+      [
+        "TRA",
+        "142/3",
+        "1/3"
+      ],
+      [
+        "-",
+        "143/3",
+        "1/3"
+      ],
+      [
+        "KI",
+        "48",
+        "1"
+      ]
+    ],
+    "tree": {
+      "label": "Composition",
+      "start": "0",
+      "dur": "49",
+      "children": [
+        {
+          "label": "Avartan",
+          "start": "0",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "0",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "0",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "0",
+                      "dur": "1/4",
+                      "token": "NA"
+                    },
+                    {
+                      "label": "SamMatra",
+                      "start": "1/4",
+                      "dur": "3/4",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1/4",
+                          "dur": "1/4",
+                          "token": "DHA"
+                        },
+                        {
+                          "label": "SamMatra",
+                          "start": "1/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "1/2",
+                              "dur": "1/4",
+                              "token": "TA"
+                            },
+                            {
+                              "label": "SamMatra",
+                              "start": "3/4",
+                              "dur": "1/4",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "3/4",
+                                  "dur": "1/4",
+                                  "token": "RE"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "1",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "1",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "1",
+                          "dur": "1/2",
+                          "token": "TA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "3/2",
+                          "dur": "1/2",
+                          "children": [
+                            {
+                              "label": "Rest",
+                              "start": "3/2",
+                              "dur": "1/2",
+                              "token": "-"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "2",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "2",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "2",
+                              "dur": "1",
+                              "token": "RE"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "3",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "3",
+                              "dur": "1",
+                              "token": "RE"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "4",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "4",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "4",
+                          "dur": "1",
+                          "token": "NA"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "5",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "5",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "5",
+                              "dur": "1/2",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "11/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "11/2",
+                                  "dur": "1/2",
+                                  "token": "KI"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "6",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "6",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "6",
+                                  "dur": "1/2",
+                                  "token": "DHA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "13/2",
+                                  "dur": "1/2",
+                                  "children": [
+                                    {
+                                      "label": "Rest",
+                                      "start": "13/2",
+                                      "dur": "1/2",
+                                      "token": "-"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "7",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "7",
+                                  "dur": "1/3",
+                                  "token": "NA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "22/3",
+                                  "dur": "2/3",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "22/3",
+                                      "dur": "1/3",
+                                      "token": "TA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "23/3",
+                                      "dur": "1/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "23/3",
+                                          "dur": "1/3",
+                                          "token": "KDA"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "8",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "8",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "8",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "8",
+                              "dur": "1/2",
+                              "token": "NA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "17/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "17/2",
+                                  "dur": "1/2",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "9",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "9",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "9",
+                                  "dur": "1",
+                                  "token": "TA"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "10",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "10",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "10",
+                                      "dur": "1",
+                                      "token": "DHE"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "11",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "11",
+                                      "dur": "1/4",
+                                      "token": "DIN"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "45/4",
+                                      "dur": "3/4",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "45/4",
+                                          "dur": "1/4",
+                                          "token": "TA"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "23/2",
+                                          "dur": "1/2",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "23/2",
+                                              "dur": "1/4",
+                                              "token": "DHA"
+                                            },
+                                            {
+                                              "label": "Matra",
+                                              "start": "47/4",
+                                              "dur": "1/4",
+                                              "children": [
+                                                {
+                                                  "label": "BolSlot",
+                                                  "start": "47/4",
+                                                  "dur": "1/4",
+                                                  "token": "TA"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "12",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "12",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "12",
+                              "dur": "1/2",
+                              "token": "TA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "25/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "25/2",
+                                  "dur": "1/2",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "13",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "13",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "13",
+                                  "dur": "1",
+                                  "token": "-"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "14",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "14",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "14",
+                                      "dur": "1",
+                                      "token": "KI"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "15",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "15",
+                                      "dur": "1/4",
+                                      "token": "TA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "61/4",
+                                      "dur": "3/4",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "61/4",
+                                          "dur": "1/4",
+                                          "token": "NA"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "31/2",
+                                          "dur": "1/2",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "31/2",
+                                              "dur": "1/4",
+                                              "token": "TA"
+                                            },
+                                            {
+                                              "label": "Matra",
+                                              "start": "63/4",
+                                              "dur": "1/4",
+                                              "children": [
+                                                {
+                                                  "label": "BolSlot",
+                                                  "start": "63/4",
+                                                  "dur": "1/4",
+                                                  "token": "DHA"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Avartan",
+          "start": "16",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Vibhag0",
+              "start": "16",
+              "dur": "4",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "16",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "16",
+                      "dur": "1",
+                      "token": "GE"
+                    }
+                  ]
+                },
+                {
+                  "label": "Vibhag0",
+                  "start": "17",
+                  "dur": "3",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "17",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "17",
+                          "dur": "1/3",
+                          "token": "TA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "52/3",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "52/3",
+                              "dur": "1/3",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "53/3",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "53/3",
+                                  "dur": "1/3",
+                                  "token": "KDA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag0",
+                      "start": "18",
+                      "dur": "2",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "18",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "18",
+                              "dur": "1/2",
+                              "token": "NA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "37/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "37/2",
+                                  "dur": "1/2",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "19",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "19",
+                              "dur": "1",
+                              "token": "RE"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Avartan",
+              "start": "20",
+              "dur": "12",
+              "children": [
+                {
+                  "label": "Vibhag1",
+                  "start": "20",
+                  "dur": "4",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "20",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "20",
+                          "dur": "1",
+                          "token": "TII"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag1",
+                      "start": "21",
+                      "dur": "3",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "21",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "21",
+                              "dur": "1/2",
+                              "token": "DHI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "43/2",
+                              "dur": "1/2",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "43/2",
+                                  "dur": "1/2",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag1",
+                          "start": "22",
+                          "dur": "2",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "22",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "22",
+                                  "dur": "1/4",
+                                  "token": "KI"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "89/4",
+                                  "dur": "3/4",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "89/4",
+                                      "dur": "1/4",
+                                      "token": "KI"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "45/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "45/2",
+                                          "dur": "1/4",
+                                          "token": "KI"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "91/4",
+                                          "dur": "1/4",
+                                          "children": [
+                                            {
+                                              "label": "Rest",
+                                              "start": "91/4",
+                                              "dur": "1/4",
+                                              "token": "-"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "23",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "23",
+                                  "dur": "1",
+                                  "token": "TA"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Avartan",
+                  "start": "24",
+                  "dur": "8",
+                  "children": [
+                    {
+                      "label": "Vibhag2",
+                      "start": "24",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "24",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "24",
+                              "dur": "1/3",
+                              "token": "KI"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "73/3",
+                              "dur": "2/3",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "73/3",
+                                  "dur": "1/3",
+                                  "token": "TA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "74/3",
+                                  "dur": "1/3",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "74/3",
+                                      "dur": "1/3",
+                                      "token": "TA"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag2",
+                          "start": "25",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "25",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "25",
+                                  "dur": "1",
+                                  "token": "KI"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag2",
+                              "start": "26",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "26",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "26",
+                                      "dur": "1",
+                                      "token": "NA"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "27",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "27",
+                                      "dur": "1/2",
+                                      "token": "DHA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "55/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "55/2",
+                                          "dur": "1/2",
+                                          "token": "KI"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Vibhag3",
+                      "start": "28",
+                      "dur": "4",
+                      "children": [
+                        {
+                          "label": "Matra",
+                          "start": "28",
+                          "dur": "1",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "28",
+                              "dur": "1",
+                              "token": "TA"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Vibhag3",
+                          "start": "29",
+                          "dur": "3",
+                          "children": [
+                            {
+                              "label": "Matra",
+                              "start": "29",
+                              "dur": "1",
+                              "children": [
+                                {
+                                  "label": "BolSlot",
+                                  "start": "29",
+                                  "dur": "1/3",
+                                  "token": "NA"
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "88/3",
+                                  "dur": "2/3",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "88/3",
+                                      "dur": "1/3",
+                                      "token": "NA"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "89/3",
+                                      "dur": "1/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "89/3",
+                                          "dur": "1/3",
+                                          "token": "DHA"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Vibhag3",
+                              "start": "30",
+                              "dur": "2",
+                              "children": [
+                                {
+                                  "label": "Matra",
+                                  "start": "30",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "30",
+                                      "dur": "1/2",
+                                      "token": "DHIN"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "61/2",
+                                      "dur": "1/2",
+                                      "children": [
+                                        {
+                                          "label": "Rest",
+                                          "start": "61/2",
+                                          "dur": "1/2",
+                                          "token": "-"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Matra",
+                                  "start": "31",
+                                  "dur": "1",
+                                  "children": [
+                                    {
+                                      "label": "BolSlot",
+                                      "start": "31",
+                                      "dur": "1/3",
+                                      "token": "KI"
+                                    },
+                                    {
+                                      "label": "Matra",
+                                      "start": "94/3",
+                                      "dur": "2/3",
+                                      "children": [
+                                        {
+                                          "label": "BolSlot",
+                                          "start": "94/3",
+                                          "dur": "1/3",
+                                          "token": "TA"
+                                        },
+                                        {
+                                          "label": "Matra",
+                                          "start": "95/3",
+                                          "dur": "1/3",
+                                          "children": [
+                                            {
+                                              "label": "BolSlot",
+                                              "start": "95/3",
+                                              "dur": "1/3",
+                                              "token": "TA"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "TihaiAvartan",
+          "start": "32",
+          "dur": "16",
+          "children": [
+            {
+              "label": "Prefix",
+              "start": "32",
+              "dur": "25/2",
+              "children": [
+                {
+                  "label": "SamMatra",
+                  "start": "32",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "32",
+                      "dur": "1",
+                      "token": "KI"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "33",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "33",
+                      "dur": "1/2",
+                      "token": "GE"
+                    },
+                    {
+                      "label": "Matra",
+                      "start": "67/2",
+                      "dur": "1/2",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "67/2",
+                          "dur": "1/2",
+                          "token": "DHIN"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "34",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "34",
+                      "dur": "1",
+                      "token": "TA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "35",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "35",
+                      "dur": "1",
+                      "token": "TA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "36",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "36",
+                      "dur": "1",
+                      "token": "DA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "37",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "37",
+                      "dur": "1",
+                      "token": "DHE"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "38",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "38",
+                      "dur": "1",
+                      "token": "NA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "39",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "39",
+                      "dur": "1",
+                      "token": "NA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "40",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "40",
+                      "dur": "1",
+                      "token": "DHE"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "41",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "41",
+                      "dur": "1",
+                      "token": "DHA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "42",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "42",
+                      "dur": "1",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Matra",
+                  "start": "43",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "BolSlot",
+                      "start": "43",
+                      "dur": "1",
+                      "token": "TA"
+                    }
+                  ]
+                },
+                {
+                  "label": "Rest",
+                  "start": "44",
+                  "dur": "1/2",
+                  "token": "-"
+                }
+              ]
+            },
+            {
+              "label": "Tihai",
+              "start": "89/2",
+              "dur": "7/2",
+              "children": [
+                {
+                  "label": "Phrase",
+                  "start": "89/2",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "89/2",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "89/2",
+                          "dur": "1/3",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "269/6",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "269/6",
+                              "dur": "1/3",
+                              "token": "TRA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "271/6",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "271/6",
+                                  "dur": "1/3",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "91/2",
+                  "dur": "1/4",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "91/2",
+                      "dur": "1/4",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "183/4",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "183/4",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "183/4",
+                          "dur": "1/3",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "553/12",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "553/12",
+                              "dur": "1/3",
+                              "token": "TRA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "557/12",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "557/12",
+                                  "dur": "1/3",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Gap",
+                  "start": "187/4",
+                  "dur": "1/4",
+                  "children": [
+                    {
+                      "label": "Rest",
+                      "start": "187/4",
+                      "dur": "1/4",
+                      "token": "-"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phrase",
+                  "start": "47",
+                  "dur": "1",
+                  "children": [
+                    {
+                      "label": "Matra",
+                      "start": "47",
+                      "dur": "1",
+                      "children": [
+                        {
+                          "label": "BolSlot",
+                          "start": "47",
+                          "dur": "1/3",
+                          "token": "NA"
+                        },
+                        {
+                          "label": "Matra",
+                          "start": "142/3",
+                          "dur": "2/3",
+                          "children": [
+                            {
+                              "label": "BolSlot",
+                              "start": "142/3",
+                              "dur": "1/3",
+                              "token": "TRA"
+                            },
+                            {
+                              "label": "Matra",
+                              "start": "143/3",
+                              "dur": "1/3",
+                              "children": [
+                                {
+                                  "label": "Rest",
+                                  "start": "143/3",
+                                  "dur": "1/3",
+                                  "token": "-"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sam",
+          "start": "48",
+          "dur": "1",
+          "children": [
+            {
+              "label": "SamMatra",
+              "start": "48",
+              "dur": "1",
+              "children": [
+                {
+                  "label": "BolSlot",
+                  "start": "48",
+                  "dur": "1",
+                  "token": "KI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "rule_sequence": [
+      "Composition -> Avartan Avartan TihaiAvartan Sam",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'NA'",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'DHA'",
+      "SamMatra -> BolSlot SamMatra",
+      "BolSlot -> 'TA'",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KDA'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DIN'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Avartan -> Vibhag0 Avartan",
+      "Vibhag0 -> SamMatra Vibhag0",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'GE'",
+      "Vibhag0 -> Matra Vibhag0",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KDA'",
+      "Vibhag0 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'RE'",
+      "Avartan -> Vibhag1 Avartan",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TII'",
+      "Vibhag1 -> Matra Vibhag1",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Vibhag1 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Avartan -> Vibhag2 Vibhag3",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag2 -> Matra Vibhag2",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag2 -> Matra Matra",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Vibhag3 -> Matra Vibhag3",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Vibhag3 -> Matra Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'DHIN'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "TihaiAvartan -> Prefix Tihai",
+      "Prefix -> SamMatra Matra Matra Matra Matra Matra Matra Matra Matra Matra Matra Matra Rest",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'KI'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'GE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHIN'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHE'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'DHA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Matra -> BolSlot",
+      "BolSlot -> 'TA'",
+      "Rest -> '-'",
+      "Tihai -> Phrase Gap Phrase Gap Phrase",
+      "Phrase -> Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TRA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TRA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Gap -> Rest",
+      "Rest -> '-'",
+      "Phrase -> Matra",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'NA'",
+      "Matra -> BolSlot Matra",
+      "BolSlot -> 'TRA'",
+      "Matra -> Rest",
+      "Rest -> '-'",
+      "Sam -> SamMatra",
+      "SamMatra -> BolSlot",
+      "BolSlot -> 'KI'"
+    ],
+    "rendered_tihai_cycle": [
+      "TihaiAvartan [32, 48)",
+      "  Prefix [32, 89/2)",
+      "    SamMatra [32, 33): KI",
+      "    Matra [33, 34): GE DHIN",
+      "    Matra [34, 35): TA",
+      "    Matra [35, 36): TA",
+      "    Matra [36, 37): DA",
+      "    Matra [37, 38): DHE",
+      "    Matra [38, 39): NA",
+      "    Matra [39, 40): NA",
+      "    Matra [40, 41): DHE",
+      "    Matra [41, 42): DHA",
+      "    Matra [42, 43): -",
+      "    Matra [43, 44): TA",
+      "    Rest '-' [44, 89/2)",
+      "  Tihai [89/2, 48)",
+      "    Phrase [89/2, 91/2)",
+      "      Matra [89/2, 91/2): NA TRA -",
+      "    Gap [91/2, 183/4)",
+      "      Rest '-' [91/2, 183/4)",
+      "    Phrase [183/4, 187/4)",
+      "      Matra [183/4, 187/4): NA TRA -",
+      "    Gap [187/4, 47)",
+      "      Rest '-' [187/4, 47)",
+      "    Phrase [47, 48)",
+      "      Matra [47, 48): NA TRA -",
+      "Sam [48, 49)",
+      "  SamMatra [48, 49): KI"
+    ]
+  }
+]

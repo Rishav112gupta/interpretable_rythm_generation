@@ -1,0 +1,149 @@
+{
+  "grammar_plain_rules": 44,
+  "grammar_rest_rules": 38,
+  "grammar_rest_nonterminals": 10,
+  "real_avartans": 351,
+  "real_full16": 117,
+  "empty_matras": 893,
+  "total_matras": 5616,
+  "real_wellformed_plain": 117,
+  "real_wellformed_rest": 351,
+  "notational_vs_measured_median": 0.1933115402894785,
+  "notational_vs_measured_p90": 0.5153968376722631,
+  "offset_on_beat": 0.17525773195876287,
+  "offset_half": 0.10830806549423894,
+  "offset_quarter": 0.1569436021831413,
+  "unconstrained_wellformed_plain": 0,
+  "unconstrained_wellformed_rest": 0,
+  "constrained_wellformed": 2000,
+  "n_samples": 2000,
+  "constrained_empty_matra_rate": 0.09925,
+  "n_candidates": 115,
+  "chance_near_sam": 0.0430563978168587,
+  "tol": 0.15,
+  "by_tol": {
+    "0.1": {
+      "lands_a": 8,
+      "lands_b_observed": 17,
+      "lands_b_formula": 7,
+      "regular": 53,
+      "strict_b": 4
+    },
+    "0.15": {
+      "lands_a": 8,
+      "lands_b_observed": 18,
+      "lands_b_formula": 10,
+      "regular": 65,
+      "strict_b": 5
+    },
+    "0.25": {
+      "lands_a": 9,
+      "lands_b_observed": 19,
+      "lands_b_formula": 12,
+      "regular": 87,
+      "strict_b": 12
+    }
+  },
+  "no_following_stroke": 6,
+  "zero_gap": 55,
+  "nonzero_gap": 60,
+  "gap_in_plan_set": 35,
+  "strict_b_list": [
+    {
+      "composition": "luc_18",
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "dur_p": 1.3393462309781903,
+      "dur_g": 0.0,
+      "gap_in_plan_set": false
+    },
+    {
+      "composition": "luc_18",
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "dur_p": 1.2820230873788603,
+      "dur_g": 1.4447498629900224,
+      "gap_in_plan_set": true
+    },
+    {
+      "composition": "luc_18",
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "dur_p": 1.3174271225937133,
+      "dur_g": 0.0,
+      "gap_in_plan_set": false
+    },
+    {
+      "composition": "ben_23",
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "GHI"
+      ],
+      "gap": [
+        "DI",
+        "NA",
+        "DHA",
+        "GE"
+      ],
+      "dur_p": 1.2035916176494652,
+      "dur_g": 1.5920186248035861,
+      "gap_in_plan_set": true
+    },
+    {
+      "composition": "ben_25",
+      "phrase": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA",
+        "TA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "DHA"
+      ],
+      "dur_p": 4.009029345216135,
+      "dur_g": 0.9450560874471705,
+      "gap_in_plan_set": true
+    }
+  ],
+  "n_generated": 200,
+  "gen_body_wellformed": 200,
+  "gen_tihai_exact": 200,
+  "gen_copy": 200,
+  "gen_rediscovered": 94,
+  "gen_detector_breakdown": {
+    "rotated one token earlier (preceding '-' read as part of the phrase, no gap)": 93,
+    "exact": 94,
+    "other overlapping candidate": 12,
+    "phrase longer than the detector's 12-token limit": 1
+  },
+  "n_shapes": 23,
+  "n_spontaneous_sequences": 300,
+  "spontaneous_candidates": 12,
+  "spontaneous_landing": 0
+}

@@ -1,0 +1,2909 @@
+[
+  {
+    "composition": "dli_1",
+    "start_slot_index": 96,
+    "phrase": [
+      "DHA",
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TI",
+      "TA",
+      "KDA",
+      "DHI",
+      "KI",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 8.008187455831688,
+    "dur_g": 0.0,
+    "period_1": 8.008187455831688,
+    "period_2": 7.991812544168312,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_1",
+    "start_slot_index": 192,
+    "phrase": [
+      "DHA",
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 4.065225310156251,
+    "dur_g": 0.0,
+    "period_1": 4.065225310156251,
+    "period_2": 4.051391405071996,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_1",
+    "start_slot_index": 240,
+    "phrase": [
+      "TAA",
+      "KE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 4.131575497911513,
+    "dur_g": 0.0,
+    "period_1": 4.131575497911513,
+    "period_2": 3.9671969078123084,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_2",
+    "start_slot_index": 128,
+    "phrase": [
+      "DHA",
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "DHA",
+      "GE",
+      "TI",
+      "TA",
+      "KDA",
+      "DHI"
+    ],
+    "gap": [
+      "KI",
+      "TA",
+      "DHA",
+      "GE"
+    ],
+    "dur_p": 5.899197025835008,
+    "dur_g": 2.0462833633068414,
+    "period_1": 7.945480389141849,
+    "period_2": 8.05451961085815,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_6",
+    "start_slot_index": 0,
+    "phrase": [
+      "GHI",
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "TIT"
+    ],
+    "dur_p": 2.15173395340591,
+    "dur_g": 0.9786647312916967,
+    "period_1": 3.1303986846976066,
+    "period_2": 3.0899521081826427,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_6",
+    "start_slot_index": 23,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA",
+      "TIT",
+      "KII"
+    ],
+    "gap": [],
+    "dur_p": 2.9033545563295835,
+    "dur_g": 0.0,
+    "period_1": 2.9033545563295835,
+    "period_2": 3.0031945941611298,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_6",
+    "start_slot_index": 41,
+    "phrase": [
+      "NA",
+      "GA",
+      "TIT",
+      "GHI",
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "TIT",
+      "GHI",
+      "DA"
+    ],
+    "dur_p": 3.972045373921617,
+    "dur_g": 2.000956103125368,
+    "period_1": 5.973001477046985,
+    "period_2": 5.976924256000842,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_6",
+    "start_slot_index": 77,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA",
+      "TIT",
+      "KII"
+    ],
+    "gap": [],
+    "dur_p": 3.0964001786261903,
+    "dur_g": 0.0,
+    "period_1": 3.0964001786261903,
+    "period_2": 3.028275247945878,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "dli_6",
+    "start_slot_index": 95,
+    "phrase": [
+      "NA",
+      "GA",
+      "TIT"
+    ],
+    "gap": [
+      "GHI",
+      "DA"
+    ],
+    "dur_p": 1.9973730364695896,
+    "dur_g": 1.0797291232363477,
+    "period_1": 3.0771021597059374,
+    "period_2": 3.030917944512865,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "ajr_9",
+    "start_slot_index": 170,
+    "phrase": [
+      "DHA",
+      "GE",
+      "TA",
+      "TIT",
+      "DHA",
+      "GE",
+      "TA",
+      "DHA"
+    ],
+    "gap": [],
+    "dur_p": 8.035595224421542,
+    "dur_g": 0.0,
+    "period_1": 8.035595224421542,
+    "period_2": 7.964404775578458,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_14",
+    "start_slot_index": 14,
+    "phrase": [
+      "TI",
+      "TA",
+      "KDA",
+      "DHA"
+    ],
+    "gap": [],
+    "dur_p": 1.922791670468449,
+    "dur_g": 0.0,
+    "period_1": 1.922791670468449,
+    "period_2": 1.9472285520192738,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_14",
+    "start_slot_index": 30,
+    "phrase": [
+      "TI",
+      "TA"
+    ],
+    "gap": [
+      "KDA",
+      "DHET",
+      "TAA"
+    ],
+    "dur_p": 0.9940923840769127,
+    "dur_g": 2.1196335536892477,
+    "period_1": 3.1137259377661604,
+    "period_2": 3.065876293762063,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_14",
+    "start_slot_index": 70,
+    "phrase": [
+      "TA",
+      "TAA",
+      "GE",
+      "NA"
+    ],
+    "gap": [
+      "DHI"
+    ],
+    "dur_p": 1.9907464743722585,
+    "dur_g": 0.5215925495452041,
+    "period_1": 2.5123390239174626,
+    "period_2": 2.4610379260335407,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_14",
+    "start_slot_index": 91,
+    "phrase": [
+      "TA",
+      "TAA",
+      "GE",
+      "NA"
+    ],
+    "gap": [
+      "DHI"
+    ],
+    "dur_p": 1.941897266309219,
+    "dur_g": 0.5087672771536162,
+    "period_1": 2.4506645434628354,
+    "period_2": 2.456907206088353,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_14",
+    "start_slot_index": 112,
+    "phrase": [
+      "TA",
+      "TAA",
+      "GE",
+      "NA"
+    ],
+    "gap": [
+      "DHI"
+    ],
+    "dur_p": 2.0005658779444744,
+    "dur_g": 0.45789727982757,
+    "period_1": 2.4584631577720444,
+    "period_2": 2.4589429298940075,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": true,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 13,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA"
+    ],
+    "dur_p": 1.5840412301385811,
+    "dur_g": 0.5725754149099593,
+    "period_1": 2.1566166450485404,
+    "period_2": 1.9933424265550155,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 33,
+    "phrase": [
+      "KE",
+      "TRA",
+      "KA",
+      "DHI",
+      "KI",
+      "TA",
+      "KA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 4.0048055162327,
+    "dur_g": 0.0,
+    "period_1": 4.0048055162327,
+    "period_2": 4.062678434297048,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 62,
+    "phrase": [
+      "GE",
+      "TI",
+      "TA"
+    ],
+    "gap": [
+      "DHA",
+      "GE",
+      "TI",
+      "TA",
+      "TAA"
+    ],
+    "dur_p": 1.523091032401151,
+    "dur_g": 2.6000923724931866,
+    "period_1": 4.123183404894338,
+    "period_2": 4.045774104969162,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 119,
+    "phrase": [
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET"
+    ],
+    "gap": [
+      "DHET",
+      "DHA"
+    ],
+    "dur_p": 8.92377776180669,
+    "dur_g": 3.1198449313872345,
+    "period_1": 12.043622693193925,
+    "period_2": 11.908664766106384,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 174,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA"
+    ],
+    "dur_p": 1.6795318531430894,
+    "dur_g": 0.6201591190572913,
+    "period_1": 2.2996909722003807,
+    "period_2": 2.1365244262278367,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 194,
+    "phrase": [
+      "KE",
+      "TRA",
+      "KA",
+      "DHI",
+      "KI",
+      "TA",
+      "KA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 3.8687619178136856,
+    "dur_g": 0.0,
+    "period_1": 3.8687619178136856,
+    "period_2": 3.771240714036267,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 223,
+    "phrase": [
+      "GE",
+      "TI",
+      "TA"
+    ],
+    "gap": [
+      "DHA",
+      "GE",
+      "TI",
+      "TA",
+      "TAA"
+    ],
+    "dur_p": 1.405792692955714,
+    "dur_g": 2.533345671640461,
+    "period_1": 3.9391383645961753,
+    "period_2": 4.006821156000598,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 280,
+    "phrase": [
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET"
+    ],
+    "gap": [
+      "DHET",
+      "DHA"
+    ],
+    "dur_p": 8.707960671506527,
+    "dur_g": 3.0735132320947116,
+    "period_1": 11.781473903601238,
+    "period_2": 11.89120708165646,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 335,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA"
+    ],
+    "dur_p": 1.2404496700164032,
+    "dur_g": 0.6233295831750922,
+    "period_1": 1.8637792531914954,
+    "period_2": 2.110296113877382,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 355,
+    "phrase": [
+      "KE",
+      "TRA",
+      "KA",
+      "DHI",
+      "KI",
+      "TA",
+      "KA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 3.821528829466473,
+    "dur_g": 0.0,
+    "period_1": 3.821528829466473,
+    "period_2": 3.960558819158024,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 384,
+    "phrase": [
+      "GE",
+      "TI",
+      "TA"
+    ],
+    "gap": [
+      "DHA",
+      "GE",
+      "TI",
+      "TA",
+      "TAA"
+    ],
+    "dur_p": 1.5127557772766238,
+    "dur_g": 2.542744959051703,
+    "period_1": 4.055500736328327,
+    "period_2": 4.032314285680343,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_16",
+    "start_slot_index": 441,
+    "phrase": [
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET",
+      "TAA",
+      "GE",
+      "DA",
+      "DHET"
+    ],
+    "gap": [
+      "DHET",
+      "DHA"
+    ],
+    "dur_p": 8.645319904330108,
+    "dur_g": 3.078694817827909,
+    "period_1": 11.724014722158017,
+    "period_2": 12.23586945370863,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 0,
+    "phrase": [
+      "DHIN",
+      "NA",
+      "GHI",
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [],
+    "dur_p": 4.2840316283056925,
+    "dur_g": 0.0,
+    "period_1": 4.2840316283056925,
+    "period_2": 3.9645089795160384,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 18,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.3393462309781903,
+    "dur_g": 0.0,
+    "period_1": 1.3393462309781903,
+    "period_2": 1.3400360425448437,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": true
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 24,
+    "phrase": [
+      "TA",
+      "KA",
+      "DHIN",
+      "NA"
+    ],
+    "gap": [],
+    "dur_p": 2.6157019286875993,
+    "dur_g": 0.0,
+    "period_1": 2.6157019286875993,
+    "period_2": 2.5332707819425906,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 36,
+    "phrase": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KAT"
+    ],
+    "gap": [],
+    "dur_p": 2.782688748567953,
+    "dur_g": 0.0,
+    "period_1": 2.782688748567953,
+    "period_2": 2.2209671826941957,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 51,
+    "phrase": [
+      "DHE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 1.2931555796140444,
+    "dur_g": 0.0,
+    "period_1": 1.2931555796140444,
+    "period_2": 1.336036283711394,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 57,
+    "phrase": [
+      "TE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 1.259895548716635,
+    "dur_g": 0.0,
+    "period_1": 1.259895548716635,
+    "period_2": 1.2001099496763388,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 67,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.2820230873788603,
+    "dur_g": 1.4447498629900224,
+    "period_1": 2.7267729503688827,
+    "period_2": 2.6744090128186997,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": true
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 89,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.2323126397947206,
+    "dur_g": 1.261032059965899,
+    "period_1": 2.4933446997606197,
+    "period_2": 2.634843616825087,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 111,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.282669987670495,
+    "dur_g": 1.4077765377152858,
+    "period_1": 2.6904465253857808,
+    "period_2": 2.176775294597924,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 129,
+    "phrase": [
+      "DHIN",
+      "NA",
+      "GHI",
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [],
+    "dur_p": 4.23974464420894,
+    "dur_g": 0.0,
+    "period_1": 4.23974464420894,
+    "period_2": 4.075692790588917,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 147,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.3174271225937133,
+    "dur_g": 0.0,
+    "period_1": 1.3174271225937133,
+    "period_2": 1.2559246096996617,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": true
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 153,
+    "phrase": [
+      "TA",
+      "KA",
+      "DHIN",
+      "NA"
+    ],
+    "gap": [],
+    "dur_p": 2.6089890187502363,
+    "dur_g": 0.0,
+    "period_1": 2.6089890187502363,
+    "period_2": 2.5836947042004823,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 165,
+    "phrase": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KAT"
+    ],
+    "gap": [],
+    "dur_p": 2.459907972261618,
+    "dur_g": 0.0,
+    "period_1": 2.459907972261618,
+    "period_2": 2.866878044661476,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 180,
+    "phrase": [
+      "DHE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 1.363386472153934,
+    "dur_g": 0.0,
+    "period_1": 1.363386472153934,
+    "period_2": 1.1630016482867376,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 186,
+    "phrase": [
+      "TE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 1.2407916420638543,
+    "dur_g": 0.0,
+    "period_1": 1.2407916420638543,
+    "period_2": 1.337548102746652,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 196,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.3295766943900844,
+    "dur_g": 1.4326553046470423,
+    "period_1": 2.7622319990371267,
+    "period_2": 2.594832326573126,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 218,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.2625042024920106,
+    "dur_g": 1.3813721624860733,
+    "period_1": 2.643876364978084,
+    "period_2": 2.9647295076879914,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "luc_18",
+    "start_slot_index": 240,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.2799278475247036,
+    "dur_g": 1.4483563839208244,
+    "period_1": 2.728284231445528,
+    "period_2": 2.53830199913736,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": true,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_19",
+    "start_slot_index": 89,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "DHA",
+      "KDA",
+      "DHA",
+      "TA",
+      "DHA"
+    ],
+    "gap": [],
+    "dur_p": 4.978369807364842,
+    "dur_g": 0.0,
+    "period_1": 4.978369807364842,
+    "period_2": 4.952307899526218,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_19",
+    "start_slot_index": 123,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "DHA",
+      "KDA",
+      "DHA",
+      "TA",
+      "DHA"
+    ],
+    "gap": [],
+    "dur_p": 4.849254703048473,
+    "dur_g": 0.0,
+    "period_1": 4.849254703048473,
+    "period_2": 5.045684401775944,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_19",
+    "start_slot_index": 157,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "DHA",
+      "KDA",
+      "DHA",
+      "TA"
+    ],
+    "gap": [
+      "DHA"
+    ],
+    "dur_p": 3.969951255737982,
+    "dur_g": 0.9528711353036101,
+    "period_1": 4.922822391041592,
+    "period_2": 4.930385579313068,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": true,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 38,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "GHI"
+    ],
+    "gap": [
+      "DI",
+      "NA",
+      "DHA",
+      "GE"
+    ],
+    "dur_p": 2.337259388223657,
+    "dur_g": 3.010787114876706,
+    "period_1": 5.348046503100363,
+    "period_2": 4.875471699829053,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 61,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "GHI"
+    ],
+    "dur_p": 1.6109393512014947,
+    "dur_g": 2.4447207893770866,
+    "period_1": 4.055660140578581,
+    "period_2": 4.0384371524014355,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 99,
+    "phrase": [
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "GHI",
+      "DI",
+      "NA",
+      "DHA"
+    ],
+    "dur_p": 2.4188929009460125,
+    "dur_g": 2.7888309726124234,
+    "period_1": 5.207723873558436,
+    "period_2": 4.974562301491503,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 160,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "GHI"
+    ],
+    "gap": [
+      "DI",
+      "NA",
+      "DHA",
+      "GE"
+    ],
+    "dur_p": 2.4029001333838806,
+    "dur_g": 2.8862293321168124,
+    "period_1": 5.289129465500693,
+    "period_2": 4.920375427975642,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 183,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "GHI"
+    ],
+    "dur_p": 1.5493532752709172,
+    "dur_g": 2.562451918420166,
+    "period_1": 4.111805193691083,
+    "period_2": 3.9570421895907657,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 221,
+    "phrase": [
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "GHI",
+      "DI",
+      "NA",
+      "DHA"
+    ],
+    "dur_p": 2.318851006479946,
+    "dur_g": 2.8528080112137815,
+    "period_1": 5.171659017693727,
+    "period_2": 4.999750131074052,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 282,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "GHI"
+    ],
+    "gap": [
+      "DI",
+      "NA",
+      "DHA",
+      "GE"
+    ],
+    "dur_p": 1.208807623381631,
+    "dur_g": 1.5569373083771438,
+    "period_1": 2.765744931758775,
+    "period_2": 2.7595540411299453,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 305,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "GHI"
+    ],
+    "dur_p": 0.7871234677024859,
+    "dur_g": 1.203473252150843,
+    "period_1": 1.990596719853329,
+    "period_2": 2.029861149767669,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 343,
+    "phrase": [
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "GHI",
+      "DI",
+      "NA",
+      "DHA"
+    ],
+    "dur_p": 1.1383750212381187,
+    "dur_g": 1.606025439625995,
+    "period_1": 2.7444004608641137,
+    "period_2": 2.5149787388951665,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 404,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "GHI"
+    ],
+    "gap": [
+      "DI",
+      "NA",
+      "DHA",
+      "GE"
+    ],
+    "dur_p": 1.2035916176494652,
+    "dur_g": 1.5920186248035861,
+    "period_1": 2.7956102424530513,
+    "period_2": 2.8959272802617306,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": true,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": true
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 427,
+    "phrase": [
+      "DA",
+      "NA",
+      "GA"
+    ],
+    "gap": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "GHI"
+    ],
+    "dur_p": 0.7919082249709106,
+    "dur_g": 1.225858649618715,
+    "period_1": 2.0177668745896256,
+    "period_2": 1.9506188320085869,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_23",
+    "start_slot_index": 465,
+    "phrase": [
+      "GE",
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "GHI",
+      "DI",
+      "NA",
+      "DHA"
+    ],
+    "dur_p": 1.1282852549507538,
+    "dur_g": 1.9484253759358694,
+    "period_1": 3.076710630886623,
+    "period_2": 2.569385576462679,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 26,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHE",
+      "RE",
+      "DHE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 4.075820739087707,
+    "dur_g": 0.0,
+    "period_1": 4.075820739087707,
+    "period_2": 3.8687017042830405,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 56,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "GHI",
+      "DA",
+      "NA",
+      "GA",
+      "NA",
+      "GA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 2.176124454156337,
+    "dur_g": 4.167532280369485,
+    "period_1": 6.343656734525823,
+    "period_2": 5.960253159987303,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 136,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "TE",
+      "RE",
+      "TE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 3.967258972215305,
+    "dur_g": 0.0,
+    "period_1": 3.967258972215305,
+    "period_2": 4.017286452728612,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 166,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "GHI",
+      "DA",
+      "NA",
+      "GA",
+      "NA",
+      "GA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 2.0106919905325924,
+    "dur_g": 4.100596662350441,
+    "period_1": 6.111288652883033,
+    "period_2": 6.0168938492832496,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 246,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHE",
+      "RE",
+      "DHE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 2.003852758483589,
+    "dur_g": 0.0,
+    "period_1": 2.003852758483589,
+    "period_2": 1.971188071870273,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 276,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "GHI",
+      "DA",
+      "NA",
+      "GA",
+      "NA",
+      "GA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.1985426492086333,
+    "dur_g": 1.88729295671763,
+    "period_1": 3.0858356059262633,
+    "period_2": 3.1096164529474493,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 362,
+    "phrase": [
+      "TE",
+      "RE",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TE",
+      "RE"
+    ],
+    "dur_p": 1.5094780200457762,
+    "dur_g": 0.4469452521847188,
+    "period_1": 1.956423272230495,
+    "period_2": 2.0096104480501253,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_24",
+    "start_slot_index": 386,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "GHI",
+      "DA",
+      "NA",
+      "GA",
+      "NA",
+      "GA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 0.9482019597590181,
+    "dur_g": 2.0315075652206644,
+    "period_1": 2.9797095249796826,
+    "period_2": 2.9499426180657053,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_25",
+    "start_slot_index": 122,
+    "phrase": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA",
+      "TA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "DHA"
+    ],
+    "dur_p": 4.009029345216135,
+    "dur_g": 0.9450560874471705,
+    "period_1": 4.954085432663305,
+    "period_2": 4.948173636879972,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": true,
+    "has_following_stroke": true,
+    "strict_b": true
+  },
+  {
+    "composition": "ben_25",
+    "start_slot_index": 160,
+    "phrase": [
+      "DHA",
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA",
+      "TA",
+      "KI"
+    ],
+    "gap": [
+      "TA"
+    ],
+    "dur_p": 5.680582010017844,
+    "dur_g": 0.3294482201993816,
+    "period_1": 6.010030230217225,
+    "period_2": 4.969682141471267,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_25",
+    "start_slot_index": 198,
+    "phrase": [
+      "TA",
+      "DHA",
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA",
+      "TA"
+    ],
+    "gap": [
+      "KI"
+    ],
+    "dur_p": 5.734340612653014,
+    "dur_g": 0.3040771418662729,
+    "period_1": 6.038417754519287,
+    "period_2": 5.003264342335186,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_26",
+    "start_slot_index": 67,
+    "phrase": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KAT"
+    ],
+    "gap": [],
+    "dur_p": 1.8461538486280062,
+    "dur_g": 0.0,
+    "period_1": 1.8461538486280062,
+    "period_2": 1.8051282020973645,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "ben_26",
+    "start_slot_index": 86,
+    "phrase": [
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "TA",
+      "KA",
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 0.4489116777854463,
+    "dur_g": 1.468717951204475,
+    "period_1": 1.9176296289899213,
+    "period_2": 1.8133333330116912,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_28",
+    "start_slot_index": 9,
+    "phrase": [
+      "NA",
+      "DHA"
+    ],
+    "gap": [
+      "GE",
+      "NA",
+      "GA",
+      "DHI"
+    ],
+    "dur_p": 1.5862423217257566,
+    "dur_g": 2.6088360294321227,
+    "period_1": 4.195078351157879,
+    "period_2": 3.890146685538914,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_28",
+    "start_slot_index": 52,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA"
+    ],
+    "gap": [
+      "DI",
+      "NA"
+    ],
+    "dur_p": 2.8884623744268794,
+    "dur_g": 1.6249136275096205,
+    "period_1": 4.5133760019365,
+    "period_2": 4.179481988550933,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_28",
+    "start_slot_index": 114,
+    "phrase": [
+      "NA",
+      "DHA"
+    ],
+    "gap": [
+      "GE",
+      "NA",
+      "GA",
+      "DHI"
+    ],
+    "dur_p": 1.4467208801917621,
+    "dur_g": 2.6482205085158483,
+    "period_1": 4.0949413887076105,
+    "period_2": 3.8756996475667336,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_28",
+    "start_slot_index": 157,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA"
+    ],
+    "gap": [
+      "DI",
+      "NA"
+    ],
+    "dur_p": 3.001166570952293,
+    "dur_g": 1.7050817622011891,
+    "period_1": 4.706248333153482,
+    "period_2": 4.00766801412172,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": true,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 39,
+    "phrase": [
+      "NA",
+      "GA"
+    ],
+    "gap": [],
+    "dur_p": 1.306213857306588,
+    "dur_g": 0.0,
+    "period_1": 1.306213857306588,
+    "period_2": 1.084727440154488,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 53,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.2714618091085867,
+    "dur_g": 0.0,
+    "period_1": 1.2714618091085867,
+    "period_2": 1.0658840969096488,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 243,
+    "phrase": [
+      "NA",
+      "GA"
+    ],
+    "gap": [],
+    "dur_p": 1.43178795196323,
+    "dur_g": 0.0,
+    "period_1": 1.43178795196323,
+    "period_2": 1.059975494284572,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 257,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.1467529180931137,
+    "dur_g": 0.0,
+    "period_1": 1.1467529180931137,
+    "period_2": 1.2267048899123836,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 447,
+    "phrase": [
+      "NA",
+      "GA"
+    ],
+    "gap": [],
+    "dur_p": 2.1631645033348263,
+    "dur_g": 0.0,
+    "period_1": 2.1631645033348263,
+    "period_2": 1.2398882532354492,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "frk_31",
+    "start_slot_index": 461,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.2542155569082638,
+    "dur_g": 0.0,
+    "period_1": 1.2542155569082638,
+    "period_2": 1.1780150005466794,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 1,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 2.653947151194501,
+    "dur_g": 0.0,
+    "period_1": 2.653947151194501,
+    "period_2": 2.815565147936754,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 88,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 2.625242178884534,
+    "dur_g": 0.0,
+    "period_1": 2.625242178884534,
+    "period_2": 2.848266178266016,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 175,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.3796606355786025,
+    "dur_g": 0.0,
+    "period_1": 1.3796606355786025,
+    "period_2": 1.474322957116243,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 262,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.3822167581669476,
+    "dur_g": 0.0,
+    "period_1": 1.3822167581669476,
+    "period_2": 1.4895804401874955,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 349,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.4290742450687617,
+    "dur_g": 0.0,
+    "period_1": 1.4290742450687617,
+    "period_2": 1.5575961378488614,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 376,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.4247065436522917,
+    "dur_g": 0.0,
+    "period_1": 1.4247065436522917,
+    "period_2": 1.5212605922489217,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 403,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.3864844566707006,
+    "dur_g": 0.0,
+    "period_1": 1.3864844566707006,
+    "period_2": 1.480113428936221,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 446,
+    "phrase": [
+      "KA",
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 1.5529970687809964,
+    "dur_g": 0.0,
+    "period_1": 1.5529970687809964,
+    "period_2": 1.3923455393124016,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 474,
+    "phrase": [
+      "KA",
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 1.447318029444176,
+    "dur_g": 0.0,
+    "period_1": 1.447318029444176,
+    "period_2": 1.5375814994170867,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_75",
+    "start_slot_index": 502,
+    "phrase": [
+      "TI",
+      "RA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.437663490182473,
+    "dur_g": 0.0,
+    "period_1": 1.437663490182473,
+    "period_2": 1.7302448665393513,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_77",
+    "start_slot_index": 38,
+    "phrase": [
+      "DHA",
+      "KDA",
+      "DHI",
+      "NA",
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "DHA",
+      "TAA"
+    ],
+    "dur_p": 7.344295871868553,
+    "dur_g": 8.655704128131447,
+    "period_1": 16.0,
+    "period_2": 16.0,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": false,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_79",
+    "start_slot_index": 15,
+    "phrase": [
+      "TI",
+      "TA",
+      "GHE",
+      "GE"
+    ],
+    "gap": [],
+    "dur_p": 3.886729419772161,
+    "dur_g": 0.0,
+    "period_1": 3.886729419772161,
+    "period_2": 4.695966488125787,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_79",
+    "start_slot_index": 176,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 1.916099022357514,
+    "dur_g": 2.1450080406015672,
+    "period_1": 4.061107062959081,
+    "period_2": 11.361501781251377,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_79",
+    "start_slot_index": 203,
+    "phrase": [
+      "TI",
+      "TA",
+      "GHE",
+      "GE"
+    ],
+    "gap": [],
+    "dur_p": 3.94387654551889,
+    "dur_g": 0.0,
+    "period_1": 3.94387654551889,
+    "period_2": 3.670351319563281,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_79",
+    "start_slot_index": 364,
+    "phrase": [
+      "KI",
+      "TA",
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TAA",
+      "TI",
+      "RA"
+    ],
+    "dur_p": 2.0078070096211036,
+    "dur_g": 1.590880307072041,
+    "period_1": 3.5986873166931446,
+    "period_2": 12.605036400038557,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_79",
+    "start_slot_index": 391,
+    "phrase": [
+      "TI",
+      "TA",
+      "GHE",
+      "GE"
+    ],
+    "gap": [],
+    "dur_p": 3.8241374529829386,
+    "dur_g": 0.0,
+    "period_1": 3.8241374529829386,
+    "period_2": 3.7096192705474778,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_80",
+    "start_slot_index": 6,
+    "phrase": [
+      "DHE",
+      "RE"
+    ],
+    "gap": [],
+    "dur_p": 0.9882527290216179,
+    "dur_g": 0.0,
+    "period_1": 0.9882527290216179,
+    "period_2": 0.8944489274216894,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_80",
+    "start_slot_index": 17,
+    "phrase": [
+      "TI",
+      "TA",
+      "GHE",
+      "GE"
+    ],
+    "gap": [],
+    "dur_p": 3.667772250886273,
+    "dur_g": 0.0,
+    "period_1": 3.667772250886273,
+    "period_2": 3.764231373166588,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_81",
+    "start_slot_index": 43,
+    "phrase": [
+      "DHA",
+      "TA"
+    ],
+    "gap": [],
+    "dur_p": 4.98233678085959,
+    "dur_g": 0.0,
+    "period_1": 4.98233678085959,
+    "period_2": 8.05997703655602,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_84",
+    "start_slot_index": 22,
+    "phrase": [
+      "TA",
+      "DHA",
+      "NA",
+      "TIN",
+      "KAT",
+      "NA",
+      "TIN",
+      "KAT"
+    ],
+    "gap": [],
+    "dur_p": 12.082946967272491,
+    "dur_g": 0.0,
+    "period_1": 12.082946967272491,
+    "period_2": 11.880897503855621,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_85",
+    "start_slot_index": 0,
+    "phrase": [
+      "GHI",
+      "NA"
+    ],
+    "gap": [
+      "KA",
+      "TA",
+      "KI",
+      "NA",
+      "TI",
+      "TA"
+    ],
+    "dur_p": 1.9933557814330245,
+    "dur_g": 5.881327492450341,
+    "period_1": 7.874683273883365,
+    "period_2": 8.125316726116635,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_85",
+    "start_slot_index": 76,
+    "phrase": [
+      "TA",
+      "GHI",
+      "NA"
+    ],
+    "gap": [
+      "KA",
+      "TA",
+      "KI",
+      "NA",
+      "TI"
+    ],
+    "dur_p": 3.0931685391230985,
+    "dur_g": 5.061853646106044,
+    "period_1": 8.155022185229143,
+    "period_2": 8.010215002959896,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 0,
+    "phrase": [
+      "DHA",
+      "GE",
+      "NA",
+      "DHA",
+      "GHI",
+      "NA"
+    ],
+    "gap": [],
+    "dur_p": 8.148726462914945,
+    "dur_g": 0.0,
+    "period_1": 8.148726462914945,
+    "period_2": 7.851273537085055,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 37,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.125597121260732,
+    "dur_g": 0.0,
+    "period_1": 1.125597121260732,
+    "period_2": 2.2437507794034843,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 49,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.2119736907370111,
+    "dur_g": 2.0629578503012596,
+    "period_1": 3.2749315410382707,
+    "period_2": 3.333910639734526,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 77,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.25259499050766,
+    "dur_g": 2.059726188967474,
+    "period_1": 3.312321179475134,
+    "period_2": 3.3613127477533595,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 105,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.1994446973304207,
+    "dur_g": 2.168995837535988,
+    "period_1": 3.3684405348664086,
+    "period_2": 3.2292457192477144,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 127,
+    "phrase": [
+      "DHA",
+      "GE",
+      "NA",
+      "DHA",
+      "GHI",
+      "NA"
+    ],
+    "gap": [],
+    "dur_p": 8.091468778988911,
+    "dur_g": 0.0,
+    "period_1": 8.091468778988911,
+    "period_2": 7.9085312210110885,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 164,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [],
+    "dur_p": 1.1483644713408978,
+    "dur_g": 0.0,
+    "period_1": 1.1483644713408978,
+    "period_2": 2.3283131518126083,
+    "regular": false,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": true,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 176,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.2660598877618554,
+    "dur_g": 2.169976705391065,
+    "period_1": 3.43603659315292,
+    "period_2": 3.341898613584277,
+    "regular": true,
+    "gap_in_plan_set": false,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 204,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.1767369113167092,
+    "dur_g": 2.0766285402262668,
+    "period_1": 3.253365451542976,
+    "period_2": 3.7590848848875282,
+    "regular": false,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  },
+  {
+    "composition": "pjb_86",
+    "start_slot_index": 232,
+    "phrase": [
+      "TA",
+      "KA"
+    ],
+    "gap": [
+      "TI",
+      "RA",
+      "KI",
+      "TA"
+    ],
+    "dur_p": 1.2860121610404747,
+    "dur_g": 2.0999966864792725,
+    "period_1": 3.386008847519747,
+    "period_2": 3.448959106254847,
+    "regular": true,
+    "gap_in_plan_set": true,
+    "lands_a": false,
+    "lands_b_observed": false,
+    "lands_b_formula": false,
+    "has_following_stroke": true,
+    "strict_b": false
+  }
+]
