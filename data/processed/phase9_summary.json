@@ -1,0 +1,82 @@
+{
+  "grammar": {
+    "n_compositions": 32,
+    "n_nonterminals": 13,
+    "n_rules": 58
+  },
+  "examples_all_checks_pass": 20,
+  "real_tihai": {
+    "composition": "ben_25",
+    "phrase": [
+      "DHE",
+      "RE",
+      "DHE",
+      "RE",
+      "KI",
+      "TA",
+      "TA",
+      "KA",
+      "DHA",
+      "TA",
+      "KI",
+      "TA"
+    ],
+    "gap": [
+      "DHA"
+    ],
+    "dur_p": 4.009029345216135,
+    "dur_g": 0.9450560874471705,
+    "landing_offset": 0.0
+  },
+  "generated_tihai_figure": {
+    "seed": 2025,
+    "phrase": [
+      "NA",
+      "DHA",
+      "KI",
+      "TA",
+      "KDA",
+      "GE",
+      "TA"
+    ],
+    "exact": true
+  },
+  "stats": {
+    "strokes_per_matra_real": [
+      0.1700626959247649,
+      0.3912617554858934,
+      0.32954545454545453,
+      0.05975705329153605,
+      0.03644200626959248,
+      0.01293103448275862
+    ],
+    "strokes_per_matra_generated": [
+      0.16729166666666667,
+      0.3966145833333333,
+      0.31625,
+      0.08583333333333333,
+      0.025052083333333332,
+      0.008958333333333334
+    ],
+    "sam_share_real": {
+      "TA": 0.19145299145299147,
+      "GE": 0.17606837606837608,
+      "NA": 0.17435897435897435,
+      "DHA": 0.1623931623931624,
+      "KI": 0.11282051282051282,
+      "DHE": 0.03247863247863248
+    },
+    "sam_share_generated": {
+      "TA": 0.17647058823529413,
+      "GE": 0.18841911764705882,
+      "NA": 0.17693014705882354,
+      "DHA": 0.16038602941176472,
+      "KI": 0.1135110294117647,
+      "DHE": 0.034466911764705885
+    },
+    "self_repetition_median_real": 0.68,
+    "self_repetition_median_generated": 0.03361581920903955,
+    "n_real_windows": 255,
+    "n_generated_windows": 400
+  }
+}

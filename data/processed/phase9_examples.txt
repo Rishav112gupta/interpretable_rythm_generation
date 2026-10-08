@@ -1,0 +1,124 @@
+# Phase 9 generated compositions (grammar trained on train+val; see docs/PHASE9_GENERATION.md)
+# One line per cycle. [ ] = one matra, its strokes share it equally. | = vibhag boundary.
+# X = sam. '-' = rest. tok(o,d) = token starting o matra into this matra and lasting d matra
+#   (shown only where the token is not an equal share of its matra, i.e. inside a tihai).
+
+# seed 0: tihai phrase 1 matra, gap 1/2, starts at matra 12 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE NA] [KI] [-] [NA] | [-] [-] [-] [TA GE] | [DHIN NA] [NA] [-] [KI] | [KI] [DHA] [-] [TA DHI]
+  cycle 2: X[TA TA] [-] [GE DHA] [TA] | [KI NA] [-] [-] [NA NA] | [DHE KI] [-] [GE] [GE TA TA NA] | [TA NA] [TIN GE] [GE KI] [RE]
+  cycle 3: X[TA KI] [-] [TA] [TA GE] | [KI DIN] [DIN NA] [NA] [TA DHA] | [TRA] [TA DIN] [-] [KI TA] | [TA NA NA] [-(0,1/2) TA(1/2,1/3) NA(5/6,1/3)] [NA(1/6,1/3) -] [TA NA NA]
+  cycle 4: X[NA]
+
+# seed 1: tihai phrase 1 matra, gap 2, starts at matra 9 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE] [GE TA NA] [TA NA] [DHE] | [DHA] [TA] [TA] [KDA TA] | [TA] [GE DHET] [KI] [NA KI GE DHA] | [-] [TA] [TA NA] [KI DHI]
+  cycle 2: X[NA DHA] [-] [KDA] [-] | [DHI] [KI DHA] [NA] [-] | [DHA TA] [TA KI] [DHA] [GE TA] | [DHA] [NA TA GE TA] [TA GE] [TA]
+  cycle 3: X[DHA NA] [TA NA] [-] [RE KI] | [RE] [DHI NA] [-] [KI TA] | [NA KI] [GE NA] [-(0,2)] | [GE NA] [-(0,2)] [GE NA]
+  cycle 4: X[DHA]
+
+# seed 2: tihai phrase 1 matra, gap 3/2, starts at matra 10 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHA TA GE] [DHA KI] [DHET DHA TA] [TA] | [TIT] [TA KI] [TE TA] [-] | [NA RE] [NA] [DHA DHE] [NA DA] | [DHA NA TA] [TA TA KI NA DHI] [KI DHI] [-]
+  cycle 2: X[KDA] [TA TA] [-] [TII TA] | [TA TA] [DHE] [TA NA] [TA] | [DHET] [KI] [TA TA] [NA DIN DHIN KI] | [KI KI] [DHA] [TA TA KI] [DHA]
+  cycle 3: X[GE TA GE] [TA TA] [GE GE] [NA] | [KI] [DHI] [TA] [NA] | [TA] [KI KI] [TA TA] [-(0,3/2)] | [TA(1/2,1/2)] [TA -(1/2,3/2)] [TA TA]
+  cycle 4: X[TA]
+
+# seed 3: tihai phrase 2 matra, gap 3/4, starts at matra 17/2 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[KI DHA] [-] [-] [-] | [DHIN NA] [NA] [TA] [-] | [TRA NA] [-] [TA] [-] | [DHI] [DHA] [-] [-]
+  cycle 2: X[TIN DIN TA] [-] [TII] [-] | [TA] [-] [NA] [DA] | [-] [TA KI] [TA] [-] | [-] [GE DHA] [-] [NA TA]
+  cycle 3: X[TA TA] [NA] [TA GE] [-] | [GE KI] [KI] [TA NA] [DHA] | [- DHA] [KI TA] [GE -(1/2,3/4)] [DHA(1/4,1/2) KI(3/4,1/2)] | [TA(1/4,1/2) GE(3/4,1/2)] [-(1/4,3/4)] [DHA KI] [TA GE]
+  cycle 4: X[GE]
+
+# seed 4: tihai phrase 1 matra, gap 3/2, starts at matra 10 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHA NA] [NA DHA] [TA] [DHE] | [TA GE] [-] [GE TA] [TA DHIN TA] | [-] [GE TA] [TA GE] [DHA] | [DHET] [TA TA] [KI DIN] [TA]
+  cycle 2: X[GE] [KI] [DIN NA TA RE] [KI GE TA KI] | [-] [TA] [TA] [RE] | [TA] [TA KI] [-] [NA RE] | [KI] [TA NA TA] [TA] [DHIN]
+  cycle 3: X[DHA] [KI] [-] [-] | [KI] [-] [TA NA KI] [TII GE] | [KI] [NA TII] [RE DHIN] [-(0,3/2)] | [RE(1/2,1/2)] [DHIN -(1/2,3/2)] [RE DHIN]
+  cycle 4: X[TA]
+
+# seed 5: tihai phrase 3 matra, gap 1, starts at matra 5 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHE] [-] [-] [-] | [DHA TA] [-] [TA TA] [DHIN] | [-] [-] [DHE] [RE TA TA] | [TA] [GE] [NA] [KI NA]
+  cycle 2: X[TA DHA NA DHA] [DHE] [DHE KI DHA] [TA NA TA TA GE] | [-] [TA] [GE] [-] | [KI GE] [KI TRA] [NA NA] [-] | [KI] [-] [-] [-]
+  cycle 3: X[DA GE KI] [KDA NA] [DHA] [KI] | [GE TA NA KI TII] [KI KI] [-] [-] | [-] [KI KI] [-] [-] | [-] [KI KI] [-] [-]
+  cycle 4: X[TA GE]
+
+# seed 6: tihai phrase 1 matra, gap 1, starts at matra 11 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE TA] [KI TA NA DHA] [DHA] [TA GE KI NA] | [TA] [DHE] [GE] [DHE] | [NA RE KI] [GE] [-] [GE] | [KI] [DHIN] [NA] [KI]
+  cycle 2: X[NA DHA] [KI] [RE RE] [-] | [-] [NA TA] [KI] [TA TA] | [KI] [KI] [TA KI] [KI] | [KI RE] [GE] [KI DHE TA] [TA NA]
+  cycle 3: X[GE TA] [DHA TA] [RE] [TA TA] | [NA KI] [TA DHA] [DHE GE] [NA] | [KDA GE] [TA KI DHA] [DHA TA KI] [KI KDA TRA] | [-] [KI KDA TRA] [-] [KI KDA TRA]
+  cycle 4: X[NA GE]
+
+# seed 7: tihai phrase 2 matra, gap 2, starts at matra 6 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHA] [TA] [KI] [TA] | [TA] [-] [-] [-] | [NA] [GE DHA] [TA] [KI DHA] | [NA] [DHA] [-] [RE]
+  cycle 2: X[DHA] [GE] [DHIN GE] [DHA NA] | [TA GE] [-] [TA TA] [TA] | [KI] [KI] [-] [-] | [DA] [TA] [KI] [TA KI]
+  cycle 3: X[NA] [-] [DHA KI] [KI RE] | [TA TA] [DHA GE TA] [KI TII] [-] | [-(0,2)] [KI TII] [-] | [-(0,2)] [KI TII] [-]
+  cycle 4: X[TA KI DHA]
+
+# seed 8: tihai phrase 3 matra, gap 3/4, starts at matra 11/2 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[TA GE] [GE] [KDA NA] [TA] | [DIN TA] [-] [GE] [GE] | [-] [DHE] [DHE] [NA TA DA] | [TA NA] [-] [DHA] [TA DHI TA]
+  cycle 2: X[GE NA] [-] [GE] [-] | [NA] [KI] [KI GE] [TA] | [KI KDA RE] [TA] [NA RE] [NA] | [-] [DHET TA] [TA KDA] [TA DHA]
+  cycle 3: X[GE KI] [-] [-] [-] | [NA KDA] [- NA] [TA -(1/2,1)] [KI(1/2,1/2)] | [TA -(1/2,3/4)] [NA(1/4,1/2) TA(3/4,1/2)] [-(1/4,1)] [KI(1/4,1/2) TA(3/4,1/2)] | [-(1/4,3/4)] [NA TA] [-] [KI TA]
+  cycle 4: X[NA GE]
+
+# seed 9: tihai phrase 4 matra, gap 3/2, starts at matra 1 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHET NA] [DHA] [KI] [KI TA TA] | [NA NA] [GE] [TA TA] [NA] | [-] [TA DIN] [TA DIN] [TA] | [TA KDA] [KI TA] [GE] [-]
+  cycle 2: X[GE RE TA] [GE] [GE] [NA KI] | [KI DHA NA] [TA KI] [TA TA NA NA] [NA] | [-] [-] [NA] [TA] | [DHE] [TA TA] [RE TA] [TA DHA]
+  cycle 3: X[DHA] [KI] [DHA] [GE GE GE] | [KI TA NA] [-(0,3/2)] [KI(1/2,1)] [DHA(1/2,1)] | [GE(1/2,1/3) GE(5/6,1/3)] [GE(1/6,1/3) KI(1/2,1/3) TA(5/6,1/3)] [NA(1/6,1/3) -(1/2,3/2)] | [KI] [DHA] [GE GE GE] [KI TA NA]
+  cycle 4: X[TIN]
+
+# seed 10: tihai phrase 1 matra, gap 1, starts at matra 11 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE] [-] [KI DHE] [-] | [TA] [GE TA] [-] [TA TA] | [DIN] [KI DHA] [TA] [TA NA] | [TII DHA] [TA TA NA] [KI TA] [TA KI]
+  cycle 2: X[TA] [KI] [KI TA] [DHA DHIN] | [TIN GE] [KI KI] [KI KI] [-] | [TA TA] [-] [KDA NA] [-] | [TIN TA] [GE NA] [RE TII] [DA TIN]
+  cycle 3: X[NA GE] [TA] [-] [NA DHI] | [GE TA] [GE] [TA DHIN] [-] | [KI] [TA] [KI] [TA TRA] | [-] [TA TRA] [-] [TA TRA]
+  cycle 4: X[TA]
+
+# seed 11: tihai phrase 3 matra, gap 1/2, starts at matra 6 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[NA] [TA GE] [TA] [NA] | [-] [TA DHA] [TA] [KI] | [GE GE] [DHET] [-] [TA] | [NA] [-] [-] [TIN]
+  cycle 2: X[DHA TA] [KI] [TA TA] [NA] | [TA TA TA] [TA] [TA TA TII] [TA TA NA] | [TA] [GE] [RE DHA] [-] | [-] [NA] [DHE] [-]
+  cycle 3: X[KI] [TA] [-] [KI] | [TA] [DHA] [TA] [TA KI DIN] | [DHI RE KI] [- TA(1/2,1)] [TA(1/2,1/3) KI(5/6,1/3)] [DIN(1/6,1/3) DHI(1/2,1/3) RE(5/6,1/3)] | [KI(1/6,1/3) -] [TA] [TA KI DIN] [DHI RE KI]
+  cycle 4: X[DHA]
+
+# seed 12: tihai phrase 3 matra, gap 2, starts at matra 3 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHA] [TA] [GE GE] [KI] | [NA] [KI NA] [TIN] [TA DHE KI] | [TA TA] [KI GE] [TA] [RE GE KI] | [TA KI] [KDA NA] [TA KI] [TA TA]
+  cycle 2: X[NA DHA] [TA] [-] [-] | [NA] [TA] [TA] [TA] | [-] [NA] [TA KI] [TA DIN TA] | [DHE] [NA TA] [GE DA] [TA RE]
+  cycle 3: X[TA] [TA] [TA TA] [NA TA KI] | [KI] [DHA] [-(0,2)] | [NA TA KI] [KI] [DHA] [-(0,2)] | [NA TA KI] [KI] [DHA]
+  cycle 4: X[NA DA]
+
+# seed 13: tihai phrase 2 matra, gap 3/4, starts at matra 17/2 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHIN] [TA] [TA TA] [KI] | [TA] [-] [-] [-] | [NA KI] [KI NA] [-] [NA GE] | [TA] [KI] [TA TA] [TA]
+  cycle 2: X[DHE] [DHE TA] [-] [KI] | [TA KI TA] [NA GE] [KI KI TA] [TA TA] | [TA KI] [DHET] [TA] [TA KI] | [KI] [-] [TA KDA] [-]
+  cycle 3: X[NA] [KI KI] [TA] [-] | [KI] [-] [DHA] [-] | [- NA] [KI NA(1/2,1)] [-(1/2,3/4)] [NA(1/4,1/2) KI(3/4,1/2)] | [NA(1/4,1)] [-(1/4,3/4)] [NA KI] [NA]
+  cycle 4: X[NA GE]
+
+# seed 14: tihai phrase 3 matra, gap 1, starts at matra 5 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DA] [NA] [GE] [NA TA] | [NA] [DHA] [GE] [KI] | [-] [GE GE GE] [TA] [-] | [TA KDA NA] [TA] [DHA] [KI]
+  cycle 2: X[NA KI] [TA DHE TA] [TA DHE] [KI DHE] | [GE] [KI] [RE] [TA KI TA] | [DHIN] [GE] [NA] [DHA] | [-] [-] [-] [KI GE DHE]
+  cycle 3: X[DHA KI NA] [NA] [TA] [-] | [-] [TA TA DHE] [KI] [DIN] | [-] [TA TA DHE] [KI] [DIN] | [-] [TA TA DHE] [KI] [DIN]
+  cycle 4: X[KI]
+
+# seed 15: tihai phrase 3 matra, gap 3/2, starts at matra 4 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[DHA] [DA] [-] [KI] | [TA] [-] [-] [KI] | [KI DHE] [DHIN KI TA TA] [NA KDA] [-] | [KI] [KI TA] [TA] [NA]
+  cycle 2: X[NA KDA] [TA KI] [-] [TA] | [KDA] [-] [-] [NA GE] | [KI] [KI] [GE NA] [TIT TA KI] | [TA RE] [-] [GE] [KI TA]
+  cycle 3: X[NA NA DHA DHA DHIN] [DHA NA] [TA] [DHI DHA] | [TA DHA DIN] [TA] [NA] [-(0,3/2)] | [TA(1/2,1/3) DHA(5/6,1/3)] [DIN(1/6,1/3) TA(1/2,1)] [NA(1/2,1)] [-(1/2,3/2)] | [TA DHA DIN] [TA] [NA]
+  cycle 4: X[DHA TA DHET]
+
+# seed 16: tihai phrase 4 matra, gap 1, starts at matra 2 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[NA TA] [TA KI] [KI RE TIT] [GE KI] | [KI] [KI GE] [TA] [-] | [TA] [TA NA] [-] [-] | [GE TA] [KI] [GE KI] [DHE GE TA TA]
+  cycle 2: X[KDA] [DHE TA TA] [DHA] [-] | [KI] [TA TA] [-] [TA] | [KI] [DA] [TA GE] [-] | [TA TA] [DHET] [DHA GE] [KI GE]
+  cycle 3: X[DHA GE] [TA] [GE] [TA] | [NA DHA] [KI] [-] [GE] | [TA] [NA DHA] [KI] [-] | [GE] [TA] [NA DHA] [KI]
+  cycle 4: X[KI GE]
+
+# seed 17: tihai phrase 2 matra, gap 3/2, starts at matra 7 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE] [GE TA] [TA KI] [-] | [NA] [NA] [-] [DA KI] | [DHET NA] [-] [NA] [RE] | [DHIN DHA] [KI NA] [DHA TA] [TRA KI]
+  cycle 2: X[DHA NA GE] [KI RE] [DHA] [KI RE KI] | [TA] [-] [-] [DHE] | [-] [TA] [DHA] [TA] | [KI KI] [KI NA KI] [TA] [DHA TIT]
+  cycle 3: X[NA DHA] [DHE] [-] [KI] | [-] [KI TA] [DIN] [TA] | [-] [-(0,3/2)] [TA(1/2,1)] [-(1/2,1)] | [-(1/2,3/2)] [TA] [-]
+  cycle 4: X[GE DHA]
+
+# seed 18: tihai phrase 2 matra, gap 2, starts at matra 6 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[GE NA] [TA GE] [NA DHE TA] [DHA GE] | [TA] [-] [GE NA] [TA KI] | [GE TA] [KI TA] [DHA NA] [-] | [TA] [DHA TIN] [NA DHA] [-]
+  cycle 2: X[DHI NA] [NA KI] [TA] [-] | [TA] [KI DHA] [NA] [KI GE] | [-] [NA] [TA NA] [-] | [-] [TA] [NA TA] [TA GE]
+  cycle 3: X[DHA] [TA] [TA] [GE] | [TA NA NA] [DHA NA] [KI DHI] [DHET DHE] | [-(0,2)] [KI DHI] [DHET DHE] | [-(0,2)] [KI DHI] [DHET DHE]
+  cycle 4: X[TRA]
+
+# seed 19: tihai phrase 1 matra, gap 3/2, starts at matra 10 of cycle 3, lands on the sam that opens cycle 4
+  cycle 1: X[NA RE] [TA] [TA] [KI] | [TA] [KI NA TA] [KI TA] [-] | [DHA] [KI GE] [TA KI] [KI] | [DIN] [-] [TA] [TA TA]
+  cycle 2: X[GE DHA TA] [TA] [TA TA] [TA] | [GE] [TA GE] [GE] [-] | [-] [NA] [TA] [NA KI] | [DA] [-] [KDA] [KI NA]
+  cycle 3: X[GE] [GE KI] [DHIN KI] [NA TA] | [TA] [TA] [NA GE] [TA] | [NA KI] [DHA TA] [GE TA] [-(0,3/2)] | [GE(1/2,1/2)] [TA -(1/2,3/2)] [GE TA]
+  cycle 4: X[DHA DHA GE GE]
