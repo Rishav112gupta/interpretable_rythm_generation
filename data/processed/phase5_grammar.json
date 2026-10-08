@@ -1,0 +1,388 @@
+{
+  "mode": "normalized_18_symbol",
+  "vocabulary": [
+    "DA",
+    "DHA",
+    "DHE",
+    "DHET",
+    "DHI",
+    "DHIN",
+    "DIN",
+    "GE",
+    "KDA",
+    "KI",
+    "NA",
+    "RE",
+    "TA",
+    "TE",
+    "TII",
+    "TIN",
+    "TIT",
+    "TRA"
+  ],
+  "rules": {
+    "Composition": [
+      {
+        "rhs": [
+          "Avartan",
+          "Composition"
+        ],
+        "count": 313,
+        "prob": 0.8917378917378918
+      },
+      {
+        "rhs": [
+          "Avartan"
+        ],
+        "count": 38,
+        "prob": 0.10826210826210826
+      }
+    ],
+    "Avartan": [
+      {
+        "rhs": [
+          "Vibhag0",
+          "Avartan"
+        ],
+        "count": 350,
+        "prob": 0.341796875
+      },
+      {
+        "rhs": [
+          "Vibhag1",
+          "Avartan"
+        ],
+        "count": 323,
+        "prob": 0.3154296875
+      },
+      {
+        "rhs": [
+          "Vibhag2",
+          "Vibhag3"
+        ],
+        "count": 328,
+        "prob": 0.3203125
+      },
+      {
+        "rhs": [
+          "Vibhag1",
+          "Vibhag3"
+        ],
+        "count": 15,
+        "prob": 0.0146484375
+      },
+      {
+        "rhs": [
+          "Vibhag1",
+          "Vibhag2"
+        ],
+        "count": 7,
+        "prob": 0.0068359375
+      },
+      {
+        "rhs": [
+          "Vibhag0",
+          "Vibhag1"
+        ],
+        "count": 1,
+        "prob": 0.0009765625
+      }
+    ],
+    "Vibhag0": [
+      {
+        "rhs": [
+          "SamMatra",
+          "Vibhag0"
+        ],
+        "count": 311,
+        "prob": 0.3474860335195531
+      },
+      {
+        "rhs": [
+          "Matra",
+          "Vibhag0"
+        ],
+        "count": 233,
+        "prob": 0.26033519553072626
+      },
+      {
+        "rhs": [
+          "Matra",
+          "Matra"
+        ],
+        "count": 311,
+        "prob": 0.3474860335195531
+      },
+      {
+        "rhs": [
+          "SamMatra",
+          "Matra"
+        ],
+        "count": 15,
+        "prob": 0.01675977653631285
+      },
+      {
+        "rhs": [
+          "SamMatra"
+        ],
+        "count": 25,
+        "prob": 0.027932960893854747
+      }
+    ],
+    "SamMatra": [
+      {
+        "rhs": [
+          "BolSlot",
+          "SamMatra"
+        ],
+        "count": 299,
+        "prob": 0.46
+      },
+      {
+        "rhs": [
+          "BolSlot"
+        ],
+        "count": 351,
+        "prob": 0.54
+      }
+    ],
+    "BolSlot": [
+      {
+        "rhs": [
+          "TERM",
+          "DHA"
+        ],
+        "count": 582,
+        "prob": 0.07058823529411765
+      },
+      {
+        "rhs": [
+          "TERM",
+          "GE"
+        ],
+        "count": 961,
+        "prob": 0.1165554881746513
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TA"
+        ],
+        "count": 2375,
+        "prob": 0.28805336567616735
+      },
+      {
+        "rhs": [
+          "TERM",
+          "KI"
+        ],
+        "count": 1482,
+        "prob": 0.17974530018192844
+      },
+      {
+        "rhs": [
+          "TERM",
+          "KDA"
+        ],
+        "count": 95,
+        "prob": 0.011522134627046696
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DHI"
+        ],
+        "count": 156,
+        "prob": 0.018920557913887203
+      },
+      {
+        "rhs": [
+          "TERM",
+          "NA"
+        ],
+        "count": 1308,
+        "prob": 0.158641600970285
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TII"
+        ],
+        "count": 64,
+        "prob": 0.007762280169799879
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DHIN"
+        ],
+        "count": 149,
+        "prob": 0.018071558520315344
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DA"
+        ],
+        "count": 132,
+        "prob": 0.01600970285021225
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TIT"
+        ],
+        "count": 43,
+        "prob": 0.005215281989084293
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DIN"
+        ],
+        "count": 117,
+        "prob": 0.014190418435415403
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TIN"
+        ],
+        "count": 61,
+        "prob": 0.007398423286840509
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TRA"
+        ],
+        "count": 64,
+        "prob": 0.007762280169799879
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DHE"
+        ],
+        "count": 277,
+        "prob": 0.0335961188599151
+      },
+      {
+        "rhs": [
+          "TERM",
+          "RE"
+        ],
+        "count": 294,
+        "prob": 0.03565797453001819
+      },
+      {
+        "rhs": [
+          "TERM",
+          "DHET"
+        ],
+        "count": 67,
+        "prob": 0.008126137052759249
+      },
+      {
+        "rhs": [
+          "TERM",
+          "TE"
+        ],
+        "count": 18,
+        "prob": 0.002183141297756216
+      }
+    ],
+    "Matra": [
+      {
+        "rhs": [
+          "BolSlot"
+        ],
+        "count": 4372,
+        "prob": 0.5756418696510862
+      },
+      {
+        "rhs": [
+          "BolSlot",
+          "Matra"
+        ],
+        "count": 3223,
+        "prob": 0.42435813034891373
+      }
+    ],
+    "Vibhag1": [
+      {
+        "rhs": [
+          "Matra",
+          "Vibhag1"
+        ],
+        "count": 504,
+        "prob": 0.5929411764705882
+      },
+      {
+        "rhs": [
+          "Matra",
+          "Matra"
+        ],
+        "count": 329,
+        "prob": 0.3870588235294118
+      },
+      {
+        "rhs": [
+          "Matra"
+        ],
+        "count": 17,
+        "prob": 0.02
+      }
+    ],
+    "Vibhag2": [
+      {
+        "rhs": [
+          "Matra",
+          "Vibhag2"
+        ],
+        "count": 529,
+        "prob": 0.6122685185185185
+      },
+      {
+        "rhs": [
+          "Matra",
+          "Matra"
+        ],
+        "count": 321,
+        "prob": 0.3715277777777778
+      },
+      {
+        "rhs": [
+          "Matra"
+        ],
+        "count": 14,
+        "prob": 0.016203703703703703
+      }
+    ],
+    "Vibhag3": [
+      {
+        "rhs": [
+          "Matra",
+          "Vibhag3"
+        ],
+        "count": 469,
+        "prob": 0.5775862068965517
+      },
+      {
+        "rhs": [
+          "Matra",
+          "Matra"
+        ],
+        "count": 326,
+        "prob": 0.4014778325123153
+      },
+      {
+        "rhs": [
+          "Matra"
+        ],
+        "count": 17,
+        "prob": 0.020935960591133004
+      }
+    ]
+  }
+}
