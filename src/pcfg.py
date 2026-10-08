@@ -65,6 +65,12 @@ BOLSLOT = "BolSlot"
 # way to tell them apart.
 REST = "Rest"
 REST_TOKEN = "-"
+# Phase 8: with tail_labels=True a matra's list of strokes continues under a
+# separate label (Matra -> BolSlot MatraTail, MatraTail -> BolSlot MatraTail |
+# BolSlot). Without it, "is this matra empty / how many strokes" and "does
+# this list continue" share one label and one set of probabilities, which
+# Phase 7 showed distorts generation. Opt-in, like include_rests.
+TAIL_SUFFIX = "Tail"
 
 
 @dataclass
@@ -173,13 +179,15 @@ class DerivNode:
         return out
 
 
-def _bolslot_list_node(label_base: str, bols: list[str]) -> DerivNode:
-    """Build a right-branching list node: X -> BolSlot X | BolSlot."""
+def _bolslot_list_node(label_base: str, bols: list[str], tail_label: str | None = None) -> DerivNode:
+    """Build a right-branching list node: X -> BolSlot X | BolSlot, or with
+    tail_label T: X -> BolSlot T | BolSlot, T -> BolSlot T | BolSlot."""
     assert bols, f"{label_base} must have at least one bol"
     leaf = DerivNode(label=BOLSLOT, bol=bols[0])
     if len(bols) == 1:
         return DerivNode(label=label_base, children=[leaf])
-    rest = _bolslot_list_node(label_base, bols[1:])
+    next_label = tail_label or label_base
+    rest = _bolslot_list_node(next_label, bols[1:], tail_label)
     return DerivNode(label=label_base, children=[leaf, rest])
 
 
@@ -187,7 +195,8 @@ def _matra_bols(matra: RepMatra) -> list[str]:
     return [s.bol for s in matra.slots]
 
 
-def build_avartan_deriv(avartan: Avartan, include_rests: bool = False) -> DerivNode:
+def build_avartan_deriv(avartan: Avartan, include_rests: bool = False,
+                        tail_labels: bool = False) -> DerivNode:
     vibhag_nodes = []
     for v in avartan.vibhags:
         matra_nodes = []
@@ -199,7 +208,8 @@ def build_avartan_deriv(avartan: Avartan, include_rests: bool = False) -> DerivN
                     matra_nodes.append(DerivNode(label=label, children=[
                         DerivNode(label=REST, bol=REST_TOKEN)]))
                 continue
-            matra_nodes.append(_bolslot_list_node(label, bols))
+            matra_nodes.append(_bolslot_list_node(
+                label, bols, label + TAIL_SUFFIX if tail_labels else None))
         if not matra_nodes:
             continue
         # fixed-arity right-branching chain of this vibhag's matras
@@ -219,8 +229,10 @@ def build_avartan_deriv(avartan: Avartan, include_rests: bool = False) -> DerivN
     return node
 
 
-def build_composition_deriv(rep: RepresentedComposition, include_rests: bool = False) -> DerivNode:
-    avartan_nodes = [build_avartan_deriv(a, include_rests=include_rests) for a in rep.avartans]
+def build_composition_deriv(rep: RepresentedComposition, include_rests: bool = False,
+                            tail_labels: bool = False) -> DerivNode:
+    avartan_nodes = [build_avartan_deriv(a, include_rests=include_rests, tail_labels=tail_labels)
+                     for a in rep.avartans]
     node = avartan_nodes[-1]
     node = DerivNode(label=START, children=[node])
     for a in reversed(avartan_nodes[:-1]):
@@ -234,6 +246,7 @@ def train_supervised(
     normalizer: BolNormalizer,
     dirichlet_alpha: float = 0.0,
     include_rests: bool = False,
+    tail_labels: bool = False,
 ) -> tuple[PCFG, list[DerivNode]]:
     grammar = PCFG()
     trees = []
@@ -243,7 +256,7 @@ def train_supervised(
             for a in rep.avartans:
                 for s in a.all_slots():
                     s.bol = normalizer.normalize(s.bol)
-        tree = build_composition_deriv(rep, include_rests=include_rests)
+        tree = build_composition_deriv(rep, include_rests=include_rests, tail_labels=tail_labels)
         trees.append(tree)
         for lhs, rhs in tree.rules():
             grammar.add_count(lhs, rhs)
