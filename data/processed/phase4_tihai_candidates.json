@@ -1,0 +1,2148 @@
+{
+  "dli_1": [
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TI",
+        "TA",
+        "KDA",
+        "DHI",
+        "KI",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 12,
+      "gap_len": 0,
+      "start_slot_index": 96,
+      "end_slot_index": 131,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 192,
+      "end_slot_index": 209,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TAA",
+        "KE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 240,
+      "end_slot_index": 257,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    }
+  ],
+  "dli_2": [
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "DHA",
+        "GE",
+        "TI",
+        "TA",
+        "KDA",
+        "DHI"
+      ],
+      "gap": [
+        "KI",
+        "TA",
+        "DHA",
+        "GE"
+      ],
+      "phrase_len": 12,
+      "gap_len": 4,
+      "start_slot_index": 128,
+      "end_slot_index": 171,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    }
+  ],
+  "dli_6": [
+    {
+      "phrase": [
+        "GHI",
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "TIT"
+      ],
+      "phrase_len": 4,
+      "gap_len": 1,
+      "start_slot_index": 0,
+      "end_slot_index": 13,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA",
+        "TIT",
+        "KII"
+      ],
+      "gap": [],
+      "phrase_len": 5,
+      "gap_len": 0,
+      "start_slot_index": 23,
+      "end_slot_index": 37,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "NA",
+        "GA",
+        "TIT",
+        "GHI",
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "TIT",
+        "GHI",
+        "DA"
+      ],
+      "phrase_len": 7,
+      "gap_len": 3,
+      "start_slot_index": 41,
+      "end_slot_index": 67,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA",
+        "TIT",
+        "KII"
+      ],
+      "gap": [],
+      "phrase_len": 5,
+      "gap_len": 0,
+      "start_slot_index": 77,
+      "end_slot_index": 91,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "NA",
+        "GA",
+        "TIT"
+      ],
+      "gap": [
+        "GHI",
+        "DA"
+      ],
+      "phrase_len": 3,
+      "gap_len": 2,
+      "start_slot_index": 95,
+      "end_slot_index": 107,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "ajr_9": [
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "TA",
+        "TIT",
+        "DHA",
+        "GE",
+        "TA",
+        "DHA"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 170,
+      "end_slot_index": 193,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    }
+  ],
+  "luc_14": [
+    {
+      "phrase": [
+        "TI",
+        "TA",
+        "KDA",
+        "DHA"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 14,
+      "end_slot_index": 25,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "TA"
+      ],
+      "gap": [
+        "KDA",
+        "DHET",
+        "TAA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 3,
+      "start_slot_index": 30,
+      "end_slot_index": 41,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "TAA",
+        "GE",
+        "NA"
+      ],
+      "gap": [
+        "DHI"
+      ],
+      "phrase_len": 4,
+      "gap_len": 1,
+      "start_slot_index": 70,
+      "end_slot_index": 83,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "TAA",
+        "GE",
+        "NA"
+      ],
+      "gap": [
+        "DHI"
+      ],
+      "phrase_len": 4,
+      "gap_len": 1,
+      "start_slot_index": 91,
+      "end_slot_index": 104,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "TAA",
+        "GE",
+        "NA"
+      ],
+      "gap": [
+        "DHI"
+      ],
+      "phrase_len": 4,
+      "gap_len": 1,
+      "start_slot_index": 112,
+      "end_slot_index": 125,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "luc_16": [
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA"
+      ],
+      "phrase_len": 6,
+      "gap_len": 1,
+      "start_slot_index": 13,
+      "end_slot_index": 32,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "KE",
+        "TRA",
+        "KA",
+        "DHI",
+        "KI",
+        "TA",
+        "KA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 33,
+      "end_slot_index": 56,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "TA"
+      ],
+      "gap": [
+        "DHA",
+        "GE",
+        "TI",
+        "TA",
+        "TAA"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 62,
+      "end_slot_index": 80,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET"
+      ],
+      "gap": [
+        "DHET",
+        "DHA"
+      ],
+      "phrase_len": 12,
+      "gap_len": 2,
+      "start_slot_index": 119,
+      "end_slot_index": 158,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA"
+      ],
+      "phrase_len": 6,
+      "gap_len": 1,
+      "start_slot_index": 174,
+      "end_slot_index": 193,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "KE",
+        "TRA",
+        "KA",
+        "DHI",
+        "KI",
+        "TA",
+        "KA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 194,
+      "end_slot_index": 217,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "TA"
+      ],
+      "gap": [
+        "DHA",
+        "GE",
+        "TI",
+        "TA",
+        "TAA"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 223,
+      "end_slot_index": 241,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET"
+      ],
+      "gap": [
+        "DHET",
+        "DHA"
+      ],
+      "phrase_len": 12,
+      "gap_len": 2,
+      "start_slot_index": 280,
+      "end_slot_index": 319,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA"
+      ],
+      "phrase_len": 6,
+      "gap_len": 1,
+      "start_slot_index": 335,
+      "end_slot_index": 354,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "KE",
+        "TRA",
+        "KA",
+        "DHI",
+        "KI",
+        "TA",
+        "KA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 355,
+      "end_slot_index": 378,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "TA"
+      ],
+      "gap": [
+        "DHA",
+        "GE",
+        "TI",
+        "TA",
+        "TAA"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 384,
+      "end_slot_index": 402,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET",
+        "TAA",
+        "GE",
+        "DA",
+        "DHET"
+      ],
+      "gap": [
+        "DHET",
+        "DHA"
+      ],
+      "phrase_len": 12,
+      "gap_len": 2,
+      "start_slot_index": 441,
+      "end_slot_index": 480,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    }
+  ],
+  "luc_18": [
+    {
+      "phrase": [
+        "DHIN",
+        "NA",
+        "GHI",
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 0,
+      "end_slot_index": 17,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 18,
+      "end_slot_index": 23,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA",
+        "DHIN",
+        "NA"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 24,
+      "end_slot_index": 35,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KAT"
+      ],
+      "gap": [],
+      "phrase_len": 5,
+      "gap_len": 0,
+      "start_slot_index": 36,
+      "end_slot_index": 50,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    },
+    {
+      "phrase": [
+        "DHE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 51,
+      "end_slot_index": 56,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 57,
+      "end_slot_index": 62,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 67,
+      "end_slot_index": 84,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 89,
+      "end_slot_index": 106,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 111,
+      "end_slot_index": 128,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "DHIN",
+        "NA",
+        "GHI",
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 129,
+      "end_slot_index": 146,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 147,
+      "end_slot_index": 152,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA",
+        "DHIN",
+        "NA"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 153,
+      "end_slot_index": 164,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KAT"
+      ],
+      "gap": [],
+      "phrase_len": 5,
+      "gap_len": 0,
+      "start_slot_index": 165,
+      "end_slot_index": 179,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    },
+    {
+      "phrase": [
+        "DHE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 180,
+      "end_slot_index": 185,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 186,
+      "end_slot_index": 191,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 196,
+      "end_slot_index": 213,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 218,
+      "end_slot_index": 235,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 240,
+      "end_slot_index": 257,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "ben_19": [
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "DHA",
+        "KDA",
+        "DHA",
+        "TA",
+        "DHA"
+      ],
+      "gap": [],
+      "phrase_len": 9,
+      "gap_len": 0,
+      "start_slot_index": 89,
+      "end_slot_index": 115,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "DHA",
+        "KDA",
+        "DHA",
+        "TA",
+        "DHA"
+      ],
+      "gap": [],
+      "phrase_len": 9,
+      "gap_len": 0,
+      "start_slot_index": 123,
+      "end_slot_index": 149,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "DHA",
+        "KDA",
+        "DHA",
+        "TA"
+      ],
+      "gap": [
+        "DHA"
+      ],
+      "phrase_len": 8,
+      "gap_len": 1,
+      "start_slot_index": 157,
+      "end_slot_index": 182,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "ben_23": [
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "GHI"
+      ],
+      "gap": [
+        "DI",
+        "NA",
+        "DHA",
+        "GE"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 38,
+      "end_slot_index": 60,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "GHI"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 61,
+      "end_slot_index": 79,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "GHI",
+        "DI",
+        "NA",
+        "DHA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 99,
+      "end_slot_index": 121,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "GHI"
+      ],
+      "gap": [
+        "DI",
+        "NA",
+        "DHA",
+        "GE"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 160,
+      "end_slot_index": 182,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "GHI"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 183,
+      "end_slot_index": 201,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "GHI",
+        "DI",
+        "NA",
+        "DHA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 221,
+      "end_slot_index": 243,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "GHI"
+      ],
+      "gap": [
+        "DI",
+        "NA",
+        "DHA",
+        "GE"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 282,
+      "end_slot_index": 304,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "GHI"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 305,
+      "end_slot_index": 323,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "GHI",
+        "DI",
+        "NA",
+        "DHA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 343,
+      "end_slot_index": 365,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "GHI"
+      ],
+      "gap": [
+        "DI",
+        "NA",
+        "DHA",
+        "GE"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 404,
+      "end_slot_index": 426,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "DA",
+        "NA",
+        "GA"
+      ],
+      "gap": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "GHI"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 427,
+      "end_slot_index": 445,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "GE",
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "GHI",
+        "DI",
+        "NA",
+        "DHA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 4,
+      "start_slot_index": 465,
+      "end_slot_index": 487,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "ben_24": [
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHE",
+        "RE",
+        "DHE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 26,
+      "end_slot_index": 49,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "GHI",
+        "DA",
+        "NA",
+        "GA",
+        "NA",
+        "GA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 8,
+      "start_slot_index": 56,
+      "end_slot_index": 83,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "TE",
+        "RE",
+        "TE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 136,
+      "end_slot_index": 159,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "GHI",
+        "DA",
+        "NA",
+        "GA",
+        "NA",
+        "GA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 8,
+      "start_slot_index": 166,
+      "end_slot_index": 193,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHE",
+        "RE",
+        "DHE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 246,
+      "end_slot_index": 269,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "GHI",
+        "DA",
+        "NA",
+        "GA",
+        "NA",
+        "GA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 8,
+      "start_slot_index": 276,
+      "end_slot_index": 303,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TE",
+        "RE",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TE",
+        "RE"
+      ],
+      "phrase_len": 6,
+      "gap_len": 2,
+      "start_slot_index": 362,
+      "end_slot_index": 383,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "GHI",
+        "DA",
+        "NA",
+        "GA",
+        "NA",
+        "GA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 8,
+      "start_slot_index": 386,
+      "end_slot_index": 413,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    }
+  ],
+  "ben_25": [
+    {
+      "phrase": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA",
+        "TA",
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "DHA"
+      ],
+      "phrase_len": 12,
+      "gap_len": 1,
+      "start_slot_index": 122,
+      "end_slot_index": 159,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "DHA",
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA",
+        "TA",
+        "KI"
+      ],
+      "gap": [
+        "TA"
+      ],
+      "phrase_len": 12,
+      "gap_len": 1,
+      "start_slot_index": 160,
+      "end_slot_index": 197,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "DHA",
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA",
+        "TA"
+      ],
+      "gap": [
+        "KI"
+      ],
+      "phrase_len": 12,
+      "gap_len": 1,
+      "start_slot_index": 198,
+      "end_slot_index": 235,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    }
+  ],
+  "ben_26": [
+    {
+      "phrase": [
+        "DHE",
+        "RE",
+        "DHE",
+        "RE",
+        "KAT"
+      ],
+      "gap": [],
+      "phrase_len": 5,
+      "gap_len": 0,
+      "start_slot_index": 67,
+      "end_slot_index": 81,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA"
+      ],
+      "gap": [
+        "TA",
+        "KA",
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 5,
+      "start_slot_index": 86,
+      "end_slot_index": 101,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    }
+  ],
+  "frk_28": [
+    {
+      "phrase": [
+        "NA",
+        "DHA"
+      ],
+      "gap": [
+        "GE",
+        "NA",
+        "GA",
+        "DHI"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 9,
+      "end_slot_index": 22,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA"
+      ],
+      "gap": [
+        "DI",
+        "NA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 2,
+      "start_slot_index": 52,
+      "end_slot_index": 70,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "NA",
+        "DHA"
+      ],
+      "gap": [
+        "GE",
+        "NA",
+        "GA",
+        "DHI"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 114,
+      "end_slot_index": 127,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA",
+        "DHA"
+      ],
+      "gap": [
+        "DI",
+        "NA"
+      ],
+      "phrase_len": 5,
+      "gap_len": 2,
+      "start_slot_index": 157,
+      "end_slot_index": 175,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    }
+  ],
+  "frk_31": [
+    {
+      "phrase": [
+        "NA",
+        "GA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 39,
+      "end_slot_index": 44,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 53,
+      "end_slot_index": 58,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "NA",
+        "GA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 243,
+      "end_slot_index": 248,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 257,
+      "end_slot_index": 262,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "NA",
+        "GA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 447,
+      "end_slot_index": 452,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 461,
+      "end_slot_index": 466,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    }
+  ],
+  "pjb_75": [
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 1,
+      "end_slot_index": 18,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 88,
+      "end_slot_index": 105,
+      "lands_near_sam": false,
+      "sam_distance_matras": 7.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 175,
+      "end_slot_index": 192,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 262,
+      "end_slot_index": 279,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 349,
+      "end_slot_index": 366,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 376,
+      "end_slot_index": 393,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 403,
+      "end_slot_index": 420,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "KA",
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 446,
+      "end_slot_index": 463,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "KA",
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 474,
+      "end_slot_index": 491,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "RA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 502,
+      "end_slot_index": 519,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    }
+  ],
+  "pjb_77": [
+    {
+      "phrase": [
+        "DHA",
+        "KDA",
+        "DHI",
+        "NA",
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "DHA",
+        "TAA"
+      ],
+      "phrase_len": 8,
+      "gap_len": 2,
+      "start_slot_index": 38,
+      "end_slot_index": 65,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    }
+  ],
+  "pjb_79": [
+    {
+      "phrase": [
+        "TI",
+        "TA",
+        "GHE",
+        "GE"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 15,
+      "end_slot_index": 26,
+      "lands_near_sam": false,
+      "sam_distance_matras": 8.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 176,
+      "end_slot_index": 193,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "TA",
+        "GHE",
+        "GE"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 203,
+      "end_slot_index": 214,
+      "lands_near_sam": true,
+      "sam_distance_matras": 0.0
+    },
+    {
+      "phrase": [
+        "KI",
+        "TA",
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TAA",
+        "TI",
+        "RA"
+      ],
+      "phrase_len": 4,
+      "gap_len": 3,
+      "start_slot_index": 364,
+      "end_slot_index": 381,
+      "lands_near_sam": false,
+      "sam_distance_matras": 3.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "TA",
+        "GHE",
+        "GE"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 391,
+      "end_slot_index": 402,
+      "lands_near_sam": false,
+      "sam_distance_matras": 8.0
+    }
+  ],
+  "pjb_80": [
+    {
+      "phrase": [
+        "DHE",
+        "RE"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 6,
+      "end_slot_index": 11,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TI",
+        "TA",
+        "GHE",
+        "GE"
+      ],
+      "gap": [],
+      "phrase_len": 4,
+      "gap_len": 0,
+      "start_slot_index": 17,
+      "end_slot_index": 28,
+      "lands_near_sam": false,
+      "sam_distance_matras": 8.0
+    }
+  ],
+  "pjb_81": [
+    {
+      "phrase": [
+        "DHA",
+        "TA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 43,
+      "end_slot_index": 48,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "pjb_84": [
+    {
+      "phrase": [
+        "TA",
+        "DHA",
+        "NA",
+        "TIN",
+        "KAT",
+        "NA",
+        "TIN",
+        "KAT"
+      ],
+      "gap": [],
+      "phrase_len": 8,
+      "gap_len": 0,
+      "start_slot_index": 22,
+      "end_slot_index": 45,
+      "lands_near_sam": false,
+      "sam_distance_matras": 4.0
+    }
+  ],
+  "pjb_85": [
+    {
+      "phrase": [
+        "GHI",
+        "NA"
+      ],
+      "gap": [
+        "KA",
+        "TA",
+        "KI",
+        "NA",
+        "TI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 6,
+      "start_slot_index": 0,
+      "end_slot_index": 17,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "GHI",
+        "NA"
+      ],
+      "gap": [
+        "KA",
+        "TA",
+        "KI",
+        "NA",
+        "TI"
+      ],
+      "phrase_len": 3,
+      "gap_len": 5,
+      "start_slot_index": 76,
+      "end_slot_index": 94,
+      "lands_near_sam": true,
+      "sam_distance_matras": 1.0
+    }
+  ],
+  "pjb_86": [
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "NA",
+        "DHA",
+        "GHI",
+        "NA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 0,
+      "end_slot_index": 17,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 37,
+      "end_slot_index": 42,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 49,
+      "end_slot_index": 62,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 77,
+      "end_slot_index": 90,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 105,
+      "end_slot_index": 118,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "DHA",
+        "GE",
+        "NA",
+        "DHA",
+        "GHI",
+        "NA"
+      ],
+      "gap": [],
+      "phrase_len": 6,
+      "gap_len": 0,
+      "start_slot_index": 127,
+      "end_slot_index": 144,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [],
+      "phrase_len": 2,
+      "gap_len": 0,
+      "start_slot_index": 164,
+      "end_slot_index": 169,
+      "lands_near_sam": false,
+      "sam_distance_matras": 2.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 176,
+      "end_slot_index": 189,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 204,
+      "end_slot_index": 217,
+      "lands_near_sam": false,
+      "sam_distance_matras": 5.0
+    },
+    {
+      "phrase": [
+        "TA",
+        "KA"
+      ],
+      "gap": [
+        "TI",
+        "RA",
+        "KI",
+        "TA"
+      ],
+      "phrase_len": 2,
+      "gap_len": 4,
+      "start_slot_index": 232,
+      "end_slot_index": 245,
+      "lands_near_sam": false,
+      "sam_distance_matras": 6.0
+    }
+  ]
+}
