@@ -5,6 +5,7 @@ Run with:  python3 -m pytest tests/test_pcfg.py -v
 (or, if pytest is unavailable:  python3 tests/test_pcfg.py)
 """
 import math
+import random
 import sys
 from pathlib import Path
 
@@ -14,7 +15,8 @@ from mts_loader import load_all_compositions  # noqa: E402
 from bol_normalization import BolNormalizer, BolNormalizationMode  # noqa: E402
 from pcfg import (  # noqa: E402
     PCFG, Rule, train_supervised, tree_log_prob, sample_tree,
-    cyk_inside_log_prob, START,
+    cyk_inside_log_prob, START, inside_outside_expected_counts, em_train,
+    uniform_init_grammar, random_init_grammar,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -111,6 +113,101 @@ def test_pcfg_diagnostics_catches_a_bad_probability_sum():
     diag = grammar.diagnostics()
     assert diag["probabilities_sum_to_one"] is False
     assert diag["issues"]
+
+
+# ---------------------------------------------------------------------
+# Phase 6 - Inside-Outside EM: hand-computable synthetic tests.
+# ---------------------------------------------------------------------
+
+def test_expected_counts_match_hand_computation_on_ambiguous_grammar():
+    """Same toy grammar as the Inside test above (S->XX prob 0.6, S->YY
+    prob 0.4, X->a, Y->a prob 1 each; total P("aa")=1.0). Expected rule
+    counts can be computed by hand because there are only two parses:
+      - E[S->XX] = 0.6, E[S->YY] = 0.4 (each parse's own probability,
+        since Z=1.0)
+      - E[X->a] = 0.6 (position 0) + 0.6 (position 1) = 1.2 - X is used
+        TWICE in its one parse, so its expected count exceeds its parse's
+        probability, which is exactly why terminal-rule expected counts
+        are not themselves probabilities.
+      - E[Y->a] = 0.4 + 0.4 = 0.8, by the same reasoning.
+    """
+    grammar = _toy_ambiguous_grammar()
+    log_z, counts = inside_outside_expected_counts(grammar, ["a", "a"], start="S")
+    assert abs(log_z - 0.0) < 1e-9  # log(1.0)
+    assert abs(counts[("S", ("X", "X"))] - 0.6) < 1e-9
+    assert abs(counts[("S", ("Y", "Y"))] - 0.4) < 1e-9
+    assert abs(counts[("X", ("TERM", "a"))] - 1.2) < 1e-9
+    assert abs(counts[("Y", ("TERM", "a"))] - 0.8) < 1e-9
+
+
+def test_expected_counts_through_a_unary_rule():
+    """S -> A (unary, prob 1.0), A -> "a" (prob 1.0). The only grammatical
+    string is "a", with exactly one parse, so both rules' expected counts
+    must be exactly 1.0 - a minimal hand-checkable test of unary-rule
+    counting specifically (the part a pure binary-rule test like the one
+    above cannot exercise)."""
+    grammar = PCFG()
+    grammar.rules["S"] = [Rule(lhs="S", rhs=("A",), prob=1.0)]
+    grammar.rules["A"] = [Rule(lhs="A", rhs=("TERM", "a"), prob=1.0)]
+    grammar.vocabulary = {"a"}
+    log_z, counts = inside_outside_expected_counts(grammar, ["a"], start="S")
+    assert abs(log_z - 0.0) < 1e-9
+    assert abs(counts[("S", ("A",))] - 1.0) < 1e-9
+    assert abs(counts[("A", ("TERM", "a"))] - 1.0) < 1e-9
+
+
+def test_full_inside_chart_log_z_matches_phase5_cyk_inside_log_prob():
+    """pcfg.py's module docstring flags that Phase 5's unary closure used
+    `max`, not a true sum, as a simplification it could not prove was safe
+    for this grammar. inside_outside_expected_counts uses a DIFFERENT,
+    always-correct (true-sum) unary closure internally. If the two ever
+    disagreed on a real grammar, that would mean Phase 5's numbers were
+    wrong; on this toy ambiguous grammar (which has genuine multi-path
+    unary-adjacent structure via S's two alternative productions) they
+    must still agree, since cyk_inside_log_prob's own `max`-based closure
+    only applies to UNARY rule chains, not to the S->XX/S->YY binary
+    ambiguity, which both implementations sum over identically."""
+    grammar = _toy_ambiguous_grammar()
+    log_z_new, _ = inside_outside_expected_counts(grammar, ["a", "a"], start="S")
+    log_z_old = cyk_inside_log_prob(grammar, ["a", "a"], start="S")
+    assert abs(log_z_new - log_z_old) < 1e-9
+
+
+def test_em_log_likelihood_is_monotonically_non_decreasing():
+    """The standard EM guarantee: each M-step cannot decrease the training
+    data's log-likelihood under the previous E-step's expected counts.
+    Starting from a deliberately wrong (random) initialization on a tiny
+    synthetic example set, successive iterations' log-likelihoods must be
+    non-decreasing (up to floating-point tolerance) - if this ever
+    regressed it would mean a bug in the E-step or M-step math, not a
+    data problem, since this uses a fixed toy grammar and fixed examples."""
+    template = PCFG()
+    template.rules["S"] = [Rule(lhs="S", rhs=("X", "X")), Rule(lhs="S", rhs=("Y", "Y"))]
+    template.rules["X"] = [Rule(lhs="X", rhs=("TERM", "a"))]
+    template.rules["Y"] = [Rule(lhs="Y", rhs=("TERM", "a"))]
+    template.vocabulary = {"a"}
+    init = random_init_grammar(template, rng=random.Random(7))
+    examples = [["a", "a"], ["a", "a"], ["a", "a"]]
+    _, log_likelihoods = em_train(examples, init, n_iterations=8, dirichlet_alpha=0.0, start="S")
+    for earlier, later in zip(log_likelihoods, log_likelihoods[1:]):
+        assert later >= earlier - 1e-6, f"log-likelihood decreased: {earlier} -> {later}"
+
+
+def test_uniform_and_random_init_grammars_are_well_formed():
+    template = PCFG()
+    template.rules["S"] = [Rule(lhs="S", rhs=("X", "X")), Rule(lhs="S", rhs=("Y", "Y")),
+                            Rule(lhs="S", rhs=("X", "Y"))]
+    template.rules["X"] = [Rule(lhs="X", rhs=("TERM", "a"))]
+    template.rules["Y"] = [Rule(lhs="Y", rhs=("TERM", "a"))]
+    template.vocabulary = {"a"}
+
+    uniform = uniform_init_grammar(template)
+    for r in uniform.rules["S"]:
+        assert abs(r.prob - 1.0 / 3) < 1e-9
+
+    rnd = random_init_grammar(template, rng=random.Random(1))
+    assert abs(sum(r.prob for r in rnd.rules["S"]) - 1.0) < 1e-9
+    assert all(r.prob >= 0.0 for r in rnd.rules["S"])
 
 
 # ---------------------------------------------------------------------

@@ -382,3 +382,354 @@ def cyk_inside_log_prob(grammar: PCFG, bols: list[str], start: str = START) -> f
             chart[i][span] = {sym: _logsumexp(lps) for sym, lps in cell_accum.items()}
 
     return chart[0][n].get(start, _NEG_INF)
+
+
+# ---------------------------------------------------------------------
+# Phase 6 - Inside-Outside EM.
+#
+# WHY this exists, given Phase 5 already trained a grammar: the project
+# plan's own learning algorithm (proposal SS6 / docs/PROJECT_PLAN.md SS6)
+# specifies Inside-Outside EM as the way production probabilities are
+# learned, with supervised MLE on a hand-parsed subset used only to
+# INITIALIZE EM "to avoid poor local optima" - EM itself was never
+# actually run. Phase 5 used full supervised MLE instead, which is exact
+# and valid because Phase 3's timestamps give a known derivation for
+# EVERY avartan in the whole corpus - but that means the plan's own claim
+# ("supervised init avoids poor local optima") was asserted, not tested.
+# This phase actually runs EM - from supervised, uniform, and random
+# initializations - and reports what really happens, instead of taking
+# that claim on faith.
+#
+# SCOPE DECISION, stated explicitly: EM here is run with each AVARTAN
+# (not each whole composition) as one training example. Two reasons,
+# both honest trade-offs rather than a silent shortcut:
+#   1. Phase 5's own CYK/Inside validation found that parsing a FLAT bol
+#      sequence with no timing is highly ambiguous (the whole reason
+#      cyk_inside_log_prob exists) - and that ambiguity is what EM's
+#      Inside-Outside E-step would have to sum over. At the full
+#      composition level (up to 611 bols) this is computationally
+#      infeasible (Phase 5 extrapolated ~13+ minutes for ONE inside pass
+#      on the longest composition; EM needs an inside AND an outside pass
+#      per example, per iteration). At the avartan level (max 63 bols,
+#      median 21, across 351 avartans) it is tractable - see the
+#      benchmark in docs/PHASE6_EM.md.
+#   2. The Composition -> Avartan Composition | Avartan recursion itself
+#      is not ambiguous (it is a simple linear chain over already-settled
+#      avartan boundaries - Phase 1/3 verified those from the score/onset
+#      alignment) - so nothing interesting is lost by not re-learning it
+#      via EM; the real production-probability question is entirely
+#      inside the Vibhag/Matra/BolSlot layer, which this scope keeps.
+# ---------------------------------------------------------------------
+
+def _build_rule_tables(grammar: PCFG):
+    """Index a grammar's positive-probability rules for fast inside/outside
+    lookup: binary rules by (B, C) RHS pair, unary rules by their single RHS
+    symbol (and, inverted, by LHS), terminal rules by LHS; plus a fixed
+    topological order over non-terminals for the unary closures below."""
+    binary_by_rhs: dict[tuple, list[tuple]] = defaultdict(list)
+    unary_by_rhs: dict[str, list[tuple]] = defaultdict(list)
+    unary_by_lhs: dict[str, list[tuple]] = defaultdict(list)
+    term_by_lhs: dict[str, dict[str, float]] = defaultdict(dict)
+    for lhs, rules in grammar.rules.items():
+        for r in rules:
+            if r.prob <= 0:
+                continue
+            lp = math.log(r.prob)
+            if r.is_binary():
+                binary_by_rhs[r.rhs].append((lhs, lp))
+            elif r.is_unary_nt():
+                unary_by_rhs[r.rhs[0]].append((lhs, lp))
+                unary_by_lhs[lhs].append((r.rhs[0], lp))
+            else:
+                term_by_lhs[lhs][r.rhs[1]] = lp
+    order = _unary_topo_order(unary_by_lhs, grammar.rules.keys())
+    return binary_by_rhs, unary_by_rhs, unary_by_lhs, term_by_lhs, order
+
+
+def _unary_topo_order(unary_by_lhs: dict[str, list[tuple]], all_symbols) -> list[str]:
+    """A topological order over non-terminals for the unary-rule dependency
+    graph (edge lhs -> target for each unary rule lhs -> target), such that
+    every target appears before the lhs symbols that point to it. Computed
+    ONCE per grammar (it does not depend on any particular chart cell), then
+    reused for every cell's closure - this is what makes the closure a
+    single linear pass per cell instead of an iterate-until-stable loop
+    (an earlier version of this code used such a loop and double-counted
+    contributions across passes; a plain topological pass cannot, since
+    each symbol's value is written exactly once, after all its dependencies
+    are already final). Assumes the unary-rule graph is acyclic, which holds
+    for this grammar (Composition -> Avartan -> Vibhag -> Matra/SamMatra ->
+    BolSlot is strictly depth-decreasing - see the grammar design in this
+    module's docstring)."""
+    order: list[str] = []
+    visited: set[str] = set()
+
+    def visit(sym: str) -> None:
+        if sym in visited:
+            return
+        visited.add(sym)
+        for target, _ in unary_by_lhs.get(sym, ()):
+            visit(target)
+        order.append(sym)
+
+    for sym in all_symbols:
+        visit(sym)
+    return order
+
+
+def _apply_unary_fixpoint(cell: dict[str, float], unary_by_lhs: dict[str, list[tuple]],
+                           order: list[str]) -> None:
+    """In place, extend `cell` (an inside chart cell) to include every
+    symbol reachable via a chain of unary rules from a symbol already in
+    `cell` - summing (log-sum-exp) every distinct chain into a symbol, not
+    keeping only the best one. Processes symbols in dependency order
+    (each unary rule's RHS target before its LHS), so every symbol's final
+    value is computed in a single pass, with no double-counting."""
+    for sym in order:
+        contributions = [cell[target] + lp for target, lp in unary_by_lhs.get(sym, ())
+                          if target in cell]
+        if not contributions:
+            continue
+        if sym in cell:
+            contributions.append(cell[sym])
+        cell[sym] = _logsumexp(contributions)
+
+
+def _apply_unary_outside_fixpoint(cell: dict[str, float], unary_by_lhs: dict[str, list[tuple]],
+                                   order: list[str]) -> None:
+    """The outside-direction mirror of _apply_unary_fixpoint: propagates an
+    outside value from a unary rule's LHS down onto its RHS target, at the
+    same (i, span) cell. Processes symbols in REVERSE dependency order
+    (each unary rule's LHS before its RHS target - the opposite direction
+    from the inside closure, since here a target's value depends on its
+    parent's outside value, not the other way around), again in one pass."""
+    for sym in reversed(order):
+        if sym not in cell:
+            continue
+        base = cell[sym]
+        for target, lp in unary_by_lhs.get(sym, ()):
+            contributions = [base + lp]
+            if target in cell:
+                contributions.append(cell[target])
+            cell[target] = _logsumexp(contributions)
+
+
+def _inside_chart(grammar: PCFG, bols: list[str]):
+    """Full inside chart: inside[i][span][symbol] = total log-probability of
+    `symbol` deriving bols[i:i+span], via ANY rule type (terminal, unary, or
+    binary), summed over every distinct way of doing so. Unlike Phase 5's
+    cyk_inside_log_prob (which only needed the chart's final scalar and so
+    could use a precomputed closure shortcut), this keeps the complete
+    per-symbol table at every cell, which inside_outside_expected_counts
+    needs to attribute probability mass to each individual rule."""
+    n = len(bols)
+    binary_by_rhs, unary_by_rhs, unary_by_lhs, term_by_lhs, order = _build_rule_tables(grammar)
+    inside: list[list[dict[str, float]]] = [[{} for _ in range(n + 1)] for _ in range(n)]
+    for i in range(n):
+        cell: dict[str, float] = {}
+        for lhs, bol_map in term_by_lhs.items():
+            if bols[i] in bol_map:
+                cell[lhs] = bol_map[bols[i]]
+        _apply_unary_fixpoint(cell, unary_by_lhs, order)
+        inside[i][1] = cell
+    for span in range(2, n + 1):
+        for i in range(0, n - span + 1):
+            cell_accum: dict[str, list[float]] = defaultdict(list)
+            for split in range(1, span):
+                left = inside[i][split]
+                right = inside[i + split][span - split]
+                if not left or not right:
+                    continue
+                for (b_sym, c_sym), lhs_list in binary_by_rhs.items():
+                    lp_b = left.get(b_sym)
+                    lp_c = right.get(c_sym)
+                    if lp_b is None or lp_c is None:
+                        continue
+                    base = lp_b + lp_c
+                    for lhs, rule_lp in lhs_list:
+                        cell_accum[lhs].append(base + rule_lp)
+            cell = {sym: _logsumexp(lps) for sym, lps in cell_accum.items()}
+            _apply_unary_fixpoint(cell, unary_by_lhs, order)
+            inside[i][span] = cell
+    return inside, (binary_by_rhs, unary_by_rhs, term_by_lhs, unary_by_lhs, order)
+
+
+def _outside_chart(grammar: PCFG, bols: list[str], inside, rule_tables, start: str = START):
+    """Full outside chart: outside[i][span][symbol] = total log-probability
+    of generating everything OUTSIDE bols[i:i+span] from `start`, given that
+    `symbol` is the node spanning exactly that range. Computed top-down
+    (largest spans first), since a cell's outside value only depends on
+    outside values of strictly larger spans that have already been finalized."""
+    n = len(bols)
+    binary_by_rhs, unary_by_rhs, term_by_lhs, unary_by_lhs, order = rule_tables
+    binary_by_lhs: dict[str, list[tuple]] = defaultdict(list)
+    for (b_sym, c_sym), lhs_list in binary_by_rhs.items():
+        for lhs, lp in lhs_list:
+            binary_by_lhs[lhs].append((b_sym, c_sym, lp))
+
+    accum: list[list[dict[str, list]]] = [
+        [defaultdict(list) for _ in range(n + 1)] for _ in range(n)
+    ]
+    outside: list[list[dict[str, float]]] = [[{} for _ in range(n + 1)] for _ in range(n)]
+    if n > 0:
+        accum[0][n][start].append(0.0)  # log(1): the root is "start", outside everything is certain
+
+    for span in range(n, 0, -1):
+        for i in range(0, n - span + 1):
+            cell = {sym: _logsumexp(lps) for sym, lps in accum[i][span].items()}
+            _apply_unary_outside_fixpoint(cell, unary_by_lhs, order)
+            outside[i][span] = cell
+            if span == 1 or not cell:
+                continue
+            for lhs, lp_val in cell.items():
+                for b_sym, c_sym, rule_lp in binary_by_lhs.get(lhs, []):
+                    for split in range(1, span):
+                        left_span, right_span = split, span - split
+                        in_left = inside[i][left_span].get(b_sym)
+                        in_right = inside[i + left_span][right_span].get(c_sym)
+                        if in_left is None or in_right is None:
+                            continue
+                        accum[i][left_span][b_sym].append(lp_val + rule_lp + in_right)
+                        accum[i + left_span][right_span][c_sym].append(lp_val + rule_lp + in_left)
+    return outside
+
+
+def _expected_counts(bols: list[str], inside, outside, rule_tables, log_z: float) -> dict[tuple, float]:
+    """The standard Inside-Outside expected-count formulas: for every rule,
+    sum outside(parent) * P(rule) * inside(children) over every (position,
+    span) it could apply to, normalized by the example's total probability
+    (log_z). This is exactly the E-step of EM."""
+    n = len(bols)
+    binary_by_rhs, unary_by_rhs, term_by_lhs, _unary_by_lhs, _order = rule_tables
+    counts: dict[tuple, float] = defaultdict(float)
+    if log_z == _NEG_INF:
+        return counts
+
+    for i in range(n):
+        bol = bols[i]
+        out_cell = outside[i][1]
+        for lhs, bol_map in term_by_lhs.items():
+            if bol in bol_map and lhs in out_cell:
+                lp = out_cell[lhs] + bol_map[bol] - log_z
+                counts[(lhs, ("TERM", bol))] += math.exp(lp)
+
+    for span in range(1, n + 1):
+        for i in range(0, n - span + 1):
+            in_cell = inside[i][span]
+            out_cell = outside[i][span]
+            if not in_cell or not out_cell:
+                continue
+            for rhs_sym, lhs_list in unary_by_rhs.items():
+                if rhs_sym not in in_cell:
+                    continue
+                in_val = in_cell[rhs_sym]
+                for lhs, rule_lp in lhs_list:
+                    if lhs not in out_cell:
+                        continue
+                    lp = out_cell[lhs] + rule_lp + in_val - log_z
+                    counts[(lhs, (rhs_sym,))] += math.exp(lp)
+
+    for span in range(2, n + 1):
+        for i in range(0, n - span + 1):
+            out_cell = outside[i][span]
+            if not out_cell:
+                continue
+            for split in range(1, span):
+                left = inside[i][split]
+                right = inside[i + split][span - split]
+                if not left or not right:
+                    continue
+                for (b_sym, c_sym), lhs_list in binary_by_rhs.items():
+                    lp_b = left.get(b_sym)
+                    lp_c = right.get(c_sym)
+                    if lp_b is None or lp_c is None:
+                        continue
+                    for lhs, rule_lp in lhs_list:
+                        if lhs not in out_cell:
+                            continue
+                        lp = out_cell[lhs] + rule_lp + lp_b + lp_c - log_z
+                        counts[(lhs, (b_sym, c_sym))] += math.exp(lp)
+    return counts
+
+
+def inside_outside_expected_counts(grammar: PCFG, bols: list[str],
+                                    start: str = START) -> tuple[float, dict[tuple, float]]:
+    """Run the full Inside-Outside algorithm on one bol sequence under the
+    current grammar. Returns (log P(bols), expected_counts) where
+    expected_counts maps (lhs, rhs) -> the fractional number of times that
+    rule was used, in expectation, across every possible parse - the E-step
+    of EM for a single training example."""
+    n = len(bols)
+    if n == 0:
+        return _NEG_INF, {}
+    inside, rule_tables = _inside_chart(grammar, bols)
+    log_z = inside[0][n].get(start, _NEG_INF)
+    outside = _outside_chart(grammar, bols, inside, rule_tables, start=start)
+    counts = _expected_counts(bols, inside, outside, rule_tables, log_z)
+    return log_z, counts
+
+
+def uniform_init_grammar(template: PCFG) -> PCFG:
+    """A fresh grammar with the same non-terminals/rule shapes as `template`
+    but every LHS's productions given equal probability - the "no prior
+    knowledge at all" EM starting point."""
+    g = PCFG()
+    g.vocabulary = set(template.vocabulary)
+    for lhs, rules in template.rules.items():
+        g.rules[lhs] = [Rule(lhs=lhs, rhs=r.rhs, count=0) for r in rules]
+        k = len(g.rules[lhs])
+        for r in g.rules[lhs]:
+            r.prob = 1.0 / k if k > 0 else 0.0
+    return g
+
+
+def random_init_grammar(template: PCFG, rng: random.Random) -> PCFG:
+    """A fresh grammar with the same shape as `template` but each LHS's
+    productions given probabilities drawn uniformly at random from the
+    probability simplex (via normalized Gamma(1,1) draws - an exact
+    Dirichlet(1,...,1) sample), to test whether EM can recover good
+    probabilities with NO informative starting point at all."""
+    g = PCFG()
+    g.vocabulary = set(template.vocabulary)
+    for lhs, rules in template.rules.items():
+        g.rules[lhs] = [Rule(lhs=lhs, rhs=r.rhs, count=0) for r in rules]
+        draws = [rng.gammavariate(1.0, 1.0) for _ in g.rules[lhs]]
+        total = sum(draws)
+        k = len(g.rules[lhs])
+        for r, d in zip(g.rules[lhs], draws):
+            r.prob = (d / total) if total > 0 else (1.0 / k if k > 0 else 0.0)
+    return g
+
+
+def em_train(examples: list[list[str]], grammar: PCFG, n_iterations: int = 10,
+             dirichlet_alpha: float = 0.01, start: str = START) -> tuple[PCFG, list[float]]:
+    """Run Inside-Outside EM for `n_iterations`, starting from `grammar`'s
+    current probabilities. Each iteration: E-step accumulates expected rule
+    counts over every example under the CURRENT grammar; M-step renormalizes
+    those counts (with Dirichlet/MAP smoothing, per the proposal's own
+    degenerate-grammar mitigation) into the next grammar. Returns the final
+    grammar and the per-iteration total corpus log-likelihood, so convergence
+    (or a poor local optimum) can be read off directly."""
+    log_likelihoods: list[float] = []
+    current = grammar
+    for _ in range(n_iterations):
+        total_counts: dict[tuple, float] = defaultdict(float)
+        total_log_likelihood = 0.0
+        for bols in examples:
+            log_z, counts = inside_outside_expected_counts(current, bols, start=start)
+            total_log_likelihood += log_z
+            for key, val in counts.items():
+                total_counts[key] += val
+        log_likelihoods.append(total_log_likelihood)
+
+        new_grammar = PCFG()
+        new_grammar.vocabulary = set(current.vocabulary)
+        for lhs, rules in current.rules.items():
+            new_grammar.rules[lhs] = [Rule(lhs=lhs, rhs=r.rhs, count=0) for r in rules]
+        for (lhs, rhs), val in total_counts.items():
+            for r in new_grammar.rules[lhs]:
+                if r.rhs == rhs:
+                    r.count = val
+                    break
+        new_grammar.normalize(dirichlet_alpha=dirichlet_alpha)
+        current = new_grammar
+    return current, log_likelihoods
