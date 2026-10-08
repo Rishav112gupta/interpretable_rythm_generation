@@ -142,7 +142,7 @@ What this says, plainly:
    Phase 2 question, because it needs a cited source.
 3. **Per-vibhāg splits don't help reliably.** They add 50 or more
    parameters without a gain the data can confirm.
-4. **All tying effects are small**, under 0.3% of the ~4.54 bits/stroke,
+4. **All tying effects are small**, at most about 0.3% of the ~4.54 bits/stroke,
    against 15% for the attribute layer (§4) and 2.8% for tails (§3).
 5. **A caution on multiple tests:** ten comparisons were made, and the two
    stroke-side "yes, weak" results only just exclude 0. With that many
